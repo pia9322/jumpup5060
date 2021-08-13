@@ -55,4 +55,47 @@ $(function(){
             },
         },
     });
+
+
+
+    var cnt0 = 0;
+
+    counterFn(".number_01",256);
+    counterFn(".number_02",56.3);
+    counterFn(".number_03",80);
+
+    function counterFn(targer,number) {
+
+        id0 = setInterval(count0Fn, 10);
+
+        function count0Fn() {
+        cnt0++;
+        if (cnt0 > number) {
+            clearInterval(id0);
+        } else {
+            $(targer).text(cnt0);
+        }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

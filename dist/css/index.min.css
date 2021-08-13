@@ -155,7 +155,7 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img:hover::after { opacity: 1; }
 
-.footer { height: 260px; margin: 0 auto; }
+.footer { border-top: 1px solid #ddd; height: 260px; margin: 0 auto; }
 
 .footer .footer_wrap { width: 50%; height: 100%; margin: 0 auto; text-align: center; }
 
