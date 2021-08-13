@@ -1,27 +1,5 @@
 /* 테블릿 세로 (해상도 768px ~ 1023px)*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    main{}
-
-	.main_wrap_01{
-		height: 100%;
-        max-width: 768px;
-	}
-	.main_wrap_02{
-		margin-top: 100%;
-		height: 100%;
-	}
-    
-
-    .main_wrap_03 {
-        max-width: 768px;
-    } 
-
-        
-    .main_wrap_04 > div {
-        max-width: 768px; 
-    }
-      
 }
 
 /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
