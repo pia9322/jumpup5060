@@ -159,7 +159,7 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img .home_detail { font-size: 2rem; letter-spacing: -0.5px; }
 
-main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img::after { content: '+'; font-size: 10rem; display: -webkit-box; display: -ms-flexbox; display: flex; font-weight: 100; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 91, 170, 0.7); opacity: 0; -webkit-transition: .3s; transition: .3s; }
+main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img::after { content: '+'; color: #fff; font-size: 10rem; display: -webkit-box; display: -ms-flexbox; display: flex; font-weight: 100; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 91, 170, 0.7); opacity: 0; -webkit-transition: .3s; transition: .3s; }
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img:hover::after { opacity: 1; }
 

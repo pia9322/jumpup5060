@@ -502,6 +502,7 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img::after {
   content: '+';
+  color: #fff;
   font-size: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
