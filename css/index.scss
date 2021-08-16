@@ -46,12 +46,26 @@ header {
                 }
                 .depth_01 {
                     transition: .3s;
+                    li {
+                        transition: .3s;
+                        a {
+                            transition: .3s;
+                        }
+                    }
+                    
+                    li:hover {
+                        background: #fff;
+                        a {
+                            color: #005baa;
+                        }
+                    }
+                 
                 }
 
                 &:hover {
                     background: #005baa;
                     > a{
-                        color: #fff
+                        color: #fff;
                     }
                     .depth_01{
                         background: #c1e2ff;

@@ -21,6 +21,14 @@ header .header_wrap .header_center > li > a { -webkit-transition: .3s; transitio
 
 header .header_wrap .header_center > li .depth_01 { -webkit-transition: .3s; transition: .3s; }
 
+header .header_wrap .header_center > li .depth_01 li { -webkit-transition: .3s; transition: .3s; }
+
+header .header_wrap .header_center > li .depth_01 li a { -webkit-transition: .3s; transition: .3s; }
+
+header .header_wrap .header_center > li .depth_01 li:hover { background: #fff; }
+
+header .header_wrap .header_center > li .depth_01 li:hover a { color: #005baa; }
+
 header .header_wrap .header_center > li:hover { background: #005baa; }
 
 header .header_wrap .header_center > li:hover > a { color: #fff; }
