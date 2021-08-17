@@ -201,7 +201,13 @@ main{
                 > div {
                     span{
                         font-size: 3rem;
-                        strong {font-size: 8rem; font-family: 'S-CoreDream-6Bold'; font-weight: bold;}
+                        border: 1px solid #f00;
+                        display: block;
+                        position: relative;
+                        strong {
+                            font-size: 8rem; font-family: 'S-CoreDream-6Bold'; font-weight: bold;
+                            transform: translateY(100%);
+                        }
                     }
                 }
             }

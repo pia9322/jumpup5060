@@ -29,29 +29,38 @@ main{
         }
         
         .mv_02{
-            border: #ddd;
             border-bottom:  1px solid #ddd;
             
             > ul {
                 width: 70%; margin: 0 auto;
                 display: flex;
-                align-items: center;
-
                 
                 .depth_01{
+
                     position: relative;
                     overflow: hidden;
-                    height: 35px;
-                    display: flex;
-                    align-items: center;
-                    margin: 0 30px;
-
+                    padding: 25px 20px;
+                    border-right: 1px solid #ddd;
+                    &:not(:first-child){
+                        width: 300px;
+                    }
+           
                     .home_ico{
                         display: block;
-                        width: 26px; height:26px;
-                        padding: 5px;
+                        width: 100%; height: 100%;
                         img{
-                            width: 100%; height: 100%;
+                            width: 26px; height:26px;
+
+                        }
+                    }
+                    .depth_nav{
+                        font-size: 2rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .arrow {
+                            display: flex;
+                            margin-left: 30px;
                         }
                     }
 
@@ -62,7 +71,20 @@ main{
                         flex-direction: column;
                         width: 100%;
                         li {
+                            width: 100%; height: 100%;
                             text-align: center;
+                            a{
+                                display: block;
+                                border: 1px solid #ddd;
+                                width: 100%; height: 100%;
+                                padding: 20px;
+                                transition: .3s;
+                                &:hover {
+                                    background: #005baa;
+                                    color: #fff;
+                                }
+
+                            }
                         }
                     }
                     &:hover { 

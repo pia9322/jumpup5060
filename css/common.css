@@ -63,7 +63,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.5;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 ol, ul {
 	list-style: none;

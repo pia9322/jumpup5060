@@ -32,7 +32,6 @@ main {
 }
 
 .company_info_01 .wrap .mv_02 {
-  border: #ddd;
   border-bottom: 1px solid #ddd;
 }
 
@@ -42,34 +41,48 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .company_info_01 .wrap .mv_02 > ul .depth_01 {
   position: relative;
   overflow: hidden;
-  height: 35px;
+  padding: 25px 20px;
+  border-right: 1px solid #ddd;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01:not(:first-child) {
+  width: 300px;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01 .home_ico {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01 .home_ico img {
+  width: 26px;
+  height: 26px;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01 .depth_nav {
+  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.company_info_01 .wrap .mv_02 > ul .depth_01 .home_ico {
-  display: block;
-  width: 26px;
-  height: 26px;
-  padding: 5px;
-}
-
-.company_info_01 .wrap .mv_02 > ul .depth_01 .home_ico img {
-  width: 100%;
-  height: 100%;
+.company_info_01 .wrap .mv_02 > ul .depth_01 .depth_nav .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
 }
 
 .company_info_01 .wrap .mv_02 > ul .depth_01 .depth_02 {
@@ -87,7 +100,24 @@ main {
 }
 
 .company_info_01 .wrap .mv_02 > ul .depth_01 .depth_02 li {
+  width: 100%;
+  height: 100%;
   text-align: center;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01 .depth_02 li a {
+  display: block;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.company_info_01 .wrap .mv_02 > ul .depth_01 .depth_02 li a:hover {
+  background: #005baa;
+  color: #fff;
 }
 
 .company_info_01 .wrap .mv_02 > ul .depth_01:hover {

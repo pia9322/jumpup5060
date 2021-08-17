@@ -1,4 +1,5 @@
 $(function(){
+    AOS.init()
     // $('.header_wrap > ul > li, .header_bg').hover(function(){
     //     $(".header_wrap ul ul, .header_bg").stop().slideDown(150)
     // },function(){
@@ -65,33 +66,17 @@ $(function(){
     // counterFn(".number_03",80);
 
     // function counterFn(targer,number) {
-    //     id0 = setInterval(count0Fn, 10);
+    //     let id0 = setInterval(count0Fn, 30);
         
     //     function count0Fn() {
     //     cnt0++;
-    //     if (cnt0 > number) {
-    //         clearInterval(id0);
-    //     } else {
-    //         $(targer).text(cnt0);
-    //     }
+    //         if (cnt0 > number) {
+    //             clearInterval(id0);
+    //         } else {
+    //             $(targer).text(cnt0);
+    //         }
     //     }
     // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
