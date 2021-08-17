@@ -1,0 +1,36 @@
+@import url("../../css/common.css");
+
+.footer {
+    border-top: 1px solid #ddd;
+    height: 260px;
+    margin: 0 auto;
+  }
+  
+  .footer .footer_wrap {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer .footer_wrap .footer_partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 65px 0 45px 0;
+  }
+  
+  .footer .footer_wrap .footer_partner figure {
+    margin: 0 50px;
+  }
+  
+  .footer .footer_wrap .footer_copyright {
+    font-size: 2rem;
+    font-weight: bold;
+  }
