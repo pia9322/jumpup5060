@@ -1,7 +1,12 @@
 $(function(){
-    // All header footer
-    $('header').load('header.html header .header_wrap', init)
-    $('footer').load('footer.html footer .footer')
+    // header footer init
+    $('header').load('init.html header .header_wrap', init)
+    $('footer').load('init.html footer .footer')
+
+    function init() {}
+    // header footer init
+
+
 
 
 
