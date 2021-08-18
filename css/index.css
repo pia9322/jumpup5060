@@ -257,7 +257,6 @@ main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
 
 main .main_wrap .main_wrap_02 .cotent_02 > div span {
   font-size: 3rem;
-  border: 1px solid #f00;
   display: block;
   position: relative;
 }
@@ -266,8 +265,6 @@ main .main_wrap .main_wrap_02 .cotent_02 > div span strong {
   font-size: 8rem;
   font-family: 'S-CoreDream-6Bold';
   font-weight: bold;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
 }
 
 main .main_wrap .main_wrap_03 {

@@ -1,10 +1,6 @@
 $(function(){
     AOS.init()
-    // $('.header_wrap > ul > li, .header_bg').hover(function(){
-    //     $(".header_wrap ul ul, .header_bg").stop().slideDown(150)
-    // },function(){
-    //     $(".header_wrap ul ul, .header_bg").stop().slideUp(150)
-    // })
+  
     var swiper = new Swiper('.swiper_01', {
         effect: 'fade',
         autoplay: {
@@ -37,8 +33,6 @@ $(function(){
             },
         }
     });
-   
-    
 
     var swiper = new Swiper(".swiper_02", {
         slidesPerView: 3.5,
@@ -58,28 +52,39 @@ $(function(){
     });
 
 
-
-    // var cnt0 = 0;
-
-    // counterFn(".number_01",256);
-    // counterFn(".number_02",56.3);
-    // counterFn(".number_03",80);
-
-    // function counterFn(targer,number) {
-    //     let id0 = setInterval(count0Fn, 30);
-        
-    //     function count0Fn() {
-    //     cnt0++;
-    //         if (cnt0 > number) {
-    //             clearInterval(id0);
-    //         } else {
-    //             $(targer).text(cnt0);
-    //         }
-    //     }
-    // }
+    // $('.header_wrap > ul > li, .header_bg').hover(function(){
+    //     $(".header_wrap ul ul, .header_bg").stop().slideDown(150)
+    // },function(){
+    //     $(".header_wrap ul ul, .header_bg").stop().slideUp(150)
+    // })
 
 
 
 
+ 
+  
+  const countUp = new CountUp("counting_01", 0, 239, 0 , 2.5);
+  const countUp2 = new CountUp("counting_02", 0, 56.3, 1, 2.5);
+  const countUp3 = new CountUp("counting_03", 0, 80, 0 , 2.5);
+  
+  console.log($('.main_wrap_02').offset().top);
+  
+  $(window).scroll(function(){
+    let $scrollTop = $(window).scrollTop();
+    let main02Top = $('.main_wrap_02').offset().top -400 ;
+    console.log($scrollTop, main02Top);
 
-});
+      if ($scrollTop >= main02Top) {
+          countUp.start();
+          countUp2.start();
+          countUp3.start();
+      }
+
+  });
+
+
+
+
+
+
+}); // end
