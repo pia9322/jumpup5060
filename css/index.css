@@ -9,14 +9,9 @@ header {
   font-weight: bold;
   z-index: 9999;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 85px;
 }
 
 header .header_wrap {
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,6 +163,13 @@ header .header_wrap:hover .header_center .depth_01 {
 
 header .header_wrap:hover .header_center .header_bg {
   display: block;
+}
+
+.header_background_menu {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
 }
 
 main {

@@ -1,5 +1,5 @@
 $(function(){
-    AOS.init()
+    // AOS.init()
   
     var swiper = new Swiper('.swiper_01', {
         effect: 'fade',

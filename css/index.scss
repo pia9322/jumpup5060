@@ -7,9 +7,7 @@ header {
     font-weight: bold;
     z-index: 9999;
     position: relative;
-    display: flex; height: 85px;
     .header_wrap {
-        top: 0;
         display: flex;
         align-items: center;
         width: 100%;
@@ -113,7 +111,7 @@ header {
                 -moz-transform: rotate(-45deg);
                 -ms-transform: rotate(-45deg);
                 -o-transform: rotate(-45deg);
-}
+            }
         }
         &:hover {
             .header_center{
@@ -129,7 +127,12 @@ header {
     
     
 }
-
+.header_background_menu{
+    background: #fff;
+    width: 100vw; height: 100vh;
+    z-index: 9999;
+    
+}
 main{
     margin: 0 auto;
     position: relative;
@@ -466,6 +469,7 @@ main{
         }
     }
 }
+
 .footer {
     border-top: 1px solid #ddd;
     height: 260px;
