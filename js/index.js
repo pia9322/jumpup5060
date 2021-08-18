@@ -45,8 +45,17 @@ $(function(){
         //     prevEl: '.swiper-button-prev',
         // },
         breakpoints : { // 반응형 설정이 가능 width값으로 조정
-            768 : {
-              slidesPerView : 1.5,
+            1660 : {
+                slidesPerView : 2.5,
+              },
+            1440 : {
+            slidesPerView : 1.5,
+            },
+            1024 : {
+              slidesPerView : 1.1,
+            },
+            767 : {
+              slidesPerView : 1,
             },
         },
     });
@@ -84,27 +93,27 @@ $(function(){
 
 
 
-    $(window).scroll(function(){
+    // $(window).scroll(function(){
     
-        let executed = false;
+    //     let executed = false;
 
-        let offsetasd = $('.counter').offset().top - 300;
-        if(!executed) {
-            if($(window).scrollTop() >= offsetasd){
-                let progreeRate = $('.counter').attr('data-rate');
+    //     let offsetasd = $('.counter').offset().top - 300;
+    //     if(!executed) {
+    //         if($(window).scrollTop() >= offsetasd){
+    //             let progreeRate = $('.counter').attr('data-rate');
 
-                $({percent:0}).animate({percent:progreeRate},{
-                    duration: 1500,
-                    progrees: function(){
-                        let now = this.percent;
-                        $('.counter').text(now);
-                    }
-                })
-                executed = true;
-            }
-        }
-        console.table($('.counter strong'))
-    });
+    //             $({percent:0}).animate({percent:progreeRate},{
+    //                 duration: 1500,
+    //                 progrees: function(){
+    //                     let now = this.percent;
+    //                     $('.counter').text(now);
+    //                 }
+    //             })
+    //             executed = true;
+    //         }
+    //     }
+    //     console.table($('.counter strong'))
+    // });
 
 
 

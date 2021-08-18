@@ -8,7 +8,7 @@ $(function(){
 
 
     var countOptions = {
-        suffix: "%"  // 뒤에 표시될 텍스트
+        suffix: "%"
       };
       
  

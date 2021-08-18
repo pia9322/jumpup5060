@@ -158,7 +158,7 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .slide_01 {
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .slide_02 {
-  background: no-repeat center/cover url("../images/main_visual_01.png");
+  background: no-repeat center/cover url("../images/main_visual_02.png");
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide {
@@ -375,14 +375,14 @@ main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar {
   margin: 15px 0 35px 0;
   background: #e5e5e5;
   position: relative;
-  width: 300px;
+  width: 50%;
 }
 
 main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after {
   content: '';
   display: block;
   background: #80c342;
-  width: 110px;
+  width: 50%;
   height: 5px;
 }
 
@@ -539,7 +539,6 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 
 .footer .footer_wrap {
   width: 50%;
-  height: 100%;
   margin: 0 auto;
   text-align: center;
 }
