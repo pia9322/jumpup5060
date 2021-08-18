@@ -84,6 +84,34 @@ $(function(){
 
 
 
+    $(window).scroll(function(){
+    
+        let executed = false;
+
+        let offsetasd = $('.counter').offset().top - 300;
+        if(!executed) {
+            if($(window).scrollTop() >= offsetasd){
+                let progreeRate = $('.counter').attr('data-rate');
+
+                $({percent:0}).animate({percent:progreeRate},{
+                    duration: 1500,
+                    progrees: function(){
+                        let now = this.percent;
+                        $('.counter').text(now);
+                    }
+                })
+                executed = true;
+            }
+        }
+        console.table($('.counter strong'))
+    });
+
+
+
+
+
+
+
 
 
 
