@@ -665,7 +665,9 @@
 @media screen and (max-width: 767px) {
     header {
         .header_wrap {
-            
+            width: 90%; height: 85px;
+            margin: 0 auto;
+            justify-content: space-between;
             .header_logo {
                 margin-left: 40px;
                 a {
@@ -673,7 +675,7 @@
     
             }
             .header_center {
-                width: 100%; height: 85px;
+                display: none;
                 justify-content: center;
                 a {
                 }
@@ -709,6 +711,9 @@
                 }
                 .depth_01 {
                 }
+            }
+            .header_right {
+                display:block
             }
             &:hover {
                 .header_center{
