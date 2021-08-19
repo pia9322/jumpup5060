@@ -10,6 +10,7 @@ header {
     .header_wrap {
         display: flex;
         align-items: center;
+        justify-content: space-around;
         width: 100%;
         .header_logo {
             margin-left: 40px;
@@ -20,9 +21,9 @@ header {
 
         }
         .header_center {
-            width: 1000px; height: 85px;
-            margin: 0 auto;
+            width: 80%; height: 85px;
             display: flex;
+            justify-content: flex-end;
             a {
                 display:block;
             }
