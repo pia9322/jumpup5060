@@ -37,7 +37,7 @@ header .header_wrap .header_center > li:hover .depth_01 { background: #c1e2ff; }
 
 header .header_wrap .header_center .depth_01 { display: none; }
 
-header .header_wrap .header_right { display: none; position: relative; width: 22px; height: 22px; }
+header .header_wrap .header_right { position: relative; cursor: pointer; display: none; width: 22px; height: 22px; }
 
 header .header_wrap .header_right span { position: absolute; left: 0; display: block; width: 22px; border-bottom: 2px solid #000; -webkit-transition: .3s; transition: .3s; }
 
@@ -57,7 +57,25 @@ header .header_wrap:hover .header_center .depth_01 { display: block; }
 
 header .header_wrap:hover .header_center .header_bg { display: block; }
 
-.header_background_menu { background: #fff; width: 100vw; height: 100vh; z-index: 9999; }
+.header_background_menu { position: fixed; top: 0; right: 0; left: 0; height: 100%; background: #fff; z-index: 9998; -webkit-transform: translateX(100%); transform: translateX(100%); -webkit-transition: .3s; transition: .3s; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.header_background_menu > ul { width: 100%; height: 60%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.header_background_menu > ul > li { width: 50%; text-align: center; position: relative; }
+
+.header_background_menu > ul > li > a { display: block; font-size: 3rem; font-weight: bold; }
+
+.header_background_menu > ul > li > a:hover { color: #005baa; }
+
+.header_background_menu > ul > li .m_depth_01 { width: 100%; height: 100%; position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; top: 100%; left: 0; -webkit-transition: .25s; transition: .25s; opacity: 0; }
+
+.header_background_menu > ul > li .m_depth_01 li a { font-size: 1.6rem; font-weight: bold; }
+
+.header_background_menu > ul > li .m_depth_01 li a:hover { color: #005baa; }
+
+.header_background_menu > ul > li:hover .m_depth_01 { opacity: 1; }
+
+.header_background_menu.active { -webkit-transform: translateX(0); transform: translateX(0); }
 
 main { margin: 0 auto; position: relative; }
 

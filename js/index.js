@@ -92,6 +92,12 @@ $(function(){
   });
 
 
+  $('.header_right').on('click',function(){
+      $('.header_background_menu').toggleClass('active')
+  });   
+  $(window).on('click',function(e){
+      console.log(e.target)
+  })
 
     // $(window).scroll(function(){
     
