@@ -206,3 +206,5 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 .footer .footer_wrap .footer_partner figure { margin: 0 50px; }
 
 .footer .footer_wrap .footer_copyright { font-size: 2rem; font-weight: bold; }
+
+.footer .footer_wrap .footer_copyright p { font-family: 'S-CoreDream-4Regular'; }

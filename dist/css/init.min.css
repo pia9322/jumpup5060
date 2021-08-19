@@ -84,3 +84,5 @@ header .header_wrap:hover .header_center .header_bg { display: block; }
 .footer .footer_wrap .footer_partner figure { margin: 0 50px; }
 
 .footer .footer_wrap .footer_copyright { font-size: 2rem; font-weight: bold; }
+
+.footer .footer_wrap .footer_copyright p { font-family: 'S-CoreDream-4Regular'; }
