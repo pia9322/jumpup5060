@@ -1,6 +1,4 @@
 @import url("common.css");
-body { width: 100%; height: 100%; max-width: 2560px; }
-
 header { font-weight: bold; z-index: 9999; position: relative; }
 
 header .header_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; width: 100%; }
@@ -113,7 +111,7 @@ main .main_wrap .main_wrap_02 .content_01 { font-size: 6rem; }
 
 main .main_wrap .main_wrap_02 .bar { display: block; margin-top: 15px; background: #e5e5e5; position: relative; }
 
-main .main_wrap .main_wrap_02 .bar::after { content: ''; display: block; background: #80c342; width: 100px; height: 5px; }
+main .main_wrap .main_wrap_02 .bar::after { content: ''; display: block; background: #005baa; width: 100px; height: 5px; }
 
 main .main_wrap .main_wrap_02 .cotent_02 { margin-top: 60px; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
@@ -159,7 +157,7 @@ main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01::after { position:
 
 main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar { display: block; margin: 15px 0 35px 0; background: #e5e5e5; position: relative; width: 50%; }
 
-main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after { content: ''; display: block; background: #80c342; width: 50%; height: 5px; }
+main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after { content: ''; display: block; background: #005baa; width: 50%; height: 5px; }
 
 main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .text_02 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 1.6rem; padding: 5px 0; }
 
@@ -181,7 +179,7 @@ main .main_wrap .main_wrap_04 .wrap .main_wrap_title h2 { font-size: 4rem; }
 
 main .main_wrap .main_wrap_04 .wrap .main_wrap_title .bar { width: 335px; display: block; margin-top: 15px; background: #e5e5e5; position: relative; }
 
-main .main_wrap .main_wrap_04 .wrap .main_wrap_title .bar::after { content: ''; display: block; background: #80c342; width: 100px; height: 5px; }
+main .main_wrap .main_wrap_04 .wrap .main_wrap_title .bar::after { content: ''; display: block; background: #005baa; width: 100px; height: 5px; }
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container { height: 100%; cursor: -webkit-grab; cursor: grab; }
 
@@ -208,4 +206,3 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 .footer .footer_wrap .footer_partner figure { margin: 0 50px; }
 
 .footer .footer_wrap .footer_copyright { font-size: 2rem; font-weight: bold; }
-/*# sourceMappingURL=index.min.css.map */

@@ -216,7 +216,6 @@
                                 background: #e5e5e5;
                                 position: relative;
                                 &::after {
-                                    background: #80c342;
                                     height: 5px;
                                 }
                             }
@@ -266,7 +265,6 @@
                             &::after {
                                 content: '';
                                 display: block;
-                                background: #80c342;
                                 width: 100px;
                                 height: 5px;
                                 // border: 1px solid #00f;
@@ -554,7 +552,6 @@
                                 background: #e5e5e5;
                                 position: relative;
                                 &::after {
-                                    background: #80c342;
                                     height: 5px;
                                 }
                             }
@@ -659,8 +656,8 @@
         }
         
     }
-
 }
+
 /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
 @media screen and (max-width: 767px) {
     header {
@@ -747,8 +744,6 @@
                         }
                         .swiper-slide{
                             .slide_textbox{
-                                ;
-                                color: #fff;
                                 left: 30%; top: 50%;
                                 transform: translate(-30%, -50%);
                                 .textbox_title{
@@ -990,8 +985,7 @@
                 justify-content: space-around;
                 figure {
                     margin: 0;
-                    img{
-                    }
+                    img{}
                 }
             }
             .footer_copyright{
@@ -1010,9 +1004,7 @@
             justify-content: space-between;
             .header_logo {
                 margin-left: 0;
-                a {
-                }
-    
+                a {}
             }
      
             .header_right {
@@ -1077,7 +1069,6 @@
             transform: translateX(0);
         }
     }
-    // header no work
 
     main{
         .main_wrap{
@@ -1240,7 +1231,6 @@
                                 background: #e5e5e5;
                                 position: relative;
                                 &::after {
-                                    background: #80c342;
                                     height: 3px;
                                 }
                             }

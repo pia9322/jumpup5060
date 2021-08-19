@@ -156,7 +156,6 @@
     position: relative;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after {
-    background: #80c342;
     height: 5px;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .text_02 {
@@ -201,7 +200,6 @@
   main .main_wrap .main_wrap_04 .wrap .main_wrap_title .bar::after {
     content: '';
     display: block;
-    background: #80c342;
     width: 100px;
     height: 5px;
   }
@@ -420,7 +418,6 @@
     position: relative;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after {
-    background: #80c342;
     height: 5px;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .text_02 {
@@ -556,7 +553,6 @@
     background: no-repeat center/cover url("../images/main_visual_02.png");
   }
   main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox {
-    color: #fff;
     left: 30%;
     top: 50%;
     -webkit-transform: translate(-30%, -50%);
@@ -964,7 +960,6 @@
     position: relative;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .bar::after {
-    background: #80c342;
     height: 3px;
   }
   main .main_wrap .main_wrap_03 .wrap .content_02 .text_wrap_01 .text_02 {
@@ -1057,4 +1052,3 @@
     font-size: 1.2rem;
   }
 }
-/*# sourceMappingURL=media.css.map */

@@ -35,6 +35,7 @@ html{
 	font-size: 62.5%;
 }
 
+
 img {
 	vertical-align: top;
 }
@@ -61,10 +62,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1.5;
-	/* margin: 0 auto; */
+	width: 100%; height: 100%;
+	max-width: 2560px; margin: 0 auto;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -81,3 +85,4 @@ table {
 	border-spacing: 0;
 }
 a{ text-decoration: none; color: #000;}
+
