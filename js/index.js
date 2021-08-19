@@ -55,7 +55,7 @@ $(function(){
               slidesPerView : 1.1,
             },
             767 : {
-              slidesPerView : 1,
+              slidesPerView : 1.1,
             },
         },
     });

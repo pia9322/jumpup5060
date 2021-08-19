@@ -240,6 +240,7 @@ header .header_wrap:hover .header_center .header_bg {
 }
 
 .header_background_menu > ul > li .m_depth_01 li a {
+  color: #777;
   font-size: 1.6rem;
   font-weight: bold;
   -webkit-transition: .25s;
