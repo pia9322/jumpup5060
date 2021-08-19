@@ -1,3 +1,6 @@
+@mixin wh100 {
+    width:100%; height:100%;
+}
 
 .company_info_01 {
     .wrap{
@@ -39,10 +42,17 @@
                     padding: 25px 20px;
                     border-right: 1px solid #ddd;
                     z-index: 10;
+
                     &:not(:first-child){
                         width: 300px;
                     }
         
+                    a {
+                        font-family: "NotoSansCJKkr-Medium";
+                        span {
+
+                        }
+                    }
                     .home_ico{
                         display: block;
                         width: 100%; height: 100%;
@@ -103,9 +113,7 @@
 
 
 // 01_01 사업소개_jump-up 5060
-.info_01_01{
-    
-    
+.info_01_01 {
     
     .company_info_02{
         width: 70%; margin: 180px auto 0;
@@ -327,8 +335,7 @@
 
 
 // 01_02 사업소개_운영기관
-.info_01_02{
-    
+.info_01_02 {
 
     .company_info_02{
         width: 70%; margin: 180px auto 0;
@@ -352,7 +359,7 @@
                             font-weight: bold;
                         }
                         &:hover {
-                            opacity: .7;
+                            opacity: .5;
                         }
                     }
 
@@ -504,9 +511,7 @@
 
 
 // 02_01 JUMP-UP 5060_도시재생창업이란?
-.info_02_01{
-
-
+.info_02_01 {
 
     .company_info_02{
         width: 70%; margin: 180px auto 0;
@@ -519,18 +524,18 @@
 
                     h2 {font-size: 4rem; }
                     .more_page{
-                        border: 1px solid #005baa;
-                        border-radius: 80px;
-                        transition: .3s;
+
                         a{
-                            display: block;
-                            font-size: 1.8rem;
-                            padding: 15px 20px;
-                            color: #005baa;
+                            font-size: 3rem;
                             font-weight: bold;
-                        }
-                        &:hover {
-                            opacity: .7;
+                            opacity: .5;
+                            transition: .3s;
+                            &:not(:first-child){
+                                margin-left: 50px;
+                            }
+                            &:hover {
+                                opacity: 1;
+                            }
                         }
                     }
 
@@ -552,49 +557,81 @@
             }
 
             .section_01{
-                margin: 60px 0;
-            
-                > .content_01{
-                    display: flex;
-                    .content_logo{
-                        figure{
-                            img{}
-                        }
-                    }            
+                margin: 60px 0 180px;
 
-                    .content_text{
-                        margin-left: 50px;
-                        .text_title{
-                            font-size: 4rem;
-                            line-height: 1.2;
-                            strong{
-                                color: #000;
+                .item_wrap{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    > .section_01_item{
+                        width: 315px; height: 480px;
+                        border: 1px solid #ddd;
+                        a {
+                            @include wh100;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content:  space-around;
+                            > figure {
+                                width: 57%; height: 37.5%;
+                                border: 1px solid #ddd;
+                                background: #ddd;
+                                border-radius: 100%;
+                                overflow: hidden;
+                                img{
+                                    width: 100%; height: 100%;
+                                }
+                            } 
+                            figcaption{
+                                text-align: center;
+                                .project_title{
+                                    font-size: 2rem;   
+                                    font-weight: bold;
+                                }
+                                .project_detail{
+                                    font-size: 1.8rem;
+                                }
                             }
                         }
-
-                        .text_detail{
+                    }
+                }
+            
+                .info_02_01_more{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 80px;
+                    a {
+                        display: flex; 
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 200px; height: 50px;
+                        padding: 0 20px;
+                        border-radius: 80px;
+                        border: 2px solid #005baa;
+                        transition: .3s;
+                        span{
                             font-size: 2rem;
-                            margin-top: 20px;
-                            line-height: 1.6;
+                            font-weight: bold;
+                            color: #005baa;
+                        }
+                        &:hover {
+                            opacity: .5;
                         }
                     }
-
                 }
             }
-
-            .section_02{
-                > figure {
-                    width: 100%;
-                    img{
-                        width:100%;
-                    }
-                }
-            }
+           
         }
     }
 
 
-    .company_info_03{
+}
+
+.info_02_02 {
+
+    .company_info_02{
         width: 70%; margin: 180px auto 0;
         .wrap{
             .content_title {
@@ -605,24 +642,24 @@
 
                     h2 {font-size: 4rem; }
                     .more_page{
-                        border: 1px solid #005baa;
-                        border-radius: 80px;
-                        transition: .3s;
+
                         a{
-                            display: block;
-                            font-size: 1.8rem;
-                            padding: 15px 20px;
-                            color: #005baa;
+                            font-size: 3rem;
                             font-weight: bold;
-                        }
-                        &:hover {
-                            opacity: .7;
+                            opacity: .5;
+                            transition: .3s;
+                            &:not(:first-child){
+                                margin-left: 50px;
+                            }
+                            &:hover {
+                                opacity: 1;
+                            }
                         }
                     }
 
                 }
                 .bar{
-                    width: 335px;
+                    width: 100%;
                     display: block;
                     margin-top: 15px;
                     background: #e5e5e5;
@@ -638,46 +675,73 @@
             }
 
             .section_01{
-                margin: 60px 0;
-            
-                > div{
+                margin: 60px 0 180px;
+
+                .item_wrap{
                     display: flex;
-                    .content_logo{
-                        figure{
-                            img{}
-                        }
-                    }            
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 20px;
 
-                    .content_text{
-                        margin-left: 50px;
-                        .text_title{
-                            font-size: 4rem;
-                            line-height: 1.2;
-                            strong{
-                                color: #000;
-                            }
+                    > .section_01_item{
+                        width: 315px; height: 480px;
+                        border: 1px solid #ddd;
+                        a {
+                            @include wh100;
+                            > figure {
+                                width: 100%; height: 100%;
+                                div {
+                                    width: 100%; height: 70%;
+                                    background: #ddd;
+                                    img{
+                                        width: 100%; height: 100%;
+                                    }
+                                }
+                                figcaption{
+                                    text-align: left;
+                                    padding: 25px 20px;
+                                    .project_title{
+                                        font-size: 2rem;   
+                                        font-weight: bold;
+                                    }
+                                    .project_detail{
+                                        font-size: 1.8rem;
+                                        letter-spacing: -0.45px;
+                                    }
+                                }
+                            } 
+                       
                         }
-
-                        .text_detail{
+                    }
+                }
+            
+                .info_02_01_more{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 80px;
+                    a {
+                        display: flex; 
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 200px; height: 50px;
+                        padding: 0 20px;
+                        border-radius: 80px;
+                        border: 2px solid #005baa;
+                        transition: .3s;
+                        span{
                             font-size: 2rem;
-                            margin-top: 20px;
-                            line-height: 1.6;
+                            font-weight: bold;
+                            color: #005baa;
+                        }
+                        &:hover {
+                            opacity: .5;
                         }
                     }
-
                 }
             }
-            .section_02{
-                > figure {
-                    width: 100%;
-                    img{
-                        width:100%;
-                    }
-                }
-            }
-
+           
         }
     }
+
+
 }
-
-
