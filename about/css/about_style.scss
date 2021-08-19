@@ -946,3 +946,87 @@
 
 
 }
+
+
+
+
+// 01_02 사업소개_운영기관
+.info_04_01 {
+
+    .company_info_02{
+        width: 70%; margin: 180px auto 0;
+        .wrap{
+            .content_title {
+                .title_info_01{
+                    h2 {font-size: 4rem; }
+                }
+                .bar{
+                    width: 335px;
+                    display: block;
+                    margin-top: 15px;
+                    background: #e5e5e5;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        display: block;
+                        background: #005baa;
+                        width: 100px;
+                        height: 5px;
+                    }
+                }
+            }
+            > section {
+                margin-top: 80px;
+                .wrap {
+                    .qna_section {
+                        border: 1px solid #ddd;
+                        
+                        h2{
+                            font-weight: 500;
+                            padding: 16px 30px;
+                            background: #005baa;
+                            display: flex;
+                            align-items: center;
+                            height: 80px;
+                            font-size: 2.4rem;
+                            color: #fff;
+                        }
+                        p{
+                            display: none;
+                            padding: 16px 30px;
+                            background: #fff;
+                            align-items: center;
+                            height: 80px;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+            .info_04_01_more{
+                display: flex;
+                justify-content: center;
+                margin: 80px 0 130px;
+                a {
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 200px; height: 50px;
+                    padding: 0 20px;
+                    border-radius: 80px;
+                    border: 2px solid #005baa;
+                    transition: .3s;
+                    span{
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: #005baa;
+                    }
+                    &:hover {
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

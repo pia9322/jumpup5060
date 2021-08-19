@@ -1106,3 +1106,101 @@
 .info_03_01 .company_info_02 .wrap .section_04 > figure img {
   width: 100%;
 }
+
+.info_04_01 .company_info_02 {
+  width: 70%;
+  margin: 180px auto 0;
+}
+
+.info_04_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
+  font-size: 4rem;
+}
+
+.info_04_01 .company_info_02 .wrap .content_title .bar {
+  width: 335px;
+  display: block;
+  margin-top: 15px;
+  background: #e5e5e5;
+  position: relative;
+}
+
+.info_04_01 .company_info_02 .wrap .content_title .bar::after {
+  content: '';
+  display: block;
+  background: #005baa;
+  width: 100px;
+  height: 5px;
+}
+
+.info_04_01 .company_info_02 .wrap > section {
+  margin-top: 80px;
+}
+
+.info_04_01 .company_info_02 .wrap > section .wrap .qna_section {
+  border: 1px solid #ddd;
+}
+
+.info_04_01 .company_info_02 .wrap > section .wrap .qna_section h2 {
+  font-weight: 500;
+  padding: 16px 30px;
+  background: #005baa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.info_04_01 .company_info_02 .wrap > section .wrap .qna_section p {
+  display: none;
+  padding: 16px 30px;
+  background: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  font-size: 1.8rem;
+}
+
+.info_04_01 .company_info_02 .wrap .info_04_01_more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 80px 0 130px;
+}
+
+.info_04_01 .company_info_02 .wrap .info_04_01_more a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 80px;
+  border: 2px solid #005baa;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.info_04_01 .company_info_02 .wrap .info_04_01_more a span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #005baa;
+}
+
+.info_04_01 .company_info_02 .wrap .info_04_01_more a:hover {
+  opacity: .5;
+}
