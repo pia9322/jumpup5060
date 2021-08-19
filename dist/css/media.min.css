@@ -246,7 +246,7 @@
   .footer { height: 260px; }
   .footer .footer_wrap { width: 100%; }
   .footer .footer_wrap .footer_partner { margin: 65px 0 45px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
-  .footer .footer_wrap .footer_partner figure { margin: 0; border: 1px solid #f00; width: 30%; }
+  .footer .footer_wrap .footer_partner figure { margin: 0; width: 30%; }
   .footer .footer_wrap .footer_partner figure img { width: 100%; }
   .footer .footer_wrap .footer_copyright { font-size: 1.2rem; } }
 /*# sourceMappingURL=media.min.css.map */
