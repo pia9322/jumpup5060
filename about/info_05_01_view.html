@@ -25,17 +25,17 @@
     </aside>
 
     <!-- main -->
-    <main class="info_04_01">
+    <main class="info_05_01_view">
         <!-- 현재위치 -->
-        <h1 style="display: none;">자주 묻는 질문</h1>
+        <h1 style="display: none;">공지사항_소식</h1>
 
         <article class="company_info_01">
             <div class="wrap">
                 <div class="mv_01">
                     <figure>
                         <figcaption>
-                            <p>자주 묻는 질문</p>
-                            <p>FAQ</p>
+                            <p>소식</p>
+                            <p>공지사항</p>
                         </figcaption>
                     </figure>
                 </div>
@@ -48,7 +48,7 @@
 
                         <li class="depth_01">
                             <a href="" class="depth_nav">
-                                <span>자주 묻는 질문</span>
+                                <span>소식</span> 
                                 <span class="arrow"><img src="images/ico/ico_arrow_01.svg" alt=""></span>
                             </a>
                             <ul class="depth_02">
@@ -62,8 +62,13 @@
 
                         <li class="depth_01">
                             <a href="" class="depth_nav">
-                                <span>FAQ</span>
+                                <span>공지사항</span>
+                                <span class="arrow"><img src="images/ico/ico_arrow_01.svg" alt=""></span>
                             </a>
+                            <ul class="depth_02">
+                                <li><a href="/about/info_05_01.html">공지사항</a></li>
+                                <li><a href="/about/info_05_02.html">점프업 뉴스</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -75,34 +80,44 @@
             <div class="wrap">
                 <div class="content_title">
                     <div class="title_info_01">
-                        <h2>자주 묻는 질문</h2>
+                        <h2>공지사항</h2>
                     </div>
                     <span class="bar"></span>
                 </div>
 
-                <section>
+                <section class="notice_section_01">
                     <div class="wrap">
-                        <div class="qna_section qna1">
-                            <h2>Q. 코로나인데 대면 교육으로 진행하나요?<i><img src="/about/images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
-                            <p>주기적인 비대면 교육으로 진행될 예정입니다.</p>
-                        </div>
-                        <div class="qna_section qna2">
-                            <h2>Q. 교육신청 기간은 어떻게 되나요?<i><img src="/about/images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
-                            <p>답변2</p>
-                        </div>
-                        <div class="qna_section qna3">
-                            <h2>Q. 워크숍 기간은 어떻게 되나요?<i><img src="/about/images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
-                            <p>답변3</p>
-                        </div>
+                        <table class="table_notice">
+                            <thead>
+                                <tr>
+                                    <th>[2019년 점프업5060 성과보고집] 동네와 골목을 바꾸는 창업가들</th>
+                                    <th>21.08.20</th>
+                                </tr>
+                            </thead>
+            
+                            <tbody>
+                                <tr>
+                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit laudantium quod cumque atque ad voluptas odio nobis reiciendis! Dolores voluptatum voluptate doloremque hic explicabo consequatur nisi molestiae illum mollitia odit.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
 
 
-                <div class="info_04_01_more">
+                <div class="info_05_01_more">
                     <p>
                         <a href="">
-                            <span>더보기</span>
-                            <span>+</span>
+                            <span class="btn_prev"><img src="/about/images/ico/ico_notice_arrow_left.svg" alt=""></span>
+                        </a>
+                        <a href="">
+                            <span>1</span>
+                        </a>
+                        <a href="">
+                            <span>2</span>
+                        </a>
+                        <a href="">
+                            <span class="btn_next"><img src="/about/images/ico/ico_notice_arrow_left.svg" alt=""></span>
                         </a>
                     </p>
                 </div>
@@ -114,12 +129,7 @@
 
     <!-- footer_init -->
     <footer></footer>
-    <script>
-            $(".qna_section > h2").click(function () {
-                $(this).next().slideToggle();
-                $(this).find("i").toggleClass('active');
-            });
-    </script>
+   
 
 </body>
 

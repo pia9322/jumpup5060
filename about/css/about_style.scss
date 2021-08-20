@@ -839,7 +839,7 @@
 }
 
 
-// 01_02 사업소개_운영기관
+// 03_01 신청하기
 .info_03_01 {
 
     .company_info_02{
@@ -950,7 +950,7 @@
 
 
 
-// 01_02 사업소개_운영기관
+// 04_01 자주 묻는 질문
 .info_04_01 {
 
     .company_info_02{
@@ -982,21 +982,30 @@
                         border: 1px solid #ddd;
                         
                         h2{
+                            position: relative;
                             font-weight: 500;
                             padding: 16px 30px;
                             background: #005baa;
                             display: flex;
                             align-items: center;
-                            height: 80px;
+                            justify-content: space-between;
                             font-size: 2.4rem;
                             color: #fff;
+                            i {
+                                display: flex;
+                                align-items: center;
+                                font-style: normal;
+                                transition: .3s;
+                                &.active {
+                                    transform: rotate(180deg);
+                                }
+                            }
                         }
                         p{
                             display: none;
                             padding: 16px 30px;
                             background: #fff;
                             align-items: center;
-                            height: 80px;
                             font-size: 1.8rem;
                         }
                     }
@@ -1024,6 +1033,214 @@
                         opacity: .5;
                     }
                 }
+            }
+        }
+    }
+
+
+}
+
+
+// 05_01 소식
+.info_05_01 {
+    
+    .company_info_02{
+        width: 70%; margin: 180px auto 0;
+        .wrap{
+            .content_title {
+                .title_info_01{
+                    h2 {font-size: 4rem; }
+                }
+                .bar{
+                    width: 335px;
+                    display: block;
+                    margin-top: 15px;
+                    background: #e5e5e5;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        display: block;
+                        background: #005baa;
+                        width: 100px;
+                        height: 5px;
+                    }
+                }
+            }
+            > .notice_section_01 {
+                margin-top: 80px;
+                .wrap {
+                    
+                    .table_notice{
+                        width: 100%;
+                        thead{
+                            border-bottom: 2px solid #005baa;
+                            color: #005baa;
+                            font-size: 2.4rem;
+                            tr {
+                                th {
+                                    padding-bottom: 20px;
+                                }
+                            }
+                        }
+                        tbody{
+                            font-size: 1.8rem;
+                            tr {
+                                border-bottom: 1px solid #ddd;
+                                td{
+                                    padding : 15px 0;  
+                                    text-align: center;
+                                    
+                                    a {
+                                    }
+                                    &:nth-of-type(2){
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .info_05_01_more{
+                display: flex;
+                justify-content: center;
+                margin: 100px 0 170px;
+                > p {
+                    display: flex;
+                    > a {
+                        margin: 0 5px;
+                        display: flex; 
+                        align-items: center;
+                        justify-content: center;
+                        width:60px; height: 50px;
+                        border-radius: 80px;
+                        border: 2px solid #005baa;
+                        transition: .3s;
+                        > span{
+                            display: flex;
+                            font-size: 2rem;
+                            font-weight: bold;
+                            color: #005baa;
+                        }
+                        .btn_prev {
+                            transform: rotate(180deg);
+                        }
+
+                        &:first-child,&:last-child {
+                            opacity: .3;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+
+
+}
+
+// 05_01 소식_상세내용
+.info_05_01_view {
+    
+    .company_info_02{
+        width: 70%; margin: 180px auto 0;
+        .wrap{
+            .content_title {
+                .title_info_01{
+                    h2 {font-size: 4rem; }
+                }
+                .bar{
+                    width: 335px;
+                    display: block;
+                    margin-top: 15px;
+                    background: #e5e5e5;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        display: block;
+                        background: #005baa;
+                        width: 100px;
+                        height: 5px;
+                    }
+                }
+            }
+            > .notice_section_01 {
+                margin-top: 80px;
+                .wrap {
+                    
+                    .table_notice{
+                        width: 100%;
+                        thead{
+                            border-bottom: 2px solid #005baa;
+                            color: #005baa;
+                            font-size: 2.4rem;
+                            tr {
+                                th {
+                                    padding-bottom: 20px;
+                                    &:nth-of-type(1){
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                        tbody{
+                            font-size: 1.8rem;
+                            tr {
+                                border-bottom: 1px solid #ddd;
+                                td{
+                                    padding : 15px 0;  
+                                    text-align: left;
+                                    
+                                    a {
+                                    }
+                                    &:nth-of-type(2){
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .info_05_01_more{
+                display: flex;
+                justify-content: center;
+                margin: 100px 0 170px;
+                > p {
+                    display: flex;
+                    > a {
+                        margin: 0 5px;
+                        display: flex; 
+                        align-items: center;
+                        justify-content: center;
+                        width:60px; height: 50px;
+                        border-radius: 80px;
+                        border: 2px solid #005baa;
+                        transition: .3s;
+                        > span{
+                            display: flex;
+                            font-size: 2rem;
+                            font-weight: bold;
+                            color: #005baa;
+                        }
+                        .btn_prev {
+                            transform: rotate(180deg);
+                        }
+
+                        &:first-child,&:last-child {
+                            opacity: .3;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+              
             }
         }
     }
