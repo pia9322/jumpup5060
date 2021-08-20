@@ -45,6 +45,12 @@ $(function(){
         //     prevEl: '.swiper-button-prev',
         // },
         breakpoints : { // 반응형 설정이 가능 width값으로 조정
+            2560 : {
+                slidesPerView : 4.5,
+              },
+            1920 : {
+                slidesPerView : 3.5,
+            },
             1660 : {
                 slidesPerView : 2.5,
               },
@@ -80,7 +86,7 @@ $(function(){
     
     $(window).scroll(function(){
         let $scrollTop = $(window).scrollTop();
-        let main02Top = $('.main_wrap_02').offset().top -400 ;
+        let main02Top = $('.main_wrap_02').offset().top - 300 ;
         console.log($scrollTop, main02Top);
 
         if ($scrollTop >= main02Top) {

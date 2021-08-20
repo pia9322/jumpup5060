@@ -117,7 +117,7 @@
 
 .company_info_01 .wrap .mv_02 > ul .depth_01 .depth_02 li a {
   display: block;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   width: 100%;
   height: 100%;
   padding: 20px;
@@ -176,6 +176,7 @@
 .info_01_01 .company_info_02 .wrap section > div .content_text .text_title {
   font-size: 4rem;
   line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .info_01_01 .company_info_02 .wrap section > div .content_text .text_title strong {
@@ -183,6 +184,7 @@
 }
 
 .info_01_01 .company_info_02 .wrap section > div .content_text .text_detail {
+  letter-spacing: -0.5px;
   font-size: 2rem;
   margin-top: 20px;
   line-height: 1.6;
@@ -195,6 +197,7 @@
 
 .info_01_01 .company_info_03 .wrap .content_title h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_01_01 .company_info_03 .wrap .content_title .bar {
@@ -216,11 +219,15 @@
 .info_01_01 .company_info_03 .wrap .content_title .text_01 {
   font-size: 4rem;
   margin-top: 80px;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .info_01_01 .company_info_03 .wrap .content_title .text_02 {
   margin-top: 20px;
   font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 .info_01_01 .company_info_03 .wrap .content_item {
@@ -409,6 +416,7 @@
 
 .info_01_02 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_01_02 .company_info_02 .wrap .content_title .title_info_01 .more_page {
@@ -463,6 +471,8 @@
 .info_01_02 .company_info_02 .wrap .section_01 > .content_01 .content_text .text_title {
   font-size: 4rem;
   line-height: 1.2;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .info_01_02 .company_info_02 .wrap .section_01 > .content_01 .content_text .text_title strong {
@@ -473,6 +483,7 @@
   font-size: 2rem;
   margin-top: 20px;
   line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 .info_01_02 .company_info_02 .wrap .section_02 > figure {
@@ -502,6 +513,7 @@
 
 .info_01_02 .company_info_03 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_01_02 .company_info_03 .wrap .content_title .title_info_01 .more_page {
@@ -556,6 +568,7 @@
 .info_01_02 .company_info_03 .wrap .section_01 > div .content_text .text_title {
   font-size: 4rem;
   line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .info_01_02 .company_info_03 .wrap .section_01 > div .content_text .text_title strong {
@@ -566,6 +579,7 @@
   font-size: 2rem;
   margin-top: 20px;
   line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 .info_01_02 .company_info_03 .wrap .section_02 > figure {
@@ -595,6 +609,7 @@
 
 .info_02_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_02_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a {
@@ -689,10 +704,14 @@
 .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption .project_title {
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption .project_detail {
   font-size: 1.8rem;
+  line-height: 1.78;
+  letter-spacing: -0.45px;
 }
 
 .info_02_01 .company_info_02 .wrap .section_01 .info_02_01_more {
@@ -753,6 +772,7 @@
 
 .info_02_02 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_02_02 .company_info_02 .wrap .content_title .title_info_01 .more_page a {
@@ -838,10 +858,12 @@
 .info_02_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure figcaption .project_title {
   font-size: 2rem;
   font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 .info_02_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure figcaption .project_detail {
   font-size: 1.8rem;
+  line-height: 1.78;
   letter-spacing: -0.45px;
 }
 
@@ -903,6 +925,7 @@
 
 .info_02_02_more .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_02_02_more .company_info_02 .wrap .content_title .title_info_01 .more_page a {
@@ -956,6 +979,7 @@
   font-size: 1.8rem;
   padding: 80px 0;
   border-bottom: 1px solid #ddd;
+  line-height: 1.78;
   letter-spacing: -0.45px;
 }
 
@@ -1010,6 +1034,7 @@
 
 .info_03_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_03_01 .company_info_02 .wrap .content_title .title_info_01 .more_page {
@@ -1058,10 +1083,13 @@
 .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_title strong {
   color: #005baa;
   font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_title small {
   font-size: 3rem;
+  letter-spacing: -0.75px;
 }
 
 .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail {
@@ -1114,6 +1142,7 @@
 
 .info_04_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_04_01 .company_info_02 .wrap .content_title .bar {
@@ -1138,13 +1167,13 @@
 
 .info_04_01 .company_info_02 .wrap > section .wrap .qna_section {
   border: 1px solid #ddd;
+  margin: 20px 0;
 }
 
 .info_04_01 .company_info_02 .wrap > section .wrap .qna_section h2 {
   position: relative;
   font-weight: 500;
   padding: 16px 30px;
-  background: #005baa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1155,7 +1184,11 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 2.4rem;
-  color: #fff;
+  color: #000;
+  -webkit-transition: .3s;
+  transition: .3s;
+  line-height: 2;
+  letter-spacing: -0.6px;
 }
 
 .info_04_01 .company_info_02 .wrap > section .wrap .qna_section h2 i {
@@ -1175,9 +1208,18 @@
           transform: rotate(180deg);
 }
 
+.info_04_01 .company_info_02 .wrap > section .wrap .qna_section h2.active {
+  background: #005baa;
+  color: #fff;
+}
+
+.info_04_01 .company_info_02 .wrap > section .wrap .qna_section h2.active i svg {
+  fill: #fff;
+}
+
 .info_04_01 .company_info_02 .wrap > section .wrap .qna_section p {
   display: none;
-  padding: 16px 30px;
+  padding: 25px 30px;
   background: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1231,6 +1273,7 @@
 
 .info_05_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
   font-size: 4rem;
+  letter-spacing: -1px;
 }
 
 .info_05_01 .company_info_02 .wrap .content_title .bar {
@@ -1255,9 +1298,12 @@
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice {
   width: 100%;
+  line-height: 1.78;
+  letter-spacing: -0.45px;
 }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead {
+  letter-spacing: -0.6px;
   border-bottom: 2px solid #005baa;
   color: #005baa;
   font-size: 2.4rem;
@@ -1282,6 +1328,8 @@
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) {
   text-align: left;
+  line-height: 1.78;
+  letter-spacing: -0.45px;
 }
 
 .info_05_01 .company_info_02 .wrap .info_05_01_more {

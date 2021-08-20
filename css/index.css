@@ -315,6 +315,7 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .s
   font-size: 6rem;
   font-weight: bold;
   line-height: 68px;
+  letter-spacing: -1.5px;
   position: relative;
 }
 
@@ -341,10 +342,12 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .s
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_sub {
+  font-family: "NotoSansCJKkr-Regular";
   display: block;
   margin-top: 20px;
   font-size: 2rem;
-  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .text_swiper {

@@ -91,7 +91,7 @@
                             text-align: center;
                             a{
                                 display: block;
-                                border-top: 1px solid #ddd;
+                                border-bottom: 1px solid #ddd;
                                 width: 100%; height: 100%;
                                 padding: 20px;
                                 transition: .3s;
@@ -154,12 +154,14 @@
                         .text_title{
                             font-size: 4rem;
                             line-height: 1.2;
+                            letter-spacing: -1px;
                             strong{
                                 color: #005baa;
                             }
                         }
     
                         .text_detail{
+                            letter-spacing: -0.5px;
                             font-size: 2rem;
                             margin-top: 20px;
                             line-height: 1.6;
@@ -177,7 +179,10 @@
         width: 70%; margin: 180px auto 0;
         .wrap{
             .content_title {
-                h2 {font-size: 4rem; }
+                h2 {
+                    font-size: 4rem;
+                    letter-spacing: -1px;
+                }
                 .bar{
                     width: 335px;
                     display: block;
@@ -196,6 +201,8 @@
                 .text_01{
                     font-size: 4rem;
                     margin-top: 80px;
+                    line-height: 1.2;
+                    letter-spacing: -1px;
                     strong{
                     }
                 }
@@ -203,6 +210,8 @@
                 .text_02{
                     margin-top: 20px;
                     font-size: 2rem;
+                    line-height: 1.6;
+                    letter-spacing: -0.5px;
                 }
             }
     
@@ -348,7 +357,10 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
                         border: 1px solid #005baa;
                         border-radius: 80px;
@@ -398,6 +410,8 @@
                         .text_title{
                             font-size: 4rem;
                             line-height: 1.2;
+                            line-height: 1.2;
+                            letter-spacing: -1px;
                             strong{
                                 color: #000;
                             }
@@ -407,6 +421,7 @@
                             font-size: 2rem;
                             margin-top: 20px;
                             line-height: 1.6;
+                            letter-spacing: -0.5px;
                         }
                     }
 
@@ -434,7 +449,10 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
                         border: 1px solid #005baa;
                         border-radius: 80px;
@@ -484,6 +502,7 @@
                         .text_title{
                             font-size: 4rem;
                             line-height: 1.2;
+                            letter-spacing: -1px;
                             strong{
                                 color: #000;
                             }
@@ -493,6 +512,7 @@
                             font-size: 2rem;
                             margin-top: 20px;
                             line-height: 1.6;
+                            letter-spacing: -0.5px;
                         }
                     }
 
@@ -524,7 +544,10 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
 
                         a{
@@ -591,9 +614,13 @@
                                 .project_title{
                                     font-size: 2rem;   
                                     font-weight: bold;
+                                    line-height: 1.6;
+                                    letter-spacing: -0.5px;
                                 }
                                 .project_detail{
                                     font-size: 1.8rem;
+                                    line-height: 1.78;
+                                    letter-spacing: -0.45px;
                                 }
                             }
                         }
@@ -642,8 +669,12 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
 
                         a{
@@ -706,9 +737,11 @@
                                     .project_title{
                                         font-size: 2rem;   
                                         font-weight: bold;
+                                        letter-spacing: -0.5px;
                                     }
                                     .project_detail{
                                         font-size: 1.8rem;
+                                        line-height: 1.78;
                                         letter-spacing: -0.45px;
                                     }
                                 }
@@ -759,7 +792,10 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
 
                         a{
@@ -808,6 +844,7 @@
                         font-size: 1.8rem;
                         padding: 80px 0;
                         border-bottom: 1px solid #ddd;
+                        line-height: 1.78;
                         letter-spacing: -0.45px;
                     }
                 }
@@ -851,7 +888,10 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                     .more_page{
                         border: 1px solid #005baa;
                         border-radius: 80px;
@@ -895,9 +935,12 @@
                             strong{
                                 color: #005baa;
                                 font-size: 4rem;
+                                line-height: 1.2;
+                                letter-spacing: -1px;
                             }
                             small {
                                 font-size: 3rem;
+                                letter-spacing: -0.75px;
                             }
                         }
 
@@ -958,7 +1001,10 @@
         .wrap{
             .content_title {
                 .title_info_01{
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                 }
                 .bar{
                     width: 335px;
@@ -980,17 +1026,19 @@
                 .wrap {
                     .qna_section {
                         border: 1px solid #ddd;
-                        
+                        margin: 20px 0;
                         h2{
                             position: relative;
                             font-weight: 500;
                             padding: 16px 30px;
-                            background: #005baa;
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
                             font-size: 2.4rem;
-                            color: #fff;
+                            color: #000;
+                            transition: .3s;
+                            line-height: 2;
+                            letter-spacing: -0.6px;
                             i {
                                 display: flex;
                                 align-items: center;
@@ -1000,14 +1048,24 @@
                                     transform: rotate(180deg);
                                 }
                             }
+                            &.active {
+                                background: #005baa;
+                                color: #fff;
+                                i {
+                                    svg{
+                                        fill: #fff;
+                                    }
+                                }
+                            }
                         }
                         p{
                             display: none;
-                            padding: 16px 30px;
+                            padding: 25px 30px;
                             background: #fff;
                             align-items: center;
                             font-size: 1.8rem;
                         }
+                    
                     }
                 }
             }
@@ -1049,7 +1107,10 @@
         .wrap{
             .content_title {
                 .title_info_01{
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem;
+                        letter-spacing: -1px;
+                    }
                 }
                 .bar{
                     width: 335px;
@@ -1072,7 +1133,10 @@
                     
                     .table_notice{
                         width: 100%;
+                        line-height: 1.78;
+                        letter-spacing: -0.45px;
                         thead{
+                            letter-spacing: -0.6px;
                             border-bottom: 2px solid #005baa;
                             color: #005baa;
                             font-size: 2.4rem;
@@ -1094,6 +1158,8 @@
                                     }
                                     &:nth-of-type(2){
                                         text-align: left;
+                                        line-height: 1.78;
+                                        letter-spacing: -0.45px;
                                     }
                                 }
                             }

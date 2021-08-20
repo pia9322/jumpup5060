@@ -19,8 +19,8 @@ $(function(){
     
     $(window).scroll(function(){
       let scrollTop = $(window).scrollTop();
-      let countTop01 = $('.countTextBox_01').position().top- 400 ;
-      let countTop02 = $('.countTextBox_02').position().top - 400 ;
+      let countTop01 = $('.countTextBox_01').position().top - 500 ;
+      let countTop02 = $('.countTextBox_02').position().top - 500 ;
 
         if (scrollTop >= countTop01) {
             countUp1.start();

@@ -83,15 +83,15 @@
                 <section>
                     <div class="wrap">
                         <div class="qna_section qna1">
-                            <h2>Q. 코로나인데 대면 교육으로 진행하나요?<i><img src="images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
+                            <h2>Q. 코로나인데 대면 교육으로 진행하나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
                             <p>주기적인 비대면 교육으로 진행될 예정입니다.</p>
                         </div>
                         <div class="qna_section qna2">
-                            <h2>Q. 교육신청 기간은 어떻게 되나요?<i><img src="images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
+                            <h2>Q. 교육신청 기간은 어떻게 되나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
                             <p>답변2</p>
                         </div>
                         <div class="qna_section qna3">
-                            <h2>Q. 워크숍 기간은 어떻게 되나요?<i><img src="images/ico/ico_arrow_01_wh.svg" alt=""></i></h2>
+                            <h2>Q. 워크숍 기간은 어떻게 되나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
                             <p>답변3</p>
                         </div>
                     </div>
@@ -118,6 +118,7 @@
             $(".qna_section > h2").click(function () {
                 $(this).next().slideToggle();
                 $(this).find("i").toggleClass('active');
+                $(this).toggleClass('active');
             });
     </script>
 
