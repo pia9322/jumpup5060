@@ -86,7 +86,7 @@ $(function(){
     
     $(window).scroll(function(){
         let $scrollTop = $(window).scrollTop();
-        let main02Top = $('.main_wrap_02').offset().top - 300 ;
+        let main02Top = $('.main_wrap_02').offset().top - 400 ;
         console.log($scrollTop, main02Top);
 
         if ($scrollTop >= main02Top) {
