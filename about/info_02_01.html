@@ -86,14 +86,105 @@
                 <div class="content_title">
                     <div class="title_info_01">
                         <h2>연도별 수료자 창업 아이템 소개</h2>
-                        <p class="more_page">
-                            <a href="">19년</a>
-                            <a href="">20년</a>
+                        <p class="more_page" id="more_page">
+                            <a href="#none" class="active">19년</a>
+                            <a href="#none">20년</a>
                         </p>
                     </div>
 
                     <span class="bar"></span>
                 </div>
+
+                <section class="section_01 active">
+                    <div class="item_wrap">
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                        <div class="section_01_item">
+                            <a href="">
+                                <figure>
+                                    <img src="" alt="">
+                                </figure>
+                                <figcaption>
+                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="info_02_01_more">
+                        <p>
+                            <a href="">
+                                <span>더보기</span>
+                                <span>+</span>
+                            </a>
+                        </p>
+                    </div>
+                </section>
 
                 <section class="section_01">
                     <div class="item_wrap">
@@ -103,7 +194,7 @@
                                     <img src="" alt="">
                                 </figure>
                                 <figcaption>
-                                    <p class="project_title">프로젝트명</p>
+                                    <p class="project_title">프로젝트명02</p>
                                     <p class="project_detail">프로젝트 간략 설명 들어갈 영역</p>
                                 </figcaption>
                             </a>
@@ -196,6 +287,17 @@
     <!-- footer_init -->
     <footer></footer>
 
+    <script>
+        $(function(){
+            $("#more_page > a").click(function () {
+                var idx = $(this).index();
+                $(".more_page > a").removeClass("active");
+                $(".more_page > a").eq(idx).addClass("active");
+                $(".section_01").removeClass("active");
+                $(".section_01").eq(idx).addClass("active");
+            })
+        });
+    </script>
 </body>
 
 </html>
