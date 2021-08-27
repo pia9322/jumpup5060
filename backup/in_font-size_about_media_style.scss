@@ -1,0 +1,2773 @@
+@mixin wh100 {
+    width:100%; height:100%;
+}
+
+@media screen and (max-width: 1440px) {
+    header { 
+        .header_wrap {
+        justify-content: space-between;
+            .header_logo {
+                margin-left: 40px;
+                a {
+                }
+    
+            }
+            .header_center {
+                height: 85px;
+                a {
+                }
+                .header_bg {
+                    width: 100%; height: 340px; 
+                }
+                > li {
+                    width: 17.5%;
+                    font-size: 1.8rem; height: 85px; line-height: 85px; text-align: center;
+                    > a {
+                    }
+                    .depth_01 {
+                        li {
+                            a {
+                            }
+                        }
+                        
+                        li:hover {
+                            a {
+                            }
+                        }
+                     
+                    }
+    
+                    &:hover {
+                        > a{
+                        }
+                        .depth_01{
+                        }
+                    }
+    
+                }
+                .depth_01 {
+                }
+            }
+            &:hover {
+                .header_center{
+                    .depth_01 {
+                    }
+                    .header_bg {
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
+    body{
+        .company_info_01 {
+            .wrap{
+                .mv_01{
+                    height:480px;
+                    figure {
+                        background: no-repeat center / cover url("../images/info_mv_01.png");
+                        figcaption{
+                            p:nth-of-type(1){
+                                font-size: 5rem;
+                            }
+                            p:nth-of-type(2){
+                                font-size: 1.9rem;
+                            }
+                        }
+                    }
+                }
+                
+                .mv_02{
+                    > ul {
+                        width: 100%; margin: 0 auto;
+                        .depth_01{
+                            padding: 15px 20px;
+                            &:not(:first-child){
+                                width: 300px;
+                            }
+                
+                            &:nth-of-type(1) {
+                                display: flex;
+                                overflow: hidden;
+                            }
+                            .home_ico{
+                                width: 100px; height: 100%;
+                                img{
+                                    width: 26px; height:26px;
+                                }
+                            }
+                            
+                            .depth_nav{
+                                font-size: 1.9rem;
+                            }
+
+                            .depth_02{
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+
+        // 01_01 사업소개_jump-up 5060
+        .info_01_01 {
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+            
+                    section{
+                        margin: 60px 0;
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+            
+                            .content_text{
+                                margin-left: 50px;
+                                .text_title{
+                                    font-size: 3rem;
+                                }
+            
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+            
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_03{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {
+                            font-size: 3rem;
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 3rem;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            font-size: 1.9rem;
+                        }
+                    }
+            
+                    .content_item{
+                        section{
+                            width: 30%; height: 420px;
+                            border: 3px solid #005baa;
+                            &:first-child::after, &:last-child::after{
+                                content:'';
+                                width:60px; height:60px;
+                            }
+                            &:first-child::after {
+                                left: -30px; bottom: -30px;
+                            }
+                            &:last-child::after {
+                                right: -30px; top: -30px;
+                            }
+                            figure{
+                                img{}
+                                figcaption{
+                                    font-size: 2.8rem;
+                                    strong{font-size: 6rem;}
+                                }
+                            }
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_04{
+                width: 70%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 335px;
+                            display: block;
+                            margin-top: 15px;
+                            background: #e5e5e5;
+                            position: relative;
+                            &::after {
+                                content: '';
+                                display: block;
+                                background: #005baa;
+                                width: 100px;
+                                height: 5px;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 4rem;
+                            margin-top: 80px;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            margin-top: 20px;
+                            font-size: 2rem;
+                        }
+                    }
+            
+                    .content_item{
+                        margin-top: 90px;
+                        > div {
+                            .content_wrap{
+                                display:flex;
+                                align-items: center;
+                                margin: 50px 0;
+                                .left{
+                                    position: relative;
+                                    width: 240px; height: 240px;
+                                    border: 2px solid #005baa;
+                                    border-radius: 100%;
+                                    display:flex;
+                                    align-items: center;
+                                    justify-content:center;
+                                    text-align: center;
+                                    flex-direction: column;
+                                    font-size: 3rem;
+                                    color: #005baa;
+                                    font-weight: bold;
+                                    z-index: 1;
+                                    small {
+                                        font-size: 2rem;
+                                        font-weight: 400;
+                                    }
+                                }
+                                .right{
+                                    margin-left: -20px;
+            
+                                }
+                            }
+                            &:not(:first-child) .left{
+                                background: #005baa;
+                                color: #fff;
+                            }
+                            &:not(:last-child) .left::after{
+                                content: '';
+                                position: absolute;
+                                left: 50%; top: 100%;
+                                width: 2px;
+                                height: 200%;
+                                background: #005baa;
+                                transform: translateX(-50%);
+                                z-index:3;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            // 수정해야함 변경
+        }
+
+
+        // 01_02 사업소개_운영기관
+        .info_01_02 {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > .content_01{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 3rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .company_info_03{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.7rem;
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 3rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+
+                        }
+                    }
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        // 02_01 JUMP-UP 5060_도시재생창업이란?
+        .info_02_01 {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                            .more_page{
+
+                                a{
+                                    font-size: 2.5rem;
+                                    &:not(:first-child){
+                                        margin-left: 30px;
+                                    }
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        margin: 60px 0 180px;
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 57%; height: 37.5%;
+                                        border: 1px solid #ddd;
+                                        img{
+                                        }
+                                    } 
+                                    figcaption{
+                                        .project_title{
+                                            font-size: 1.9rem;   
+                                        }
+                                        .project_detail{
+                                            font-size: 1.7rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+
+        }
+
+        // 02_01 JUMP-UP 5060_우수창업자
+        .info_02_02 {
+
+            .company_info_02{
+                width: 70%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 2.5rem;
+                                    &:not(:first-child){
+                                    }
+                                    &:hover {
+                                    }
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 100%; height: 100%;
+                                        figcaption{
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.9rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.7rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        .info_02_02_more {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            .section_01_item{
+                                width: 100%; height: 600px;
+                            }
+                            .video_text{
+                                font-size: 1.7rem;
+                            }
+                        }
+                        .info_02_01_more{
+                            a {
+                                padding: 0 20px;
+                                font-size: 1.9rem;
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        // 03_01 신청하기
+        .info_03_01 {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .content_01{
+                            .content_text{
+                                .text_title{
+                                    strong{
+                                        font-size: 3rem;
+                                    }
+                                    small {
+                                        font-size: 2.5rem;
+                                    }
+                                }
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_03 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_04 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 04_01 자주 묻는 질문
+        .info_04_01 {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > section {
+                        .wrap {
+                            .qna_section {
+                                h2{
+                                    font-size: 2.2rem;
+                                    line-height: 2;
+                                }
+                                p{
+                                    font-size: 1.7rem;
+                                }
+                            
+                            }
+                        }
+                    }
+                    .info_04_01_more{
+                        a {
+                            width: 200px;
+                            padding: 0 20px;
+                            span{
+                                font-size: 1.9rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 05_01 소식
+        .info_05_01 {
+            
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 3rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                width: 100%;
+                                thead{
+                                    font-size: 2.2rem;
+                                }
+                                tbody{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:60px; height: 50px;
+                                > span{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+
+        // 05_01_view 소식_상세내용
+        .info_05_01_view {
+            
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 3rem; }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                thead{
+                                    font-size: 2.2rem;
+                                }
+                                tbody{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:60px; height: 50px;
+                                > span{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // 05_02 점프업뉴스
+        .info_05_02 {
+
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 3rem; }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        figcaption{
+                                            text-align: left;
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.9rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.7rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.9rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+    }
+    .footer {
+        height: 260px;
+        .footer_wrap{
+            width: 50%;
+            .footer_partner{
+                margin: 65px 0 45px 0;
+                figure {
+                    margin: 0 50px
+                }
+            }
+            .footer_copyright{
+                font-size: 1.8rem;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    header {
+        .header_wrap {
+            .header_logo {
+                margin-left: 40px;
+                a {
+                }
+    
+            }
+            .header_center {
+                width: 100%; height: 85px;
+                justify-content: flex-end;
+                a {
+                }
+                .header_bg {
+                    width: 100%; height: 340px; 
+                }
+                > li {
+                    width: 17.5%;
+                    font-size: 1.6rem; height: 85px; line-height: 85px;
+                    > a {
+                    }
+                    .depth_01 {
+                        font-size: 1.4rem;
+                        li {
+                            a {
+                            }
+                        }
+                        
+                        li:hover {
+                            a {
+                            }
+                        }
+                     
+                    }
+    
+                    &:hover {
+                        > a{
+                        }
+                        .depth_01{
+                        }
+                    }
+    
+                }
+                .depth_01 {
+                }
+            }
+            &:hover {
+                .header_center{
+                    .depth_01 {
+                    }
+                    .header_bg {
+                    }
+                }
+            }
+        }
+        
+        
+    }
+         
+    body{
+        .company_info_01 {
+            .wrap{
+                .mv_01{
+                    height:400px;
+                    figure {
+                        background: no-repeat center / cover url("../images/info_mv_01.png");
+                        figcaption{
+                            p:nth-of-type(1){
+                                font-size: 4rem;
+                            }
+                            p:nth-of-type(2){
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+                
+                .mv_02{
+                    > ul {
+                        width: 100%;
+                        .depth_01{
+                            &:not(:first-child){
+                                width: 300px;
+                            }
+                
+                            &:nth-of-type(1) {
+                            }
+                            .home_ico{
+                                width: 100px; height: 100%;
+                                img{
+                                    width: 20px; height: 20px;
+                                }
+                            }
+                            .depth_nav{
+                                font-size: 1.8rem;
+                            }
+
+                            .depth_02{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+
+        // 01_01 사업소개_jump-up 5060
+        .info_01_01 {
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+            
+                    section{
+                        margin: 60px 0;
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+            
+                            .content_text{
+                                margin-left: 50px;
+                                .text_title{
+                                    font-size: 3rem;
+                                }
+            
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+            
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_03{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {
+                            font-size: 3rem;
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 3rem;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            font-size: 1.9rem;
+                        }
+                    }
+            
+                    .content_item{
+                        section{
+                            width: 30%; height: 420px;
+                            border: 3px solid #005baa;
+                            &:first-child::after, &:last-child::after{
+                                content:'';
+                                width:60px; height:60px;
+                            }
+                            &:first-child::after {
+                                left: -30px; bottom: -30px;
+                            }
+                            &:last-child::after {
+                                right: -30px; top: -30px;
+                            }
+                            figure{
+                                img{}
+                                figcaption{
+                                    font-size: 2.8rem;
+                                    strong{font-size: 6rem;}
+                                }
+                            }
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_04{
+                width: 70%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 335px;
+                            display: block;
+                            margin-top: 15px;
+                            background: #e5e5e5;
+                            position: relative;
+                            &::after {
+                                content: '';
+                                display: block;
+                                background: #005baa;
+                                width: 100px;
+                                height: 5px;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 4rem;
+                            margin-top: 80px;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            margin-top: 20px;
+                            font-size: 2rem;
+                        }
+                    }
+            
+                    .content_item{
+                        margin-top: 90px;
+                        > div {
+                            .content_wrap{
+                                display:flex;
+                                align-items: center;
+                                margin: 50px 0;
+                                .left{
+                                    position: relative;
+                                    width: 240px; height: 240px;
+                                    border: 2px solid #005baa;
+                                    border-radius: 100%;
+                                    display:flex;
+                                    align-items: center;
+                                    justify-content:center;
+                                    text-align: center;
+                                    flex-direction: column;
+                                    font-size: 3rem;
+                                    color: #005baa;
+                                    font-weight: bold;
+                                    z-index: 1;
+                                    small {
+                                        font-size: 2rem;
+                                        font-weight: 400;
+                                    }
+                                }
+                                .right{
+                                    margin-left: -20px;
+            
+                                }
+                            }
+                            &:not(:first-child) .left{
+                                background: #005baa;
+                                color: #fff;
+                            }
+                            &:not(:last-child) .left::after{
+                                content: '';
+                                position: absolute;
+                                left: 50%; top: 100%;
+                                width: 2px;
+                                height: 200%;
+                                background: #005baa;
+                                transform: translateX(-50%);
+                                z-index:3;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            // 수정해야함 변경
+        }
+
+
+        // 01_02 사업소개_운영기관
+        .info_01_02 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > .content_01{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 2.5rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.8rem;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .company_info_03{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.6rem;
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 2.5rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.8rem;
+                                }
+                            }
+
+                        }
+                    }
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        // 02_01 JUMP-UP 5060_도시재생창업이란?
+        .info_02_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                            .more_page{
+
+                                a{
+                                    font-size: 2rem;
+                                    &:not(:first-child){
+                                        margin-left: 30px;
+                                    }
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        margin: 60px 0 180px;
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 57%; height: 37.5%;
+                                        border: 1px solid #ddd;
+                                        img{
+                                        }
+                                    } 
+                                    figcaption{
+                                        .project_title{
+                                            font-size: 1.8rem;   
+                                        }
+                                        .project_detail{
+                                            font-size: 1.6rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+
+        }
+
+        // 02_01 JUMP-UP 5060_우수창업자
+        .info_02_02 {
+
+            .company_info_02{
+                width: 85%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 2rem;
+                                    &:not(:first-child){
+                                    }
+                                    &:hover {
+                                    }
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 100%; height: 100%;
+                                        figcaption{
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.8rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.6rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        .info_02_02_more {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            .section_01_item{
+                                width: 100%; height: 600px;
+                            }
+                            .video_text{
+                                font-size: 1.6rem;
+                            }
+                        }
+                        .info_02_01_more{
+                            a {
+                                padding: 0 20px;
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        // 03_01 신청하기
+        .info_03_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .content_01{
+                            .content_text{
+                                .text_title{
+                                    strong{
+                                        font-size: 2.5rem;
+                                    }
+                                    small {
+                                        font-size: 2rem;
+                                    }
+                                }
+                                .text_detail{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_03 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_04 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 04_01 자주 묻는 질문
+        .info_04_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > section {
+                        .wrap {
+                            .qna_section {
+                                h2{
+                                    font-size: 2rem;
+                                }
+                                p{
+                                    font-size: 1.6rem;
+                                }
+                            
+                            }
+                        }
+                    }
+                    .info_04_01_more{
+                        a {
+                            width: 200px;
+                            padding: 0 20px;
+                            span{
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 05_01 소식
+        .info_05_01 {
+            
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2.5rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                width: 100%;
+                                thead{
+                                    font-size: 2rem;
+                                }
+                                tbody{
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:50px; height: 40px;
+                                > span{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+
+        // 05_01_view 소식_상세내용
+        .info_05_01_view {
+            
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 2.5rem; }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                thead{
+                                    font-size: 2rem;
+                                }
+                                tbody{
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:50px; height: 40px;
+                                > span{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // 05_02 점프업뉴스
+        .info_05_02 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 2.5rem; }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        figcaption{
+                                            text-align: left;
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.8rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.6rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 200px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+    }
+
+    .footer {
+        height: 260px;
+        .footer_wrap{
+            width: 100%;
+            .footer_partner{
+                margin: 65px 0 45px 0;
+                figure {
+                    margin: 0 50px
+                }
+            }
+            .footer_copyright{
+                font-size: 1.6rem;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        .header_wrap {
+            width: 90%; height: 85px;
+            margin: 0 auto;
+            justify-content: space-between;
+            .header_logo {
+                margin-left: 0;
+                a {
+                }
+    
+            }
+            .header_center {
+                display: none;
+                justify-content: center;
+                a {
+                }
+                .header_bg {
+                    width: 100%; height: 340px; 
+                }
+                > li {
+                    width: 20%;
+                    font-size: 1.6rem; height: 85px; line-height: 85px;
+                    > a {
+                    }
+                    .depth_01 {
+                        font-size: 1.4rem;
+                        li {
+                            a {
+                            }
+                        }
+                        
+                        li:hover {
+                            a {
+                            }
+                        }
+                     
+                    }
+    
+                    &:hover {
+                        > a{
+                        }
+                        .depth_01{
+                        }
+                    }
+    
+                }
+                .depth_01 {
+                }
+            }
+            .header_right {
+                display:block
+            }
+            &:hover {
+                .header_center{
+                    .depth_01 {
+                    }
+                    .header_bg {
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
+          
+    body{
+        .company_info_01 {
+            .wrap{
+                .mv_01{
+                    height:400px;
+                    figure {
+                        background: no-repeat center / cover url("../images/info_mv_01.png");
+                        figcaption{
+                            p:nth-of-type(1){
+                                font-size: 3rem;
+                            }
+                            p:nth-of-type(2){
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+                
+                .mv_02{
+                    > ul {
+                        width: 100%;
+                        .depth_01{
+                            padding: 10px 20px;
+                            &:not(:first-child){
+                                width: 100%;
+                            }
+                
+                            &:nth-of-type(1) {
+                            }
+                            .home_ico{
+                                img{
+                                    width: 15px; height: 15px;
+                                }
+                            }
+                            .depth_nav{
+                                font-size: 1.6rem;
+                            }
+
+                            .depth_02{
+                                font-size: 1.3rem;
+                                li {
+                                    a {
+                                        padding: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+
+        // 01_01 사업소개_jump-up 5060
+        .info_01_01 {
+            .company_info_02{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+            
+                    section{
+                        margin: 60px 0;
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+            
+                            .content_text{
+                                margin-left: 50px;
+                                .text_title{
+                                    font-size: 3rem;
+                                }
+            
+                                .text_detail{
+                                    font-size: 1.9rem;
+                                }
+                            }
+            
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_03{
+                width: 70%;
+                .wrap{
+                    .content_title {
+                        h2 {
+                            font-size: 3rem;
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 3rem;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            font-size: 1.9rem;
+                        }
+                    }
+            
+                    .content_item{
+                        section{
+                            width: 30%; height: 420px;
+                            border: 3px solid #005baa;
+                            &:first-child::after, &:last-child::after{
+                                content:'';
+                                width:60px; height:60px;
+                            }
+                            &:first-child::after {
+                                left: -30px; bottom: -30px;
+                            }
+                            &:last-child::after {
+                                right: -30px; top: -30px;
+                            }
+                            figure{
+                                img{}
+                                figcaption{
+                                    font-size: 2.8rem;
+                                    strong{font-size: 6rem;}
+                                }
+                            }
+                        }
+                    }
+            
+                }
+            }
+            
+            
+            .company_info_04{
+                width: 70%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        h2 {font-size: 3rem; }
+                        .bar{
+                            width: 335px;
+                            display: block;
+                            margin-top: 15px;
+                            background: #e5e5e5;
+                            position: relative;
+                            &::after {
+                                content: '';
+                                display: block;
+                                background: #005baa;
+                                width: 100px;
+                                height: 5px;
+                            }
+                        }
+            
+                        .text_01{
+                            font-size: 4rem;
+                            margin-top: 80px;
+                            strong{
+                            }
+                        }
+            
+                        .text_02{
+                            margin-top: 20px;
+                            font-size: 2rem;
+                        }
+                    }
+            
+                    .content_item{
+                        margin-top: 90px;
+                        > div {
+                            .content_wrap{
+                                display:flex;
+                                align-items: center;
+                                margin: 50px 0;
+                                .left{
+                                    position: relative;
+                                    width: 240px; height: 240px;
+                                    border: 2px solid #005baa;
+                                    border-radius: 100%;
+                                    display:flex;
+                                    align-items: center;
+                                    justify-content:center;
+                                    text-align: center;
+                                    flex-direction: column;
+                                    font-size: 3rem;
+                                    color: #005baa;
+                                    font-weight: bold;
+                                    z-index: 1;
+                                    small {
+                                        font-size: 2rem;
+                                        font-weight: 400;
+                                    }
+                                }
+                                .right{
+                                    margin-left: -20px;
+            
+                                }
+                            }
+                            &:not(:first-child) .left{
+                                background: #005baa;
+                                color: #fff;
+                            }
+                            &:not(:last-child) .left::after{
+                                content: '';
+                                position: absolute;
+                                left: 50%; top: 100%;
+                                width: 2px;
+                                height: 200%;
+                                background: #005baa;
+                                transform: translateX(-50%);
+                                z-index:3;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            // 수정해야함 변경
+        }
+
+
+        // 01_02 사업소개_운영기관
+        .info_01_02 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.5rem;
+                                    padding: 10px 20px;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > .content_01{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 2rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.7rem;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .section_02{
+                        margin-top: 100px;
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .company_info_03{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.5rem;
+                                    padding: 10px 20px;
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        > div{
+                            .content_logo{
+                                figure{
+                                    img{}
+                                }
+                            }            
+
+                            .content_text{
+                                .text_title{
+                                    font-size: 2rem;
+                                }
+
+                                .text_detail{
+                                    font-size: 1.7rem;
+                                }
+                            }
+
+                        }
+                    }
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        // 02_01 JUMP-UP 5060_도시재생창업이란?
+        .info_02_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                            .more_page{
+
+                                a{
+                                    font-size: 1.9rem;
+                                    &:not(:first-child){
+                                        margin-left: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        margin: 60px 0 180px;
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 57%; height: 37.5%;
+                                        img{
+                                        }
+                                    } 
+                                    figcaption{
+                                        .project_title{
+                                            font-size: 1.7rem;   
+                                        }
+                                        .project_detail{
+                                            font-size: 1.5rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 150px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+
+        }
+
+        // 02_01 JUMP-UP 5060_우수창업자
+        .info_02_02 {
+
+            .company_info_02{
+                width: 85%; margin: 180px auto 0;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.9rem;
+                                    &:not(:first-child){
+                                        margin-left: 20px;
+                                    }
+                                    &:hover {
+                                    }
+                                }
+                            }
+
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        width: 100%; height: 100%;
+                                        figcaption{
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.7rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.5rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 150px; height: 50px;
+                                padding: 0 20px;
+                                span{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        .info_02_02_more {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+
+                        .item_wrap{
+                            .section_01_item{
+                                width: 100%; height: 600px;
+                            }
+                            .video_text{
+                                font-size: 1.5rem;
+                            }
+                        }
+                        .info_02_01_more{
+                            a {
+                                padding: 0 20px;
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+
+        // 03_01 신청하기
+        .info_03_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                            .more_page{
+                                a{
+                                    font-size: 1.5rem;
+                                    padding: 10px 20px;
+                                }
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .content_01{
+                            .content_text{
+                                .text_title{
+                                    strong{
+                                        font-size: 2rem;
+                                    }
+                                    small {
+                                        font-size: 1.8rem;
+                                    }
+                                }
+                                .text_detail{
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .section_02{
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_03 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+
+                    .section_04 {
+                        > figure {
+                            img{
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 04_01 자주 묻는 질문
+        .info_04_01 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > section {
+                        .wrap {
+                            .qna_section {
+                                h2{
+                                    font-size: 1.8rem;
+                                }
+                                p{
+                                    font-size: 1.5rem;
+                                }
+                            
+                            }
+                        }
+                    }
+                    .info_04_01_more{
+                        a {
+                            width: 150px;
+                            padding: 0 20px;
+                            span{
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 05_01 소식
+        .info_05_01 {
+            
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {
+                                font-size: 2rem;
+                            }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                width: 100%;
+                                thead{
+                                    font-size: 1.8rem;
+                                }
+                                tbody{
+                                    font-size: 1.5rem;
+                                    tr {
+                                        td:nth-of-type(2){
+                                            padding: 10px 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:50px; height: 40px;
+                                > span{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+
+        // 05_01_view 소식_상세내용
+        .info_05_01_view {
+            
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 2rem; }
+                        }
+                        .bar{
+                            width: 30%;
+                            &::after {
+                                width: 30%;
+                            }
+                        }
+                    }
+                    > .notice_section_01 {
+                        .wrap {
+                            .table_notice{
+                                thead{
+                                    font-size: 1.9rem;
+                                    tr {
+                                        display: flex;
+                                        flex-direction: column;
+                                        th:nth-of-type(2){
+                                            text-align: right;
+                                        }
+                                    }
+                                }
+                                tbody{
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .info_05_01_more{
+                        display: flex;
+                        justify-content: center;
+                        margin: 100px 0 170px;
+                        > p {
+                            > a {
+                                margin: 0 5px;
+                                width:50px; height: 40px;
+                                > span{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // 05_02 점프업뉴스
+        .info_05_02 {
+
+            .company_info_02{
+                width: 85%;
+                .wrap{
+                    .content_title {
+                        .title_info_01{
+                            h2 {font-size: 2rem; }
+                        }
+                        .bar{
+                            width: 100%;
+                            &::after {
+                                width: 100px;
+                            }
+                        }
+                    }
+
+                    .section_01{
+                        .item_wrap{
+                            justify-content: space-around;
+                            > .section_01_item{
+                                width: 315px; height: 480px;
+                                a {
+                                    @include wh100;
+                                    > figure {
+                                        figcaption{
+                                            text-align: left;
+                                            padding: 25px 20px;
+                                            .project_title{
+                                                font-size: 1.7rem;   
+                                            }
+                                            .project_detail{
+                                                font-size: 1.5rem;
+                                            }
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+                    
+                        .info_02_01_more{
+                            a {
+                                width: 150px; height: 50px;
+                                padding: 0 15px;
+                                span{
+                                    font-size: 1.7rem;
+                                }
+                            }
+                        }
+                    }
+                
+                }
+            }
+
+        }
+    }
+
+    .footer {
+        height: 260px;
+        ;
+        .footer_wrap{
+            width: 100%;
+            .footer_partner{
+                margin: 65px 0 45px 0;
+                display: flex;
+                justify-content: space-around;
+                figure {
+                    margin: 0;
+                    img{}
+                }
+            }
+            .footer_copyright{
+                font-size: 1.4rem;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        .header_wrap {
+            width: 90%; height: 85px;
+            margin: 0 auto;
+            justify-content: space-between;
+            .header_logo {
+                margin-left: 0;
+                a {}
+            }
+     
+            .header_right {
+                display:block
+            }
+            &:hover {
+                .header_center{
+                    .depth_01 {
+                    }
+                    .header_bg {
+                    }
+                }
+            }
+
+            .header_right {
+                width: 20px;
+                height: 20px;
+                span {
+                    width: 20px;
+                    border-bottom: 2px solid #000;
+                }
+            }
+        
+        }
+        
+        
+    }
+
+    .header_background_menu{
+        > ul {
+            width: 100%; height: 60%;
+            > li {
+                width: 100%;
+                > a {
+                    font-size: 2rem;
+           
+                    &:hover {
+                        color: #005baa;
+                    }
+                }
+                
+                .m_depth_01 {
+                    li {
+                        a{
+                            font-size: 1.4rem;
+                            &:hover {
+                                color: #005baa;
+                            }
+                        }
+                    }
+                }
+    
+                &:hover {
+                    .m_depth_01 {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    
+        &.active{
+            transform: translateX(0);
+        }
+    }
+
+    .footer {
+        height: 260px;
+        ;
+        .footer_wrap{
+            width: 100%;
+            .footer_partner{
+                margin: 65px 0 45px 0;
+                display: flex;
+                justify-content: space-around;
+                figure {
+                    margin: 0;
+                    width: 30%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .footer_copyright{
+                font-size: 1.2rem;
+            }
+        }
+        
+    }
+
+}
+
