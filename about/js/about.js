@@ -2,40 +2,70 @@ $(function () {
 
 
 
-  var countOptions = {
-    suffix: "%"
-  };
 
+  gsap.registerPlugin(ScrollTrigger);
+  var startCount = { var: 0 };
 
+  gsap.to(startCount, {
+    var: 239, duration: 1.5, ease: "none",
+    onUpdate: changeNumber01,
+    scrollTrigger: {
+      trigger: "#counting_01",
+    },
+  });
 
-  const countUp1 = new CountUp("counting_01", 0, 239, 0, 3);
-  const countUp2 = new CountUp("counting_02", 0, 748, 0, 3);
-  const countUp3 = new CountUp("counting_03", 0, 239, 0, 3);
-  const countUp4 = new CountUp("counting_04", 0, 80, 0, 3, countOptions);
-  const countUp5 = new CountUp("counting_05", 0, 56.3, 1, 3);
+  gsap.to(startCount, {
+    var: 748, duration: 1.5, ease: "none",
+    onUpdate: changeNumber02,
+    scrollTrigger: {
+      trigger: "#counting_02",
+    },
+  });
 
-  console.log($('.countTextBox_01').offset().top);
-
-
-  $(window).scroll(function () {
-    let scrollTop = $(window).scrollTop();
-    let countTop01 = $('.countTextBox_01').position().top - 500;
-    let countTop02 = $('.countTextBox_02').position().top - 500;
-
-    if (scrollTop >= countTop01) {
-      countUp1.start();
-      countUp2.start();
-    }
-
-    if (scrollTop >= countTop02) {
-      countUp3.start();
-      countUp4.start();
-      countUp5.start();
-    }
-
+  gsap.to(startCount, {
+    var: 239, duration: 1.5, ease: "none",
+    onUpdate: changeNumber03,
+    scrollTrigger: {
+      trigger: "#counting_03",
+    },
+  });
+  
+  gsap.to(startCount, {
+    var: 80, duration: 1.5, ease: "none",
+    onUpdate: changeNumber04,
+    scrollTrigger: {
+      trigger: "#counting_04",
+    },
+  });
+  
+  gsap.to(startCount, {
+    var: 56.3, duration: 1.5, ease: "none",
+    onUpdate: changeNumber05,
+    scrollTrigger: {
+      trigger: "#counting_05",
+    },
   });
 
 
+  function changeNumber01() {
+    counting_01.innerHTML = (startCount.var).toFixed();
+  }
+
+  function changeNumber02() {
+    counting_02.innerHTML = (startCount.var).toFixed();
+  }
+
+  function changeNumber03() {
+    counting_03.innerHTML = (startCount.var).toFixed();
+  }
+
+  function changeNumber04() {
+    counting_04.innerHTML = (startCount.var).toFixed()+'%';
+  }
+
+  function changeNumber05() {
+    counting_05.innerText = (startCount.var).toFixed(1);
+  }
 
 
 

@@ -67,33 +67,6 @@ $(function(){
     });
 
 
-    // $('.header_wrap > ul > li, .header_bg').hover(function(){
-    //     $(".header_wrap ul ul, .header_bg").stop().slideDown(150)
-    // },function(){
-    //     $(".header_wrap ul ul, .header_bg").stop().slideUp(150)
-    // })
-
- 
-  
-    // const countUp = new CountUp("counting_01", 0, 239, 0 , 2.5);
-    // const countUp2 = new CountUp("counting_02", 0, 56.3, 1, 2.5);
-    // const countUp3 = new CountUp("counting_03", 0, 80, 0 , 2.5);
-    
-    // console.log($('.cotent_02').offset());
-    
-    // $(window).scroll(function(){
-    //     let $scrollTop = $(window).scrollTop();
-    //     let main02Top = $('.main_wrap_02').offset().top - 400 ;
-    //     console.log($scrollTop, main02Top);
-
-    //     if ($scrollTop >= main02Top) {
-    //         countUp.start();
-    //         countUp2.start();
-    //         countUp3.start();
-    //     }
-
-    // });
-
     gsap.registerPlugin(ScrollTrigger);
     var startCount = {var: 0};
 
@@ -102,26 +75,24 @@ $(function(){
         onUpdate: changeNumber01,
         scrollTrigger: {
             trigger: "#counting_01",
-            toggleActions: "restart none reverse none",
         },
-    })
+    });
+
     gsap.to(startCount, {
         var: 56.3, duration: 1.5, ease: "none",
         onUpdate: changeNumber02,
         scrollTrigger: {
             trigger: "#counting_02",
-            toggleActions: "restart none reverse none",
         },
-    })
+    });
 
     gsap.to(startCount, {
         var: 80, duration: 1.5, ease: "none",
         onUpdate: changeNumber03,
         scrollTrigger: {
             trigger: "#counting_03",
-            toggleActions: "restart none reverse none",
         },
-    })
+    });
 
 
     function changeNumber01() {
@@ -145,6 +116,8 @@ $(function(){
         };
     }
 
+
+
     function Navopen() {
         $('.header_right').on('click', function () {
             $('.header_background_menu').toggleClass('active');
@@ -158,6 +131,7 @@ $(function(){
 
     }
     Navopen()
+
 
     function mNav() {
         let moNavBack = document.querySelector('.header_background_menu');
@@ -173,33 +147,6 @@ $(function(){
 
     }
     mNav();
-
-//   $(window).on('click',function(e){
-//       console.log(e.target)
-//   })
-
-    // $(window).scroll(function(){
-    
-    //     let executed = false;
-
-    //     let offsetasd = $('.counter').offset().top - 300;
-    //     if(!executed) {
-    //         if($(window).scrollTop() >= offsetasd){
-    //             let progreeRate = $('.counter').attr('data-rate');
-
-    //             $({percent:0}).animate({percent:progreeRate},{
-    //                 duration: 1500,
-    //                 progrees: function(){
-    //                     let now = this.percent;
-    //                     $('.counter').text(now);
-    //                 }
-    //             })
-    //             executed = true;
-    //         }
-    //     }
-    //     console.table($('.counter strong'))
-    // });
-
 
 
 
