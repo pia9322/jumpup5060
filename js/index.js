@@ -107,6 +107,12 @@ $(function(){
         counting_03.innerHTML = (startCount.var).toFixed();
     }
 
+    
+
+
+
+
+
 
     function NavScroll() {
         if ($('.header_background_menu').hasClass('active')) {

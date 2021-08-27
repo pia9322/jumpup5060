@@ -46,6 +46,7 @@ $(function () {
     },
   });
 
+  
 
   function changeNumber01() {
     counting_01.innerHTML = (startCount.var).toFixed();
@@ -70,4 +71,13 @@ $(function () {
 
 
 
+
+
+
+
+
+
+
+
+  
 });
