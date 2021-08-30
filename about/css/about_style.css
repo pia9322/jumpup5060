@@ -9,6 +9,9 @@ li::marker {
 .company_info_01 .wrap .mv_01 figure {
   position: relative;
   height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .company_info_01 .wrap .mv_01 figure figcaption {
@@ -254,23 +257,23 @@ main > article:nth-of-type(n+2) {
 }
 
 #info_01 .company_info_01 .wrap .mv_01 figure {
-  background: url("../images/info_mv_01.png");
+  background-image: url("../images/info_mv_01.png");
 }
 
 #info_02 .company_info_01 .wrap .mv_01 figure {
-  background: url("../images/info_mv_02.png");
+  background-image: url("../images/info_mv_02.png");
 }
 
 #info_03 .company_info_01 .wrap .mv_01 figure {
-  background: url("../images/info_mv_03.png");
+  background-image: url("../images/info_mv_03.png");
 }
 
 #info_04 .company_info_01 .wrap .mv_01 figure {
-  background: url("../images/info_mv_04.png");
+  background-image: url("../images/info_mv_04.png");
 }
 
 #info_05 .company_info_01 .wrap .mv_01 figure {
-  background: url("../images/info_mv_05.png");
+  background-image: url("../images/info_mv_05.png");
 }
 
 .info_01_01 .company_info_02 {
