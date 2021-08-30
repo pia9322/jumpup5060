@@ -410,7 +410,7 @@
     width: 80%;
   }
   html body .info_05_02 .company_info_02 .wrap .content_title .bar {
-    width: 100%;
+    width: 335px;
   }
   html body .info_05_02 .company_info_02 .wrap .content_title .bar::after {
     width: 100px;
@@ -835,10 +835,10 @@
     width: 90%;
   }
   html body .info_05_02 .company_info_02 .wrap .content_title .bar {
-    width: 100%;
+    width: 50%;
   }
   html body .info_05_02 .company_info_02 .wrap .content_title .bar::after {
-    width: 100px;
+    width: 30%;
   }
   html body .info_05_02 .company_info_02 .wrap .section_01 .item_wrap {
     -ms-flex-pack: distribute;
@@ -1285,12 +1285,6 @@
   }
   html body .info_05_02 .company_info_02 {
     width: 90%;
-  }
-  html body .info_05_02 .company_info_02 .wrap .content_title .bar {
-    width: 100%;
-  }
-  html body .info_05_02 .company_info_02 .wrap .content_title .bar::after {
-    width: 100px;
   }
   html body .info_05_02 .company_info_02 .wrap .section_01 .item_wrap {
     -ms-flex-pack: distribute;

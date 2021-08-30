@@ -776,9 +776,8 @@
                                 }
                             }
 
-                            .bar {
-                                width: 100%;
-
+                            .bar{
+                                width: 335px;
                                 &::after {
                                     width: 100px;
                                 }
@@ -1584,11 +1583,10 @@
                                 }
                             }
 
-                            .bar {
-                                width: 100%;
-
+                            .bar{
+                                width: 50%;
                                 &::after {
-                                    width: 100px;
+                                    width: 30%;
                                 }
                             }
                         }
@@ -2422,14 +2420,6 @@
                         .content_title {
                             .title_info_01 {
                                 h2 {
-                                }
-                            }
-
-                            .bar {
-                                width: 100%;
-
-                                &::after {
-                                    width: 100px;
                                 }
                             }
                         }

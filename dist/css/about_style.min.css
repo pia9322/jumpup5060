@@ -700,7 +700,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_02 .company_info_02 .wrap .content_title .title_info_01 .more_page a:hover { opacity: 1; }
 
-.info_05_02 .company_info_02 .wrap .content_title .bar { width: 100%; display: block; margin-top: 15px; background: #e5e5e5; position: relative; }
+.info_05_02 .company_info_02 .wrap .content_title .bar { width: 335px; display: block; margin-top: 15px; background: #e5e5e5; position: relative; }
 
 .info_05_02 .company_info_02 .wrap .content_title .bar::after { content: ''; display: block; background: #005baa; width: 100px; height: 5px; }
 

@@ -2243,7 +2243,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_02 .company_info_02 .wrap .content_title .bar {
-  width: 100%;
+  width: 335px;
   display: block;
   margin-top: 15px;
   background: #e5e5e5;
