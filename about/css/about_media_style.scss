@@ -2573,6 +2573,9 @@
                     margin: 75px auto 0 !important;
                 }
             }
+            .bar::after{
+                width: 30% !important;
+            }
             .company_info_01 {
                 .wrap {
                     .mv_01 {
@@ -2636,7 +2639,6 @@
                             .bar{
                                 width: 50%;
                                 &::after {
-                                    width: 30%;
                                 }
                             }
                         }
@@ -2775,7 +2777,7 @@
 
             // 01_02 사업소개_운영기관
             .info_01_02 {
-             
+            
                 .wrap {
                     .section_01{
                         margin-top: 40px !important;
@@ -2809,7 +2811,6 @@
                             .bar{
                                 width: 50%;
                                 &::after {
-                                    width: 30%;
                                 }
                             }
                         }
@@ -2889,7 +2890,6 @@
                             }
                             .bar{
                                 &::after {
-                                    width: 10%;
                                 }
                             }
                         }
@@ -2945,7 +2945,6 @@
                                 width: 100%;
 
                                 &::after {
-                                    width: 100px;
                                 }
                             }
                         }
@@ -2984,7 +2983,6 @@
                             .bar{
                                 width: 100%;
                                 &::after {
-                                    width: 10%;
                                 }
                             }
                         }
@@ -3059,7 +3057,6 @@
                             .bar{
                                 width: 50%;
                                 &::after {
-                                    width: 30%;
                                 }
                             }
                         }
@@ -3129,7 +3126,6 @@
                             .bar{
                                 width: 50%;
                                 &::after {
-                                    width: 30%;
                                 }
                             }
                         }
