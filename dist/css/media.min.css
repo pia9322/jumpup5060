@@ -157,7 +157,8 @@
   html .footer .footer_wrap .footer_partner { margin: 65px 0 45px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
   html .footer .footer_wrap .footer_partner figure { margin: 0; } }
 
-@media screen and (max-width: 479px) { html { font-size: 36%; }
+@media screen and (max-width: 479px) { .pc_only { display: none; }
+  html { font-size: 36%; }
   html header .header_wrap { width: 90%; height: 85px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
   html header .header_wrap .header_right { display: block; }
@@ -181,10 +182,13 @@
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_sub { margin-top: 20px; }
   html main .main_wrap .main_wrap_01 .swiper-container .text_swiper { left: 310px; top: 200px; z-index: 9999; }
   html main .main_wrap .main_wrap_02 { margin-top: 180px; width: 90%; }
+  html main .main_wrap .main_wrap_02 .content_01 { font-size: 5rem; }
   html main .main_wrap .main_wrap_02 .bar { margin-top: 15px; }
   html main .main_wrap .main_wrap_02 .bar::after { height: 3px; }
-  html main .main_wrap .main_wrap_02 .cotent_02 { margin-top: 60px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  html main .main_wrap .main_wrap_02 .cotent_02 { margin-top: 30px; }
   html main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) { margin-left: 0; }
+  html main .main_wrap .main_wrap_02 .cotent_02 > div { width: 30%; }
+  html main .main_wrap .main_wrap_02 .cotent_02 > div span strong { font-size: 6rem; }
   html main .main_wrap .main_wrap_03 { margin-top: 180px; width: 100%; }
   html main .main_wrap .main_wrap_03 .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 90%; margin: 0 auto; }
   html main .main_wrap .main_wrap_03 .wrap .content_01 { height: auto; }

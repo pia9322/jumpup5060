@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 1440px) {
     html {
         font-size: 50%;
@@ -968,9 +970,11 @@
 }
 
 @media screen and (max-width: 479px) {
+    .pc_only {
+        display: none;
+    }
     html {
         font-size: 36%;
-
         header {
             .header_wrap {
                 width: 90%; height: 85px;
@@ -1047,7 +1051,6 @@
                 width: 100%;
                 > article{
                     width:70%;
-                    
                 }
                 .main_wrap_01{
                     width:100%;
@@ -1100,6 +1103,7 @@
                     margin-top: 180px;
                     width: 90%;
                     .content_01{
+                        font-size: 5rem;
                     }
                     .bar{
                         margin-top: 15px;
@@ -1109,15 +1113,15 @@
                     }
                     
                     .cotent_02{
-                        margin-top: 60px;
-                        display: flex;
-                        justify-content: space-between;
+                        margin-top: 30px;
                         div:nth-of-type(n+2){
                             margin-left: 0;
                         }
                         > div {
+                            width: 30%;
                             span{
                                 strong {
+                                    font-size: 6rem;
                                 }
                             }
                         }

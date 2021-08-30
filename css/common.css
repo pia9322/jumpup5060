@@ -46,7 +46,6 @@
 	font-family: 'Noto Sans KR', 'NotoSansCJKkr-Regular', 'S-CoreDream-3Light', 'S-CoreDream-4Regular',sans-serif;
 }
 
-
 html{
 	font-size: 62.5%;
 }
@@ -102,3 +101,50 @@ table {
 }
 a{ text-decoration: none; color: #000;}
 
+@media screen and (max-width: 1440px) {
+	.pc_only {
+        display: block;
+    }
+	.ta_only {
+		display: none;
+	}
+	.mo_only {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.pc_only {
+        display: none;
+    }
+	.ta_only {
+		display: block;
+	}
+	.mo_only {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.pc_only {
+        display: none;
+    }
+	.ta_only {
+		display: none;
+	}
+	.mo_only {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 479px) {
+    .pc_only {
+        display: none;
+    }
+	.ta_only {
+		display: none;
+	}
+	.mo_only {
+		display: block;
+	}
+}

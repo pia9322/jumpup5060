@@ -723,7 +723,7 @@ main {
 
 
 
-// 02_01 JUMP-UP 5060_도시재생창업이란?
+// 02_00 JUMP-UP 5060_도시재생창업이란?
 .info_02_00 {
     .company_info_02{
         width: 70%; margin: 180px auto 0;
@@ -828,113 +828,6 @@ main {
   
     }
 
-    .company_info_05 {
-        width: 70%;
-        margin: 180px auto 0;
-    
-        .wrap {
-            display: flex;
-    
-            .content_title {
-                h2 {
-                    font-size: 4rem;
-                }
-    
-                .bar {
-                    width: 335px;
-                    display: block;
-                    margin-top: 15px;
-                    background: #e5e5e5;
-                    position: relative;
-    
-                    &::after {
-                        content: '';
-                        display: block;
-                        background: #005baa;
-                        width: 100px;
-                        height: 5px;
-                    }
-                }
-            }
-    
-            .section_01 {
-                .content_01 {
-                    .content_text {
-                        margin-left: 75px;
-                        font-size: 2rem;
-                        ul {
-                            list-style: square;
-                            li::marker{
-                                color:#80c342;
-                            }
-                            .marker_blue::marker{
-                                color: #005baa;
-                            }
-                        }
-                        .sub_text{
-                            display: flex;
-                            margin-top: 40px;
-                            p {
-                                background: #e5e5e5;
-                                line-height: 1.78;
-                                letter-spacing: -0.45px;
-                                padding: 0 10px;
-                                &:not(:first-child){
-                                    margin-left: 15px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-    
-        }
-  
-    }
-
-    
-    .company_info_06 {
-        width: 70%;
-        margin: 180px auto 0;
-    
-        .wrap {
-    
-            .content_title {
-                h2 {
-                    font-size: 4rem;
-                }
-    
-                .bar {
-                    width: 335px;
-                    display: block;
-                    margin-top: 15px;
-                    background: #e5e5e5;
-                    position: relative;
-    
-                    &::after {
-                        content: '';
-                        display: block;
-                        background: #005baa;
-                        width: 100px;
-                        height: 5px;
-                    }
-                }
-            }
-    
-            .section_01 {
-                .content_01 {
-                    margin-top: 100px;
-                    figure {
-                        img {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-    
-        }
-  
-    }
 }
 
 // 02_01 JUMP-UP 5060_도시재생창업가
@@ -1563,36 +1456,6 @@ main {
                       
                     }
 
-                }
-            }
-
-            .section_02{
-                margin-top: 180px;
-                > figure {
-                    width: 100%;
-                    img{
-                        width:100%;
-                    }
-                }
-            }
-
-            .section_03 {
-                margin-top: 80px;
-                > figure {
-                    width: 100%;
-                    img{
-                        width:100%;
-                    }
-                }
-            }
-
-            .section_04 {
-                margin: 80px 0 310px;
-                > figure {
-                    width: 100%;
-                    img{
-                        width:100%;
-                    }
                 }
             }
         }
