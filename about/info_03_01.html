@@ -27,9 +27,12 @@
     </aside>
 
     <!-- main -->
-    <main class="info_03_01">
+    <main class="info_03_01" id="info_03">
         <!-- 현재위치 -->
-        <h1 style="display: none;">신청하기</h1>
+        <div id="now_location" style="display: none;">
+            <h1 id="main_page_name">신청하기</h1>
+            <p id="sub_page_name">사업신청</p>
+        </div>
 
         <article class="company_info_01">
             <div class="wrap">
@@ -55,7 +58,7 @@
                             </a>
                             <ul class="depth_02">
                                 <li><a href="info_01_01.html">사업소개</a></li>
-                                <li><a href="info_02_01.html">JUMP-UP 5060</a></li>
+                                <li><a href="info_02_00.html">JUMP-UP 5060</a></li>
                                 <li><a href="info_03_01.html">신청하기</a></li>
                                 <li><a href="info_04_01.html">자주 묻는 질문</a></li>
                                 <li><a href="info_05_01.html">소식</a></li>
@@ -139,46 +142,46 @@
                             <div class="content_table">
                                     <div class="tg-wrap">
                                         <table class="tg">
-                                        <tr>
-                                            <td class="tg-nrix" rowspan="2"><strong>구분</strong></td>
-                                            <td class="tg-9wq8" colspan="2"><strong>자격요건</strong></td>
-                                            <td class="tg-9wq8"><strong>비고</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-nrix"><strong>예비창업자</strong></td>
-                                            <td class="tg-nrix"><strong>기창업자</strong></td>
-                                            <td class="tg-nrix" rowspan="6">신청 자격 요건을 <br>모두 만족하여야 함</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-9wq8"><strong>지원 구분</strong></td>
-                                            <td class="tg-9wq8">신규로 사업자등록을 하여<br>도시재생 창업을 하고자 하는 자</td>
-                                            <td class="tg-9wq8">공고일로부터 3년 이내에<br>개업한 기존 사업자를 활용하여<br>도시재생 사업화를 하고자 하는 자</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-9wq8"><strong>사업 개시일</strong></td>
-                                            <td class="tg-9wq8">해당 없음</td>
-                                            <td class="tg-9wq8">사업개시일(개업년월일)이<br>2017.5.18. 이후여야함</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-9wq8"><strong>팀구성</strong></td>
-                                            <td class="tg-9wq8">1인신청</td>
-                                            <td class="tg-9wq8">사업자 대표 1인 신청</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-9wq8"><strong>연령</strong></td>
-                                            <td class="tg-9wq8" colspan="2">
-                                            <strong>만 50~64세*</strong>인 대한민국 국적**의 신중년이어야함<br>
-                                            <strong>
-                                                *주민등록등본상 생년월일이 1956.1.1~1970.12.31이어야함<br>**외국인 등 외국국적인 경우 참여불가
-                                            </strong>
-                                                <br>※ 교육 이후 기업 및 단체 설립 시에는 다양한 구성원(청년, 외국인 등)들이<br>참여해도 무방(단, 수료생은 창업의 대표로 참여해야 함)</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="tg-9wq8"><strong>창업<br>상태요건</strong></td>
-                                            <td class="tg-9wq8">향후 사업화 자금 지원 대상으로<br>선발 시 주관기관이 안내하는 기간 내에<br>도시재생창업(기업 및 단체를 설립 후<br>사업자 등록)을 완료해야함</td>
-                                            <td class="tg-9wq8">향후 사업화 자금 지원대상으로<br>선발 시 주관기관이 안내하는 기간 내에<br>도시재생 사업화를 완료해야함</td>
-                                        </tr>
-                                    </table>
+                                            <tr>
+                                                <td class="tg-nrix" rowspan="2"><strong>구분</strong></td>
+                                                <td class="tg-9wq8" colspan="2"><strong>자격요건</strong></td>
+                                                <td class="tg-9wq8"><strong>비고</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-nrix"><strong>예비창업자</strong></td>
+                                                <td class="tg-nrix"><strong>기창업자</strong></td>
+                                                <td class="tg-nrix" rowspan="6">신청 자격 요건을 <br>모두 만족하여야 함</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-9wq8"><strong>지원 구분</strong></td>
+                                                <td class="tg-9wq8">신규로 사업자등록을 하여<br>도시재생 창업을 하고자 하는 자</td>
+                                                <td class="tg-9wq8">공고일로부터 3년 이내에<br>개업한 기존 사업자를 활용하여<br>도시재생 사업화를 하고자 하는 자</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-9wq8"><strong>사업 개시일</strong></td>
+                                                <td class="tg-9wq8">해당 없음</td>
+                                                <td class="tg-9wq8">사업개시일(개업년월일)이<br>2017.5.18. 이후여야함</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-9wq8"><strong>팀구성</strong></td>
+                                                <td class="tg-9wq8">1인신청</td>
+                                                <td class="tg-9wq8">사업자 대표 1인 신청</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-9wq8"><strong>연령</strong></td>
+                                                <td class="tg-9wq8" colspan="2">
+                                                <strong>만 50~64세*</strong>인 대한민국 국적**의 신중년이어야함<br>
+                                                <strong>
+                                                    *주민등록등본상 생년월일이 1956.1.1~1970.12.31이어야함<br>**외국인 등 외국국적인 경우 참여불가
+                                                </strong>
+                                                    <br>※ 교육 이후 기업 및 단체 설립 시에는 다양한 구성원(청년, 외국인 등)들이<br>참여해도 무방(단, 수료생은 창업의 대표로 참여해야 함)</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tg-9wq8"><strong>창업<br>상태요건</strong></td>
+                                                <td class="tg-9wq8">향후 사업화 자금 지원 대상으로<br>선발 시 주관기관이 안내하는 기간 내에<br>도시재생창업(기업 및 단체를 설립 후<br>사업자 등록)을 완료해야함</td>
+                                                <td class="tg-9wq8">향후 사업화 자금 지원대상으로<br>선발 시 주관기관이 안내하는 기간 내에<br>도시재생 사업화를 완료해야함</td>
+                                            </tr>
+                                        </table>
                                 </div>
                             </div>  
                         </div>

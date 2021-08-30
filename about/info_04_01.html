@@ -27,9 +27,12 @@
     </aside>
 
     <!-- main -->
-    <main class="info_04_01">
+    <main class="info_04_01" id="info_04">
         <!-- 현재위치 -->
-        <h1 style="display: none;">자주 묻는 질문</h1>
+        <div id="now_location" style="display: none;">
+            <h1 id="main_page_name">자주 묻는 질문</h1>
+            <p id="sub_page_name">FAQ</p>
+        </div>
 
         <article class="company_info_01">
             <div class="wrap">
@@ -55,7 +58,7 @@
                             </a>
                             <ul class="depth_02">
                                 <li><a href="info_01_01.html">사업소개</a></li>
-                                <li><a href="info_02_01.html">JUMP-UP 5060</a></li>
+                                <li><a href="info_02_00.html">JUMP-UP 5060</a></li>
                                 <li><a href="info_03_01.html">신청하기</a></li>
                                 <li><a href="info_04_01.html">자주 묻는 질문</a></li>
                                 <li><a href="info_05_01.html">소식</a></li>
@@ -85,16 +88,95 @@
                 <section>
                     <div class="wrap">
                         <div class="qna_section qna1">
-                            <h2>Q. 코로나인데 대면 교육으로 진행하나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
-                            <p>주기적인 비대면 교육으로 진행될 예정입니다.</p>
+                            <h2>Q. 점프업5060은 어떻게 참여하나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>점프업5060에 참여하시기 위해서는 모집 기간 내에 신청하셔야 합니다.
+                                공고 내용을 확인 하신 후 홈페이지 상단의 ‘신청하기’ 페이지에서 가능합니다.
+
+                                <strong>‘신청하기’ 버튼</strong>을 누르시면 신청서 작성 페이지로 이동하게 됩니다.
+
+                                지원신청서는 심사의 중요한 기준이 되니 사실에 근거하여 상세하게 작성해 주시기 바라며, 
+                                허위로 작성 시 심사대상에서 제외될 수 있음을 유의해 주시기 바랍니다.
+                            </p>
                         </div>
+
                         <div class="qna_section qna2">
-                            <h2>Q. 교육신청 기간은 어떻게 되나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
-                            <p>답변2</p>
+                            <h2>Q. 신청 자격은 무엇인가요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>점프업5060 참여를 희망하는 신중년 (예비)창업팀은 아래의 신청자격을 모두 만족하여야 합니다. 
+                                <small>
+                                    <strong>
+                                        ※ 공통사항 ※
+                                        ① 만 50~64세*인 대한민국 국적**의 신중년이어야 함(전국 대상)
+                                        *주민등록등본상 생년월일 기준으로 공고 시 별도 안내
+                                        **외국인 등 외국국적인 경우 참여 불가
+                                        ② 대표자 1인에 한하여 신청 가능
+                                        ③ 향후 안내되는 과정에 성실히 임해야 하며, 사업화 자금 지원 대상으로 선발 시 주관기관이 안내하는 기간 내에 도시재생 사업화를 완료해야 함
+                                        
+                                        ● 예비창업자
+                                        - 신청일 기준 현재 신규로 사업자등록을 하여 도시재생 창업을 하고자 하는 자
+                                        ● 기창업자
+                                        - 공고일로부터 3년 이내에 개업(사업개시일(개업년월일) 기준)한 기존 사업자를 활용하여 도시재생 사업화를 하고자 하는 자
+                                    </strong>
+                                </small>
+                            </p>
                         </div>
+
                         <div class="qna_section qna3">
-                            <h2>Q. 워크숍 기간은 어떻게 되나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
-                            <p>답변3</p>
+                            <h2>Q. 서울이 아닌 타 지역에 사는데 지원 가능한가요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>네, 가능합니다.
+                                주소지와 상관없이 지원 가능합니다.
+
+                                이론 및 현장실습에 참여 가능하신 분은 누구나 지원하실 수 있습니다.
+                                다만 대부분의 교육이 서울특별시에서 진행된다는 점 숙지해 주시기 바랍니다.
+                            </p>
+                        </div>
+
+                        <div class="qna_section qna4">
+                            <h2>Q. 도시재생 관련 창업 아이템으로만 지원이 가능한가요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>네, 그렇습니다.
+
+                                지역이 가지고 있는 문제에 대한 인식을 기반으로 원하시는 도시재생 창업의 구체적인 고민과 계획이 필요하며,
+                                선발 시 중요한 판단 요인이 됩니다.
+                            </p>
+                        </div>
+
+                        <div class="qna_section qna5">
+                            <h2>Q. 도시재생 창업을 판단하는 기준은 무엇인가요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>도시재생을 판단하는 기준은 본 창업으로 인하여 동네와 골목이 얼마나 긍정적으로 변화할 수 있는지,
+                                그로 인하여 지역 주민의 삶이 얼마나 개선이 되는지 등이 해당됩니다.
+
+                                준비 중인 창업아이템이 지역사회에 어떤 사회적 임팩트를 가져다 줄 것인가,
+                                어떠한 가치를 가지고 향후 지역사회에 어떠한 영향을 미칠 수 있는가가 중요한 판단 요인이 됩니다. 
+
+                                실례를 들자면, 지역경제의 활성화, 이웃의 소외문제 해결, 지역자원의 재구성 및 재활용 등 다양한 가치들이 그 기준이 될 수 있습니다.
+                            </p>
+                        </div>
+
+                        <div class="qna_section qna6">
+                            <h2>사업계획 서 작성 Tip<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>사업계획서 분량은 양식에 안내된 페이지 수에 맞춰 작성하시되,
+                                모집공고문의 심사항목 및 배점기준을 사전에 충분히 이해하고 준비하시기를 권장합니다. 
+
+                                사업계획서 항목별 요구사항을 바탕으로 간결하고 명확하게,
+                                그리고 성실히 작성해 주시면 됩니다.
+
+                                특히, 창업아이템의 내용과 특성, 도시재생 창업의 취지 등을 제3자가 명확히 이해할 수 있도록 설명하는 것이 중요합니다.
+                            </p>
+                        </div>
+
+                        <div class="qna_section qna7">
+                            <h2>Q. 선정심사는 어떻게 진행되며 심사 기준은 무엇인가요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>신청·접수 마감 후 1차 서류심사를 진행합니다.
+
+                                서류심사 합격자에 한하여 2차 대면심사를 실시한 후  최종 합격자를 선발합니다.
+                                세부 심사기준은 해당 공고문을 통해서 확인하실 수 있습니다.
+                            </p>
+                        </div>
+
+                        <div class="qna_section qna8">
+                            <h2>Q. 합격 결과는 어떻게 확인하나요?<i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></i></h2>
+                            <p>심사 단계별 합격여부는 홈페이지 메인화면의 공지사항에 게시됩니다.
+                                선발되신 분께는 별도의 문자와 메일도 함께 발송됩니다.
+                            </p>
                         </div>
                     </div>
                 </section>

@@ -9,7 +9,6 @@ li::marker {
 .company_info_01 .wrap .mv_01 figure {
   position: relative;
   height: 100%;
-  background: no-repeat center/cover url("../images/info_mv_01.png");
 }
 
 .company_info_01 .wrap .mv_01 figure figcaption {
@@ -252,6 +251,26 @@ li::marker {
 
 main > article:nth-of-type(n+2) {
   max-width: 1320px;
+}
+
+#info_01 .company_info_01 .wrap .mv_01 figure {
+  background: url("../images/info_mv_01.png");
+}
+
+#info_02 .company_info_01 .wrap .mv_01 figure {
+  background: url("../images/info_mv_02.png");
+}
+
+#info_03 .company_info_01 .wrap .mv_01 figure {
+  background: url("../images/info_mv_03.png");
+}
+
+#info_04 .company_info_01 .wrap .mv_01 figure {
+  background: url("../images/info_mv_04.png");
+}
+
+#info_05 .company_info_01 .wrap .mv_01 figure {
+  background: url("../images/info_mv_05.png");
 }
 
 .info_01_01 .company_info_02 {
@@ -1861,16 +1880,17 @@ main > article:nth-of-type(n+2) {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid #aaa;
+  border-top: 5px solid #005BAA;
 }
 
 .info_03_01 .company_info_03 .wrap .section_01 .content_01 .content_text .content_table .tg-wrap .tg td {
-  border: 1px solid #000;
+  border: 1px solid #aaa;
   padding: 10px 5px;
 }
 
 .info_03_01 .company_info_03 .wrap .section_01 .content_01 .content_text .content_table .tg-wrap .tg th {
-  border: 1px solid #000;
+  border: 1px solid #aaa;
   padding: 10px 5px;
 }
 
@@ -2108,6 +2128,7 @@ main > article:nth-of-type(n+2) {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.8rem;
+  white-space: pre-line;
 }
 
 .info_04_01 .company_info_02 .wrap .info_04_01_more {
