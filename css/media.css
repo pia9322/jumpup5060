@@ -444,7 +444,7 @@
   }
   html header .header_wrap {
     width: 90%;
-    height: 85px;
+    height: 60px;
     margin: 0 auto;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -536,6 +536,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    text-align: center;
   }
   html main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
     margin-left: 0;
@@ -682,7 +683,7 @@
   }
   html header .header_wrap {
     width: 90%;
-    height: 85px;
+    height: 55px;
     margin: 0 auto;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -789,6 +790,7 @@
     margin-left: 0;
   }
   html main .main_wrap .main_wrap_02 .cotent_02 > div {
+    text-align: center;
     width: 30%;
   }
   html main .main_wrap .main_wrap_02 .cotent_02 > div span strong {
