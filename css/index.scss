@@ -8,7 +8,6 @@ header {
     .header_wrap {
         display: flex;
         align-items: center;
-        justify-content: space-around;
         width: 100%;
         .header_logo {
             margin-left: 40px;
@@ -20,8 +19,9 @@ header {
         }
         .header_center {
             width: 80%; height: 85px;
+            margin: 0 auto;
+            max-width: 1000px;
             display: flex;
-            justify-content: flex-end;
             a {
                 display:block;
             }
@@ -35,10 +35,12 @@ header {
             }
             > li {
                 width: 20%;
-                font-size: 1.8rem; height: 85px; line-height: 85px; text-align: center;
+                font-size: 1.8rem; height: 100%; text-align: center;
+                line-height: 85px;
                 transition: .3s;
                 > a {
                     transition: .3s;
+                    height: 100%;
                 }
                 .depth_01 {
                     transition: .3s;
@@ -281,8 +283,11 @@ main{
         .main_wrap_02{
             margin-top: 180px;
             width: 70%;
+            max-width: 1320px;
             .content_01{
                 font-size: 6rem;
+                line-height: 1.2;
+                letter-spacing: -1.5px;
             }
             .bar{
                 display: block;
@@ -302,10 +307,14 @@ main{
             .cotent_02{
                 margin-top: 60px;
                 display: flex;
-                div:nth-of-type(n+2){
-                    margin-left: 130px;
+                div:nth-of-type(2){
+                    margin-left: 50px;
+                }
+                div:nth-of-type(3){
+                    margin-left: 100px;
                 }
                 > div {
+                    width: 250px;
                     span{
                         font-size: 3rem;
                         display: block;
@@ -322,6 +331,7 @@ main{
         // main_wrap_03
         .main_wrap_03{
             margin-top: 180px;
+            max-width: 1320px;
             .wrap {
                 display: flex;
                 justify-content: center;
@@ -335,7 +345,7 @@ main{
 
                 .text_wrap_01{
                     position: relative;
-                    padding: 50px 40px;
+                    padding: 40px 40px;
                     width: 650px;
                     height: 100%;
                     background: #fff;
@@ -349,7 +359,9 @@ main{
                         font-size: 4rem;
                         > a {
                             display: block;
+                            width: 35px; height: 35px;
                             img{
+                                width:100%; height: 100%;
                                 transition: .3s;
                                 &:hover{
                                     transform: rotate(180deg);
@@ -395,8 +407,6 @@ main{
                     margin-top: 50px;
                     .text_wrap_01{
                         border: 5px solid #80c342;
-                        
-                        
                         &::after{
                             position: absolute;
                             right: -30px; top: -30px;
@@ -419,7 +429,7 @@ main{
                         }
 
                         .text_01{
-                            
+                            margin-bottom: 35px;
                         }
                         .text_02 {
                             display: flex;
@@ -464,7 +474,11 @@ main{
             .wrap {
                 margin-left: 300px;
                 .main_wrap_title {
-                    h2 {font-size: 4rem; }
+                    h2 {
+                        font-size: 4rem; 
+                        letter-spacing: -1px;
+                    }
+                        
                     .bar{
                         width: 335px;
                         display: block;
@@ -495,7 +509,6 @@ main{
                         padding: 100px 0;
 
                         .home_box {
-                            // margin: 0 20px;
                                 .home_img {
                                     width: 430px;
                                     height: 300px;
@@ -505,24 +518,36 @@ main{
                                     }
                                     .home_detail {
                                         font-size: 2rem;
+                                        line-height: 1.6;
                                         letter-spacing: -0.5px;
+                                        margin-top: 20px;
                                     }
-                                    &::after {
-                                        content: '+';
-                                        color: #fff;
-                                        font-size: 10rem;
-                                        display:flex;
-                                        font-weight: 100;
-                                        align-items: center; justify-content: center;
+                                    .cover_img {
                                         position: absolute;
-                                        top: 0; left: 0;
-                                        width:100%; height: 100%;
-                                        background: rgba($color: #005baa, $alpha: .7);
+                                        left: 0; top:0;
+                                        width: 100%; height: 100%;
+                                        background: rgba($color: #005baa, $alpha: .8);
+                                        display: flex; 
+                                        align-items: center; justify-content: center;
                                         opacity: 0;
-                                        transition: .3s;
+                                        transition: .15s;
                                     }
+                                    // &::after {
+                                    //     content: '+';
+                                    //     color: #fff;
+                                    //     font-size: 10rem;
+                                    //     display:flex;
+                                    //     font-weight: 100;
+                                    //     align-items: center; justify-content: center;
+                                    //     position: absolute;
+                                    //     top: 0; left: 0;
+                                    //     width:100%; height: 100%;
+                                    //     background: rgba($color: #005baa, $alpha: .7);
+                                    //     opacity: 0;
+                                    //     transition: .3s;
+                                    // }
                                     
-                                    &:hover::after {
+                                    &:hover .cover_img {
                                         opacity: 1;
                                     }
                                 }
@@ -539,7 +564,7 @@ main{
 .footer {
     border-top: 1px solid #ddd;
     height: 260px;
-    margin: 0 auto;
+    margin: 70px auto 0;
     .footer_wrap{
         width: 50%; margin: 0 auto;
         text-align: center;
@@ -555,8 +580,10 @@ main{
         .footer_copyright{
             font-size: 2rem;
             font-weight: bold;
+            line-height: 1.6;
+            letter-spacing: -0.5px;
             p {
-                font-family: 'S-CoreDream-4Regular';
+                font-family: 'NotoSansCJKkr-Regular';
             }
         }
     }

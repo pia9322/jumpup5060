@@ -12,8 +12,6 @@ header .header_wrap {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   width: 100%;
 }
 
@@ -30,12 +28,11 @@ header .header_wrap .header_logo a {
 header .header_wrap .header_center {
   width: 80%;
   height: 85px;
+  margin: 0 auto;
+  max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 header .header_wrap .header_center a {
@@ -56,9 +53,9 @@ header .header_wrap .header_center .header_bg {
 header .header_wrap .header_center > li {
   width: 20%;
   font-size: 1.8rem;
-  height: 85px;
-  line-height: 85px;
+  height: 100%;
   text-align: center;
+  line-height: 85px;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -66,6 +63,7 @@ header .header_wrap .header_center > li {
 header .header_wrap .header_center > li > a {
   -webkit-transition: .3s;
   transition: .3s;
+  height: 100%;
 }
 
 header .header_wrap .header_center > li .depth_01 {
@@ -261,7 +259,7 @@ header .header_wrap:hover .header_center .header_bg {
 .footer {
   border-top: 1px solid #ddd;
   height: 260px;
-  margin: 0 auto;
+  margin: 180px auto 0;
 }
 
 .footer .footer_wrap {
@@ -290,9 +288,11 @@ header .header_wrap:hover .header_center .header_bg {
 .footer .footer_wrap .footer_copyright {
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 
 .footer .footer_wrap .footer_copyright p {
-  font-family: 'S-CoreDream-4Regular';
+  font-family: 'NotoSansCJKkr-Regular';
 }
 /*# sourceMappingURL=init.css.map */

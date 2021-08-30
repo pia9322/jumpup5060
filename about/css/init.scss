@@ -8,7 +8,6 @@ header {
     .header_wrap {
         display: flex;
         align-items: center;
-        justify-content: space-around;
         width: 100%;
         .header_logo {
             margin-left: 40px;
@@ -20,8 +19,9 @@ header {
         }
         .header_center {
             width: 80%; height: 85px;
+            margin: 0 auto;
+            max-width: 1000px;
             display: flex;
-            justify-content: flex-end;
             a {
                 display:block;
             }
@@ -35,10 +35,12 @@ header {
             }
             > li {
                 width: 20%;
-                font-size: 1.8rem; height: 85px; line-height: 85px; text-align: center;
+                font-size: 1.8rem; height: 100%; text-align: center;
+                line-height: 85px;
                 transition: .3s;
                 > a {
                     transition: .3s;
+                    height: 100%;
                 }
                 .depth_01 {
                     transition: .3s;
@@ -113,8 +115,6 @@ header {
                 -o-transform: rotate(-45deg);
             }
         }
-
-        
         &:hover {
             .header_center{
                 .depth_01 {
@@ -199,11 +199,10 @@ header {
 }
 
 
-
 .footer {
     border-top: 1px solid #ddd;
     height: 260px;
-    margin: 0 auto;
+    margin: 180px auto 0;
     .footer_wrap{
         width: 50%; margin: 0 auto;
         text-align: center;
@@ -219,10 +218,13 @@ header {
         .footer_copyright{
             font-size: 2rem;
             font-weight: bold;
+            line-height: 1.6;
+            letter-spacing: -0.5px;
             p {
-                font-family: 'S-CoreDream-4Regular';
+                font-family: 'NotoSansCJKkr-Regular';
             }
         }
     }
+    
 }
  

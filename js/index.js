@@ -71,7 +71,7 @@ $(function(){
     var startCount = {var: 0};
 
     gsap.to(startCount, {
-        var: 239, duration: 1.5, ease: "none",
+        var: 67, duration: 1.5, ease: "none",
         onUpdate: changeNumber01,
         scrollTrigger: {
             trigger: "#counting_01",
@@ -79,7 +79,7 @@ $(function(){
     });
 
     gsap.to(startCount, {
-        var: 56.3, duration: 1.5, ease: "none",
+        var: 55.4, duration: 1.5, ease: "none",
         onUpdate: changeNumber02,
         scrollTrigger: {
             trigger: "#counting_02",
@@ -87,7 +87,7 @@ $(function(){
     });
 
     gsap.to(startCount, {
-        var: 80, duration: 1.5, ease: "none",
+        var: 97, duration: 1.5, ease: "none",
         onUpdate: changeNumber03,
         scrollTrigger: {
             trigger: "#counting_03",
