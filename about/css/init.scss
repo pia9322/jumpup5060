@@ -1,5 +1,7 @@
 
 
+
+
 header {
     font-weight: bold;
     z-index: 9999;
@@ -7,6 +9,7 @@ header {
     left: 0; top:0;
     width: 100%; height: auto;
     background: #fff;
+    transition: .3s;
     .depth_01 {
         font-weight: 300;
     }
@@ -124,6 +127,11 @@ header {
                 -ms-transform: rotate(-45deg);
                 -o-transform: rotate(-45deg);
             }
+            &.active {
+                span {
+                    border-color: #fff;
+                }
+            }
         }
         &:hover {
             .header_center{
@@ -136,7 +144,9 @@ header {
             }
         }
     }
-    
+    &.active {
+        background: transparent;
+    }
     
 }
 
@@ -216,7 +226,6 @@ header {
         transform: translateX(0);
     }
 }
-
 
 
 .footer {

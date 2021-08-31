@@ -7,6 +7,8 @@ header {
   width: 100%;
   height: auto;
   background: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .depth_01 {
@@ -172,12 +174,20 @@ header .header_wrap .header_right:nth-of-type(3):hover span:nth-of-type(3) {
   -o-transform: rotate(-45deg);
 }
 
+header .header_wrap .header_right.active span {
+  border-color: #fff;
+}
+
 header .header_wrap:hover .header_center .depth_01 {
   display: block;
 }
 
 header .header_wrap:hover .header_center .header_bg {
   display: block;
+}
+
+header.active {
+  background: transparent;
 }
 
 .header_background_menu {

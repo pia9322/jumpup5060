@@ -62,7 +62,10 @@ body {
 	width: 100%; height: 100%;
 	max-width: 2560px; margin: 0 auto;
 	font-weight: 300;
+	-ms-overflow-style: none; 
 }
+
+body::-webkit-scrollbar { display: none; }
 
 ol, ul {
 	list-style: none;
