@@ -228,6 +228,8 @@ li::marker {
                         }
                     }
                     .video_text{
+                        max-height: 300px;
+                        overflow: scroll;
                         padding: 20px 0;
                         font-size: 1.8rem;
                         border-bottom: 1px solid #999;
