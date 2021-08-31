@@ -555,6 +555,10 @@
     -webkit-transition: .3s;
     transition: .3s;
   }
+  html main .main_wrap .main_wrap_03 .wrap .text_wrap_01 .text_01 > a {
+    width: 20px;
+    height: 20px;
+  }
   html main .main_wrap .main_wrap_03 .wrap .text_wrap_01::after {
     width: 40px;
     height: 40px;
