@@ -348,6 +348,79 @@
 
             </div>
         </article>
+
+        
+        <div class="modal">
+            <article class="modal_content">
+                <div class="wrap">
+                    <div class="modal_title">
+                        <div>
+                            <h2>점프업 5060 2기 수강생<br class="mo_only"> 김지혜 작가님 인터뷰</h2>
+                        </div>
+                    </div>
+    
+                    <section class="modal_item">
+                        <div class="item_wrap">
+                            <div>
+                                <video muted autoplay controls loop>
+                                    <source src="images/sample_01.mp4" type="video/mp4">
+                                    <p>해당 기기에서는 지원하지 않는 영상입니다.</p>
+                                </video>
+                            </div>
+                            <p class="video_text">
+                                국가안전보장회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 혼인과 가족생활은 개인의 존엄과 양성의 평등을 기초로 성립되고 유지되어야 하며, 국가는 이를 보장한다.
+                                <br>
+                                모든 국민은 소급입법에 의하여 참정권의 제한을 받거나 재산권을 박탈당하지 아니한다. 국무회의는 정부의 권한에 속하는 중요한 정책을 심의한다. 모든 국민은 건강하고 쾌적한 환경에서 
+                                <br>
+                                생활할 권리를 가지며, 국가와 국민은 환경보전을 위하여 노력하여야 한다.
+                            </p>
+                        </div>
+    
+                        <div class="modal_bottom" >
+                            <p>
+                                <a href="#none" class="modal_btn" >
+                                    닫기
+                                </a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </article>
+
+            <article class="modal_content">
+                <div class="wrap">
+                    <div class="modal_title">
+                        <div>
+                            <h2>점프업 5060 3기 수강생<br class="mo_only"> 김영진 작가님 인터뷰</h2>
+                        </div>
+                    </div>
+    
+                    <section class="modal_item">
+                        <div class="item_wrap">
+                            <div>
+                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/zHD5kgHjKj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p class="video_text">
+                                국가안전보장회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 혼인과 가족생활은 개인의 존엄과 양성의 평등을 기초로 성립되고 유지되어야 하며, 국가는 이를 보장한다.
+                                <br>
+                                모든 국민은 소급입법에 의하여 참정권의 제한을 받거나 재산권을 박탈당하지 아니한다. 국무회의는 정부의 권한에 속하는 중요한 정책을 심의한다. 모든 국민은 건강하고 쾌적한 환경에서 
+                                <br>
+                                생활할 권리를 가지며, 국가와 국민은 환경보전을 위하여 노력하여야 한다.
+                            </p>
+                        </div>
+    
+                        <div class="modal_bottom" >
+                            <p>
+                                <a href="#none" class="modal_btn" >
+                                    닫기
+                                </a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        
+        </div>
     </main>
 
     <!-- footer_init -->
@@ -362,7 +435,44 @@
                 $(".more_notice_btn").eq(idx - 1).addClass("active");
                 $(".item_wrap").removeClass("active");
                 $(".item_wrap").eq(idx -1 ).addClass("active");
-            })
+                
+            });
+
+                                    
+            function modalchange() {
+                    const modal = $('.modal');
+                    const section_01 = $('.section_01_item');
+                    const modalCon = $('.modal_content');
+                    const modalBtn = $('.modal_btn');
+
+                    modal.click(function (e) {
+                        if (e.target.className.indexOf('modal active') >= 0) {
+                            modal.removeClass('active');
+                            modalCon.removeClass('active');
+                        }
+                    });
+
+                    for (let i = 0; i < section_01.length; i++) {
+                        const idx = section_01.eq(i).index();
+
+                        section_01.eq(i).click(function (e) {
+                            e.preventDefault();
+                            modal.addClass('active');
+                            modalCon.eq(idx).addClass('active');
+                        });
+
+                        modalBtn.click(function () {
+                            modal.removeClass('active');
+                            modalCon.eq(i).removeClass('active');
+                        });
+
+                        $('video').click(function (e) {
+                            e.preventDefault();
+                        });
+                    };
+
+                };
+                modalchange();
         });
     </script>
 
