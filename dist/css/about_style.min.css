@@ -351,7 +351,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a { width: 100%; height: 100%; }
 
-.info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure { width: 100%; height: 50%; overflow: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure { width: 100%; height: 50%; overflow: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0 auto; }
 
 .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; }
 

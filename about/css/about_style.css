@@ -1101,6 +1101,7 @@ main > article:nth-of-type(n+2) {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
 }
 
 .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption {
