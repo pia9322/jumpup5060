@@ -14,14 +14,9 @@
   html header .header_wrap .header_center {
     height: 85px;
   }
-  html header .header_wrap .header_center .header_bg {
-    width: 100%;
-    height: 340px;
-  }
   html header .header_wrap .header_center > li {
     width: 17.5%;
     height: 85px;
-    line-height: 85px;
     text-align: center;
   }
   html main .main_wrap {
@@ -231,14 +226,8 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  header .header_wrap .header_center .header_bg {
-    width: 100%;
-    height: 340px;
-  }
   header .header_wrap .header_center > li {
     width: 17.5%;
-    height: 85px;
-    line-height: 85px;
   }
   main .main_wrap {
     width: 100%;
@@ -459,14 +448,8 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  html header .header_wrap .header_center .header_bg {
-    width: 100%;
-    height: 340px;
-  }
   html header .header_wrap .header_center > li {
     width: 20%;
-    height: 85px;
-    line-height: 85px;
   }
   html header .header_wrap .header_right {
     display: block;

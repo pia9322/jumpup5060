@@ -2,30 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
-
-@font-face {
-    font-family: 'NotoSansCJKkr-Regular';
-    src: url('../font/NotoSansCJKkr-Regular.otf'); /* IE9 Compat Modes */
-    /* unicode-range: U+AC00-U+D7A3; */
-    /* unicode-range: U+0041-005A, U+0061-007A; */
-}
-
-
-@font-face {
-    font-family: 'NotoSansCJKkr-Medium';
-    src: url('../font/NotoSansCJKkr-Medium.otf'); /* IE9 Compat Modes */
-    /* unicode-range: U+AC00-U+D7A3; */
-    /* unicode-range: U+0041-005A, U+0061-007A; */
-}
-
-
-@font-face {
-	font-family: 'S-CoreDream-6Bold';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 @font-face {
 	font-family: 'S-CoreDream-4Regular';
@@ -34,16 +11,16 @@
 	font-style: normal;
 }
 
-/* 
 @font-face {
-	font-family: '';
-    src: url('');
+	font-family: 'S-CoreDream-6Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-*/
 
 *{
 	box-sizing: border-box;
-	font-family: 'Noto Sans KR', 'NotoSansCJKkr-Regular', 'S-CoreDream-3Light', 'S-CoreDream-4Regular',sans-serif;
+	font-family: 'Noto Sans KR', 'S-CoreDream-3Light', 'S-CoreDream-4Regular' , sans-serif;
 }
 
 html{
@@ -101,6 +78,24 @@ table {
 }
 a{ text-decoration: none; color: #000;}
 
+
+.number_font {
+	font-family: 'S-CoreDream-6Bold';
+}
+
+
+.pc_only {
+	display: block;
+}
+.ta_only {
+	display: none;
+}
+.mo_only {
+	display: none;
+}
+
+
+/* media br */
 @media screen and (max-width: 1440px) {
 	.pc_only {
         display: block;

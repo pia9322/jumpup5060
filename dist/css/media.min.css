@@ -3,8 +3,7 @@
   html header .header_wrap { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 40px; }
   html header .header_wrap .header_center { height: 85px; }
-  html header .header_wrap .header_center .header_bg { width: 100%; height: 340px; }
-  html header .header_wrap .header_center > li { width: 17.5%; height: 85px; line-height: 85px; text-align: center; }
+  html header .header_wrap .header_center > li { width: 17.5%; height: 85px; text-align: center; }
   html main .main_wrap { width: 100%; }
   html main .main_wrap > article { width: 70%; }
   html main .main_wrap .main_wrap_01 { width: 100%; height: 750px; }
@@ -53,8 +52,7 @@
 /* 테블릿 세로 (해상도 768px ~ 1023px)*/
 @media screen and (max-width: 1023px) { header .header_wrap .header_logo { margin-left: 40px; }
   header .header_wrap .header_center { width: 100%; height: 85px; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
-  header .header_wrap .header_center .header_bg { width: 100%; height: 340px; }
-  header .header_wrap .header_center > li { width: 17.5%; height: 85px; line-height: 85px; }
+  header .header_wrap .header_center > li { width: 17.5%; }
   main .main_wrap { width: 100%; }
   main .main_wrap > article { width: 70%; }
   main .main_wrap .main_wrap_01 { width: 100%; height: 650px; }
@@ -107,8 +105,7 @@
   html header .header_wrap { width: 90%; height: 60px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
   html header .header_wrap .header_center { display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-  html header .header_wrap .header_center .header_bg { width: 100%; height: 340px; }
-  html header .header_wrap .header_center > li { width: 20%; height: 85px; line-height: 85px; }
+  html header .header_wrap .header_center > li { width: 20%; }
   html header .header_wrap .header_right { display: block; }
   html main .main_wrap { width: 100%; }
   html main .main_wrap > article { width: 70%; }

@@ -46,12 +46,12 @@ $(function(){
         // },
         breakpoints : { // 반응형 설정이 가능 width값으로 조정
             2560 : {
-                slidesPerView : 4.5,
+                slidesPerView : 4,
               },
             1920 : {
                 slidesPerView : 3.5,
             },
-            1660 : {
+            1800 : {
                 slidesPerView : 2.5,
               },
             1440 : {
@@ -62,6 +62,9 @@ $(function(){
             },
             767 : {
               slidesPerView : 1.1,
+            },
+            486 : {
+              slidesPerView : 1,
             },
         },
     });

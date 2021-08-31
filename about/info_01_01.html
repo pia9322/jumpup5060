@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +10,10 @@
     <link rel="stylesheet" href="css/about_style.css">
     <link rel="stylesheet" href="css/about_media_style.css">
 
-
-
     <script src="../js/jquery.js"></script>
     <script src="../js/gsap.min.js"></script>
     <script src="../js/ScrollTrigger.min.js"></script>
-    <script src="js/about.js"></script>
     <script src="js/init.js"></script>
-
 </head>
 
 <body>
@@ -138,8 +133,8 @@
 
                             <p class="text_title">
                                 <strong>2년간 
-                                    <em id="counting_01">67</em>팀, 평균연령 
-                                    <em id="counting_02">55.4</em>세
+                                    <em id="counting_01" class="number_font">67</em>팀, 평균연령 
+                                    <em id="counting_02" class="number_font">55.4</em>세
                                 </strong>
 
                                 창업가들이 <br class="mo_only"><strong>새돋움</strong>을 시작했습니다.
@@ -158,17 +153,17 @@
                 <div>
                     <div class="text_content">
                         <p>
-                            <strong><em id="counting_03">55.4</em></strong>
+                            <strong><em id="counting_03" class="number_font">55.4</em></strong>
                             <br class="mo_only">
                             세 평균연령
                         </p>
                         <p>
-                            <strong><em id="counting_04">97%</em></strong>
+                            <strong><em id="counting_04" class="number_font">97%</em></strong>
                             <br class="mo_only">
                             수료율
                         </p>
                         <p>
-                            <strong><em id="counting_05">67</em></strong>
+                            <strong><em id="counting_05" class="number_font">67</em></strong>
                             <br class="mo_only">
                             팀 참여
                         </p>
@@ -177,17 +172,17 @@
                 <div>
                     <div class="text_content">
                         <p>
-                            <strong><em id="counting_06">154</em></strong>
+                            <strong><em id="counting_06" class="number_font">154</em></strong>
                             <br class="mo_only">
                             회 고도화 컨설팅
                         </p>
                         <p>
-                            <strong><em id="counting_07">24</em></strong>
+                            <strong><em id="counting_07" class="number_font">24</em></strong>
                             <br class="mo_only">
                             팀 사업화 자금지원
                         </p>
                         <p>
-                            <strong><em id="counting_08">24</em></strong>
+                            <strong><em id="counting_08" class="number_font">24</em></strong>
                             <br class="mo_only">
                             팀 창업 및 사업화 완료
                         </p>
@@ -307,6 +302,111 @@
     <!-- footer_init -->
     <footer></footer>
 
+<script>
+    $(function () {
+            gsap.registerPlugin(ScrollTrigger);
+            var startCount = { var: 0 };
+
+            gsap.to(startCount, {
+                var: 67, duration: 1.5, ease: "none",
+                onUpdate: changeNumber01,
+                scrollTrigger: {
+                    trigger: "#counting_01",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 55.4, duration: 1.5, ease: "none",
+                onUpdate: changeNumber02,
+                scrollTrigger: {
+                    trigger: "#counting_02",
+                },
+            });
+
+
+            gsap.to(startCount, {
+                var: 55.4, duration: 1.5, ease: "none",
+                onUpdate: changeNumber03,
+                scrollTrigger: {
+                    trigger: "#counting_03",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 97, duration: 1.5, ease: "none",
+                onUpdate: changeNumber04,
+                scrollTrigger: {
+                    trigger: "#counting_04",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 67, duration: 1.5, ease: "none",
+                onUpdate: changeNumber05,
+                scrollTrigger: {
+                    trigger: "#counting_05",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 154, duration: 1.5, ease: "none",
+                onUpdate: changeNumber06,
+                scrollTrigger: {
+                    trigger: "#counting_06",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 24, duration: 1.5, ease: "none",
+                onUpdate: changeNumber07,
+                scrollTrigger: {
+                    trigger: "#counting_07",
+                },
+            });
+
+            gsap.to(startCount, {
+                var: 24, duration: 1.5, ease: "none",
+                onUpdate: changeNumber08,
+                scrollTrigger: {
+                    trigger: "#counting_08",
+                },
+            });
+
+
+
+            function changeNumber01() {
+                counting_01.innerHTML = (startCount.var).toFixed();
+            }
+
+            function changeNumber02() {
+                counting_02.innerHTML = (startCount.var).toFixed(1);
+            }
+
+            function changeNumber03() {
+                counting_03.innerHTML = (startCount.var).toFixed(1);
+            }
+
+            function changeNumber04() {
+                counting_04.innerHTML = (startCount.var).toFixed() + '%';
+            }
+
+            function changeNumber05() {
+                counting_05.innerText = (startCount.var).toFixed();
+            }
+
+            function changeNumber06() {
+                counting_06.innerText = (startCount.var).toFixed();
+            }
+
+            function changeNumber07() {
+                counting_07.innerText = (startCount.var).toFixed();
+            }
+
+            function changeNumber08() {
+                counting_08.innerText = (startCount.var).toFixed();
+            }
+        });
+</script>
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+@import url("../../css/common.css");
 li::marker { font-size: 10px; }
 
 .company_info_01 .wrap .mv_01 { height: 480px; }

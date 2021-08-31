@@ -1,13 +1,10 @@
 $(function () {
-     
-     // window.onload = function(){
-     //      alert('로드되었습니다 ')
-     // }
 
      // header footer init
      $('header').load('init.html header .header_wrap', init)
      $('footer').load('init.html footer .footer')
      $('.header_background_menu').load('init.html .header_background_menu > ul')
+
 
 
      function init() {
@@ -20,7 +17,6 @@ $(function () {
                };
           }
 
-
           function Navopen() {
                $('.header_right').on('click', function () {
                     $('.header_background_menu').toggleClass('active');
@@ -32,7 +28,6 @@ $(function () {
                });
           }
           Navopen()
-     
 
           function mNav() {
                let moNavBack = document.querySelector('.header_background_menu');
@@ -49,8 +44,7 @@ $(function () {
 
 
 
-
-     console.log('On')
+     console.log('init_On')
 
 
 
