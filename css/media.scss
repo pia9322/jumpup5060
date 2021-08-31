@@ -8,52 +8,14 @@
             justify-content: space-between;
                 .header_logo {
                     margin-left: 40px;
-                    a {
-                    }
-        
                 }
                 .header_center {
                     height: 85px;
-                    a {
-                    }
-                    .header_bg {
-                    }
                     > li {
                         width: 17.5%;
                         height: 85px;text-align: center;
-                        > a {
-                        }
-                        .depth_01 {
-                            li {
-                                a {
-                                }
-                            }
-                            
-                            li:hover {
-                                a {
-                                }
-                            }
-                        
-                        }
-        
-                        &:hover {
-                            > a{
-                            }
-                            .depth_01{
-                            }
-                        }
-        
                     }
-                    .depth_01 {
-                    }
-                }
-                &:hover {
-                    .header_center{
-                        .depth_01 {
-                        }
-                        .header_bg {
-                        }
-                    }
+               
                 }
             }
             
@@ -133,12 +95,6 @@
                         div:nth-of-type(n+2){
                             margin-left: 0;
                         }
-                        > div {
-                            span{
-                                strong {
-                                }
-                            }
-                        }
                     }
                 }
                 
@@ -151,27 +107,12 @@
                         display: flex;
                         justify-content: center;
                         width: 100%; margin: 0 auto;
-                        .content_01 {
-                        }
-                        .content_02 {
-                        }
-        
         
                         .text_wrap_01{
                             padding: 40px 30px;
                             width: 90%; margin: 0 auto;
                             transition: .3s;
 
-                            .text_01{
-                                > a {
-                                    img{
-                                        &:hover{
-                                        }
-                                    }
-                                }
-                                
-                            }
-                        
                             &::after{
                                 width: 60px; height: 60px;
                                 z-index: -1;
@@ -200,12 +141,9 @@
                         .content_02 {
                             margin-top: 50px;
                             .text_wrap_01{
-                                
-                                
                                 &::after{
                                     right: -30px; top: -30px;
                                 }
-                                
                                 .bar{
                                     margin: 15px 0 35px 0;
                                     background: #e5e5e5;
@@ -216,7 +154,6 @@
                                 }
         
                                 .text_01{
-                                    
                                 }
                                 .text_02 {
                                     display: flex;
@@ -342,38 +279,6 @@
                 }
                 > li {
                     width: 17.5%;
-                    > a {
-                    }
-                    .depth_01 {
-                        li {
-                            a {
-                            }
-                        }
-                        
-                        li:hover {
-                            a {
-                            }
-                        }
-                     
-                    }
-    
-                    &:hover {
-                        > a{
-                        }
-                        .depth_01{
-                        }
-                    }
-    
-                }
-                .depth_01 {
-                }
-            }
-            &:hover {
-                .header_center{
-                    .depth_01 {
-                    }
-                    .header_bg {
-                    }
                 }
             }
         }
@@ -562,15 +467,13 @@
                 }
             }
     
-            
-    
             // main_wrap_04
             .main_wrap_04{
-                width: 100%;
+                width: 90% !important;
                 margin-top: 180px;
             
                 .wrap {
-                    margin-left: 200px;
+                    margin-left: 0 !important;
                     .main_wrap_title {
                         h2 {}
                         .bar{
@@ -619,6 +522,9 @@
             }
         }
     }
+
+
+
     .footer {
         height: 260px;
         .footer_wrap{
@@ -654,48 +560,14 @@
                 .header_center {
                     display: none;
                     justify-content: center;
-                    a {
-                    }
-                    .header_bg {
-                    }
+                
                     > li {
                         width: 20%;
-                        > a {
-                        }
-                        .depth_01 {
-                            li {
-                                a {
-                                }
-                            }
-                            
-                            li:hover {
-                                a {
-                                }
-                            }
-                        
-                        }
-        
-                        &:hover {
-                            > a{
-                            }
-                            .depth_01{
-                            }
-                        }
-        
                     }
-                    .depth_01 {
-                    }
+           
                 }
                 .header_right {
                     display:block
-                }
-                &:hover {
-                    .header_center{
-                        .depth_01 {
-                        }
-                        .header_bg {
-                        }
-                    }
                 }
             }
             
@@ -899,11 +771,11 @@
                         .main_wrap_title {
                             h2 {}
                             .bar{
-                                width: 335px;
+                                width: 50%;
                                 display: block;
                                 margin-top: 15px;
                                 &::after {
-                                    width: 100px;
+                                    width: 30%;
                                     height: 5px;
                                 }
                             }
@@ -911,17 +783,14 @@
                         
                         .swiper-container{
                             height: 100%;
-                            &:active{
-                            }
-        
                             .home_slide{
                                 width: 100%; height: 100%;
-        
                                 .home_box {
                                     // margin: 0 20px;
-                                        .home_img {
-                                            width: 430px;
-                                            height: 300px;
+                                    .home_img {
+                                        width: 430px;
+                                        height: 300px;
+                                        margin: 0 auto !important;
                                             img{
                                                 width: 100%; height: 100%;
                                             }
@@ -930,9 +799,6 @@
                                             }
                                             &::after {
                                                 font-weight: 100;
-                                            }
-                                            
-                                            &:hover::after {
                                             }
                                         }
                                 }
@@ -1210,15 +1076,6 @@
                         margin-left: 10px;
                         .main_wrap_title {
                             h2 {}
-                            .bar{
-                                width: 100%;
-                                display: block;
-                                margin-top: 15px;
-                                &::after {
-                                    width: 100px;
-                                    height: 3px;
-                                }
-                            }
                         }
                         
                         .swiper-container{
@@ -1238,7 +1095,6 @@
                                                 width: 100%; height: 100%;
                                             }
                                             .home_detail {
-                                                text-align: left;
                                             }
                                             &::after {
                                                 height: 210px;

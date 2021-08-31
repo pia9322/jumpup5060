@@ -1,7 +1,7 @@
 
 
 
-
+// init_header
 header {
     font-weight: bold;
     z-index: 9999;
@@ -150,6 +150,7 @@ header {
     
 }
 
+// init_header_background_menu
 .header_background_menu{
     position: fixed;
     top:0; right: 0; left: 0;
@@ -227,7 +228,7 @@ header {
     }
 }
 
-
+// init_footer
 .footer {
     border-top: 1px solid #ddd;
     height: 260px;

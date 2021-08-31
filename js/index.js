@@ -45,9 +45,6 @@ $(function(){
         //     prevEl: '.swiper-button-prev',
         // },
         breakpoints : { // 반응형 설정이 가능 width값으로 조정
-            2560 : {
-                slidesPerView : 4,
-              },
             1920 : {
                 slidesPerView : 3.5,
             },
@@ -58,7 +55,7 @@ $(function(){
             slidesPerView : 2,
             },
             1024 : {
-              slidesPerView : 1.1,
+              slidesPerView : 1.5,
             },
             767 : {
               slidesPerView : 1,
