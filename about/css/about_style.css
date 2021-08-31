@@ -23,6 +23,7 @@ li::marker {
           transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
+  width: 100%;
 }
 
 .company_info_01 .wrap .mv_01 figure figcaption p:nth-of-type(1) {
@@ -274,7 +275,7 @@ li::marker {
   display: none;
   width: 85%;
   height: auto;
-  padding: 50px 25px;
+  padding: 15px;
   border-radius: 10px;
   background: #e5e5e5;
 }

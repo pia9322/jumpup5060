@@ -24,7 +24,7 @@ li::marker {
                     transform: translate(-50%, -50%);
                     color: #fff;
                     text-align: center;
-
+                    width: 100%;
                     p:nth-of-type(1){
                         font-size: 6rem;
                         font-weight: bold;
@@ -200,7 +200,7 @@ li::marker {
     .modal_content{
         display: none;
         width: 85%; height: auto; 
-        padding: 50px 25px;
+        padding: 15px;
         border-radius: 10px;
         background: rgba($color: #e5e5e5, $alpha: 1);
         .wrap{
