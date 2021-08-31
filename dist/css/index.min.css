@@ -1,5 +1,5 @@
 @import url("common.css");
-header { font-weight: bold; z-index: 9999; position: fixed; left: 0; top: 0; width: 100%; height: auto; background: #fff; }
+header { font-weight: bold; z-index: 9999; position: fixed; left: 0; top: 0; width: 100%; height: auto; background: #fff; -webkit-transition: .3s; transition: .3s; }
 
 header .depth_01 { font-weight: 300; }
 
@@ -53,9 +53,13 @@ header .header_wrap .header_right:nth-of-type(3):hover span:nth-of-type(2) { opa
 
 header .header_wrap .header_right:nth-of-type(3):hover span:nth-of-type(3) { transform: rotate(-45deg); bottom: calc(50% - 1px); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); }
 
+header .header_wrap .header_right.active span { border-color: #fff; }
+
 header .header_wrap:hover .header_center .depth_01 { display: block; }
 
 header .header_wrap:hover .header_center .header_bg { display: block; }
+
+header.active { background: transparent; }
 
 .header_background_menu { position: fixed; top: 0; right: 0; left: 0; height: 100%; background: #fff; z-index: 9998; -webkit-transform: translateX(100%); transform: translateX(100%); -webkit-transition: .3s; transition: .3s; display: -webkit-box; display: -ms-flexbox; display: flex; background: no-repeat center/cover url("../about/images/sp_03.jpg"); }
 

@@ -127,6 +127,8 @@ $(function(){
     function Navopen() {
         $('.header_right').on('click', function () {
             $('.header_background_menu').toggleClass('active');
+            $('header').toggleClass('active');
+            $('.header_right').toggleClass('active');
 
             if ($('.header_background_menu').hasClass('active')) {
                 $('.header_background_menu').css({ "cursor": "alias" });
@@ -146,6 +148,9 @@ $(function(){
 
             if (e.target.nodeName != 'A') {
                 $('.header_background_menu').removeClass('active')
+                $('header').removeClass('active');
+                $('.header_right').removeClass('active');
+
             }
             NavScroll();
 
@@ -153,8 +158,6 @@ $(function(){
 
     }
     mNav();
-
-
-
+    
 
 }); // end
