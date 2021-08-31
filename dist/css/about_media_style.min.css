@@ -170,6 +170,8 @@
   html body .info_02_01 .company_info_02 .wrap .section_01 { margin: 60px 0 180px; }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item { width: 30%; height: 400px; }
+  html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure { max-width: 125px; margin: 0 auto; }
+  html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure img { width: 100%; }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption .project_detail { margin-top: 15px; width: 90%; }
   html body .info_02_02 .company_info_02 { width: 85%; margin: 180px auto 0; }
   html body .info_02_02 .company_info_02 .wrap .content_title .bar { width: 100%; }

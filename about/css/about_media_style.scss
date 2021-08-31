@@ -1225,7 +1225,10 @@
                                     width: 30%; height: 400px;
                                     a {
                                         > figure {
+                                            max-width: 125px;
+                                            margin: 0 auto;
                                             img{
+                                                width: 100%;
                                             }
                                         } 
                                         figcaption{

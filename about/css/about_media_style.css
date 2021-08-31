@@ -646,6 +646,13 @@
     width: 30%;
     height: 400px;
   }
+  html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure {
+    max-width: 125px;
+    margin: 0 auto;
+  }
+  html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure img {
+    width: 100%;
+  }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a figcaption .project_detail {
     margin-top: 15px;
     width: 90%;
