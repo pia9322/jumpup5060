@@ -33,7 +33,6 @@ li::marker {
 
 .company_info_01 .wrap .mv_01 figure figcaption p:nth-of-type(2) {
   font-size: 2rem;
-  font-weight: 100;
   line-height: 1.6;
   letter-spacing: -0.5px;
 }
@@ -112,6 +111,7 @@ li::marker {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-weight: 400;
 }
 
 .company_info_01 .wrap .mv_02 > ul .depth_01 .depth_nav .arrow {

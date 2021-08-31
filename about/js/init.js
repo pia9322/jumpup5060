@@ -40,7 +40,19 @@ $(function () {
           }
           mNav();
 
+
+          // setTimeout(() => {
+          //      let mobackImg = $('.header_background_menu');
+          //      let mobackList = $('.header_background_menu > ul > li');
+     
+          //      for(let i=0; i < mobackList.length; i++){
+          //           mobackList.eq(i).mouseover(function(){
+          //                mobackImg.css({"background":"no-repeat left / cover url(images/info_mv_0"+i+".png)"})
+          //           });     
+          //      }
+          // }, 300);
           
+
      }
      // header footer init
 

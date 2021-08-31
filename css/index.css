@@ -2,11 +2,16 @@
 header {
   font-weight: bold;
   z-index: 9999;
-  position: relative;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
 }
 
 header .depth_01 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 header .header_wrap {
@@ -92,6 +97,7 @@ header .header_wrap .header_center > li .depth_01 li {
 header .header_wrap .header_center > li .depth_01 li a {
   -webkit-transition: .3s;
   transition: .3s;
+  color: #666;
 }
 
 header .header_wrap .header_center > li .depth_01 li:hover {
@@ -190,9 +196,7 @@ header .header_wrap:hover .header_center .header_bg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background: no-repeat center/cover url("../about/images/sp_03.jpg");
 }
 
 .header_background_menu > ul {
@@ -211,6 +215,7 @@ header .header_wrap:hover .header_center .header_bg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30%;
 }
 
 .header_background_menu > ul > li {
@@ -220,8 +225,9 @@ header .header_wrap:hover .header_center .header_bg {
 
 .header_background_menu > ul > li > a {
   display: block;
-  font-size: 3rem;
+  font-size: 4.2rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .header_background_menu > ul > li > a:hover {
@@ -238,7 +244,7 @@ header .header_wrap:hover .header_center .header_bg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 100%;
+  top: 80%;
   left: 0;
   -webkit-transition: .25s;
   transition: .25s;
@@ -250,9 +256,9 @@ header .header_wrap:hover .header_center .header_bg {
 }
 
 .header_background_menu > ul > li .m_depth_01 li a {
-  color: #777;
-  font-size: 1.6rem;
-  font-weight: bold;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 300;
   -webkit-transition: .25s;
   transition: .25s;
 }
