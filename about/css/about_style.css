@@ -273,7 +273,7 @@ li::marker {
 .modal .modal_content {
   display: none;
   width: 85%;
-  height: 90%;
+  height: auto;
   padding: 50px 25px;
   border-radius: 10px;
   background: #e5e5e5;
@@ -302,7 +302,9 @@ li::marker {
 
 .modal .modal_content .wrap .modal_item .item_wrap > div {
   width: 100%;
-  height: 500px;
+  height: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .modal .modal_content .wrap .modal_item .item_wrap > div video {
@@ -350,7 +352,15 @@ li::marker {
 }
 
 .modal .modal_content.active {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .modal.active {
