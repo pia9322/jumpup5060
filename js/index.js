@@ -55,15 +55,12 @@ $(function(){
                 slidesPerView : 2.5,
               },
             1440 : {
-            slidesPerView : 1.5,
+            slidesPerView : 2,
             },
             1024 : {
               slidesPerView : 1.1,
             },
             767 : {
-              slidesPerView : 1.1,
-            },
-            486 : {
               slidesPerView : 1,
             },
         },
