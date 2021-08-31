@@ -39,13 +39,15 @@ $(function () {
                });
           }
           mNav();
+
+          
      }
      // header footer init
 
 
 
+
+
+
      console.log('init_On')
-
-
-
 });

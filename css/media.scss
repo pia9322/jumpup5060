@@ -1007,40 +1007,6 @@
             
         }
 
-        .header_background_menu{
-            > ul {
-                width: 100%; height: 60%;
-                > li {
-                    width: 100%;
-                    > a {
-            
-                        &:hover {
-                            color: #005baa;
-                        }
-                    }
-                    
-                    .m_depth_01 {
-                        li {
-                            a{
-                                &:hover {
-                                    color: #005baa;
-                                }
-                            }
-                        }
-                    }
-        
-                    &:hover {
-                        .m_depth_01 {
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-        
-            &.active{
-                transform: translateX(0);
-            }
-        }
 
         main{
             .main_wrap{
