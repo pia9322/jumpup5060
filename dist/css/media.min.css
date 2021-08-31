@@ -12,7 +12,7 @@
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox { color: #fff; left: 15%; top: 50%; -webkit-transform: translate(-15%, -50%); transform: translate(-15%, -50%); }
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title { line-height: 68px; }
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::after { left: -30px; top: 0; width: 60px; height: 60px; }
-  html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::before { content: ''; left: -45px; bottom: 10px; width: 35px; height: 35px; }
+  html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::before { content: ''; left: -45px; bottom: -10px; width: 35px; height: 35px; }
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_sub { margin-top: 20px; }
   html main .main_wrap .main_wrap_01 .swiper-container .text_swiper { left: 310px; top: 200px; z-index: 9999; }
   html main .main_wrap .main_wrap_02 { margin-top: 180px; width: 70%; }

@@ -54,7 +54,7 @@
   html main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::before {
     content: '';
     left: -45px;
-    bottom: 10px;
+    bottom: -10px;
     width: 35px;
     height: 35px;
   }
