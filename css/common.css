@@ -20,11 +20,13 @@
 
 *{
 	box-sizing: border-box;
-	font-family: 'Noto Sans KR', 'S-CoreDream-3Light', 'S-CoreDream-4Regular' , sans-serif;
+	font-family: 'Noto Sans KR', 'S-CoreDream-6Bold', 'S-CoreDream-4Regular' , sans-serif;
 }
 
 html{
 	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: auto;
 }
 
 
