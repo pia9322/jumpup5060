@@ -71,6 +71,32 @@ li::marker { font-size: 10px; }
 
 .btn_number > p > a.active span { color: #fff; }
 
+.modal { position: fixed; left: 0; top: 0; z-index: 9999; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); display: none; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.modal .modal_content { display: none; width: 85%; height: 90%; padding: 50px 25px; border-radius: 10px; background: #e5e5e5; }
+
+.modal .modal_content .wrap .modal_title > div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.modal .modal_content .wrap .modal_title > div h2 { font-size: 3rem; letter-spacing: -1px; }
+
+.modal .modal_content .wrap .modal_item { margin-top: 25px; }
+
+.modal .modal_content .wrap .modal_item .item_wrap > div { width: 100%; height: 500px; }
+
+.modal .modal_content .wrap .modal_item .item_wrap > div video { width: 100%; height: 100%; }
+
+.modal .modal_content .wrap .modal_item .item_wrap .video_text { padding: 20px 0; font-size: 1.8rem; border-bottom: 1px solid #999; line-height: 1.78; letter-spacing: -0.45px; }
+
+.modal .modal_content .wrap .modal_item .info_02_01_more { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 20px; }
+
+.modal .modal_content .wrap .modal_item .info_02_01_more a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 10px 20px; border-radius: 80px; border: 2px solid #005baa; font-size: 2rem; font-weight: bold; color: #005baa; -webkit-transition: .3s; transition: .3s; }
+
+.modal .modal_content .wrap .modal_item .info_02_01_more a:hover { opacity: .5; }
+
+.modal .modal_content.active { display: block; }
+
+.modal.active { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
 main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 #info_01 .company_info_01 .wrap .mv_01 figure { background-image: url("../images/info_mv_01.png"); }

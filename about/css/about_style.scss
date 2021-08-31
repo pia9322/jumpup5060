@@ -190,6 +190,82 @@ li::marker {
   
 }
 
+ 
+.modal{
+    position: fixed;
+    left: 0; top: 0;
+    z-index: 9999;
+    width: 100%; height: 100%;
+    background: rgba(#000, .8);
+    display: none; align-items: center; justify-content: center;
+    .modal_content{
+        display: none;
+        width: 85%; height: 90%; 
+        padding: 50px 25px;
+        border-radius: 10px;
+        background: rgba($color: #e5e5e5, $alpha: 1);
+        .wrap{
+            .modal_title {
+                > div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2 {
+                        font-size: 3rem;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+
+            .modal_item{
+                margin-top: 25px;
+                .item_wrap{
+                    > div {
+                        width: 100%; height: 500px;
+                        video {
+                            @include wh100();
+                        }
+                    }
+                    .video_text{
+                        padding: 20px 0;
+                        font-size: 1.8rem;
+                        border-bottom: 1px solid #999;
+                        line-height: 1.78;
+                        letter-spacing: -0.45px;
+                    }
+                }
+                .info_02_01_more{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                    a {
+                        display: flex; 
+                        align-items: center;
+                        padding: 10px 20px;
+                        border-radius: 80px;
+                        border: 2px solid #005baa;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: #005baa;
+                        transition: .3s;
+                        &:hover {
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
+           
+        }
+        &.active {
+            display: block;
+        }
+    }
+    &.active {
+        display: flex;
+    }
+}
+
+
 main {
     > article:nth-of-type(n+2){
         max-width: 1320px;
