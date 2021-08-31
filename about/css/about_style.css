@@ -320,7 +320,7 @@ li::marker {
   letter-spacing: -0.45px;
 }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more {
+.modal .modal_content .wrap .modal_item .modal_bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +330,7 @@ li::marker {
   margin-top: 20px;
 }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more a {
+.modal .modal_content .wrap .modal_item .modal_bottom a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,7 +347,7 @@ li::marker {
   transition: .3s;
 }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more a:hover {
+.modal .modal_content .wrap .modal_item .modal_bottom a:hover {
   opacity: .5;
 }
 

@@ -87,11 +87,11 @@ li::marker { font-size: 10px; }
 
 .modal .modal_content .wrap .modal_item .item_wrap .video_text { padding: 20px 0; font-size: 1.8rem; border-bottom: 1px solid #999; line-height: 1.78; letter-spacing: -0.45px; }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 20px; }
+.modal .modal_content .wrap .modal_item .modal_bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 20px; }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 10px 20px; border-radius: 80px; border: 2px solid #005baa; font-size: 2rem; font-weight: bold; color: #005baa; -webkit-transition: .3s; transition: .3s; }
+.modal .modal_content .wrap .modal_item .modal_bottom a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 10px 20px; border-radius: 80px; border: 2px solid #005baa; font-size: 2rem; font-weight: bold; color: #005baa; -webkit-transition: .3s; transition: .3s; }
 
-.modal .modal_content .wrap .modal_item .info_02_01_more a:hover { opacity: .5; }
+.modal .modal_content .wrap .modal_item .modal_bottom a:hover { opacity: .5; }
 
 .modal .modal_content.active { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
