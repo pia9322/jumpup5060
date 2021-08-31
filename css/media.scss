@@ -980,7 +980,13 @@
                 justify-content: space-between;
                 .header_logo {
                     margin-left: 0;
-                    a {}
+                    // width: 50%; height: 50%;
+                    a {
+                        width: 70px;
+                        img{
+                            width:100%;
+                        }
+                    }
                 }
         
                 .header_right {

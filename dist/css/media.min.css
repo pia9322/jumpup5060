@@ -159,6 +159,8 @@
   html { font-size: 36%; }
   html header .header_wrap { width: 90%; height: 55px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
+  html header .header_wrap .header_logo a { width: 70px; }
+  html header .header_wrap .header_logo a img { width: 100%; }
   html header .header_wrap .header_right { display: block; }
   html header .header_wrap .header_right { width: 20px; height: 20px; }
   html header .header_wrap .header_right span { width: 20px; border-bottom: 2px solid #000; }
