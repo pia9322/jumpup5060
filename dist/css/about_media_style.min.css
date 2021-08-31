@@ -358,7 +358,8 @@
 
 @media screen and (max-width: 479px) { html { font-size: 36%; }
   html header .header_wrap { height: 55px; }
-  html header .header_wrap .header_right { display: block; }
+  html header .header_wrap .header_logo a { width: 70px; }
+  html header .header_wrap .header_logo a img { width: 100%; }
   html header .header_wrap .header_right { width: 20px; height: 20px; }
   html header .header_wrap .header_right span { width: 20px; border-bottom: 2px solid #000; }
   html body main > article:nth-of-type(n+2) { width: 85% !important; margin: 75px auto 0 !important; }

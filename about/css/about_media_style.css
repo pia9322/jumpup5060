@@ -1323,8 +1323,11 @@
   html header .header_wrap {
     height: 55px;
   }
-  html header .header_wrap .header_right {
-    display: block;
+  html header .header_wrap .header_logo a {
+    width: 70px;
+  }
+  html header .header_wrap .header_logo a img {
+    width: 100%;
   }
   html header .header_wrap .header_right {
     width: 20px;

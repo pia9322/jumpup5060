@@ -2498,9 +2498,15 @@
         header {
             .header_wrap {
                 height: 55px;
-                .header_right {
-                    display: block
+                .header_logo {
+                    a {
+                        width: 70px;
+                        img{
+                            width:100%;
+                        }
+                    }
                 }
+                
                 .header_right {
                     width: 20px;
                     height: 20px;
