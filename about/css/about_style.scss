@@ -2101,15 +2101,17 @@ main {
                                     }
                                 }
                                 figcaption{
-                                    text-align: left;
+                                    // text-align: left;
                                     padding: 25px 20px;
                                     .project_title{
+                                        text-align: center;
                                         font-size: 2rem;   
                                         font-weight: bold;
                                         line-height: 1.6;
                                         letter-spacing: -0.5px;
                                     }
                                     .project_detail{
+                                        text-align: center;
                                         font-size: 1.8rem;
                                         line-height: 1.78;
                                         letter-spacing: -0.45px;

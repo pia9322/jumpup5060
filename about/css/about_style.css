@@ -2420,11 +2420,11 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure figcaption {
-  text-align: left;
   padding: 25px 20px;
 }
 
 .info_05_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure figcaption .project_title {
+  text-align: center;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.6;
@@ -2432,6 +2432,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure figcaption .project_detail {
+  text-align: center;
   font-size: 1.8rem;
   line-height: 1.78;
   letter-spacing: -0.45px;

@@ -135,7 +135,7 @@ a{ text-decoration: none; color: #000;}
         display: none;
     }
 	.ta_only {
-		display: none;
+		display: block;
 	}
 	.mo_only {
 		display: block;

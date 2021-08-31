@@ -156,7 +156,7 @@
   html .footer .footer_wrap .footer_partner figure { margin: 0; } }
 
 @media screen and (max-width: 479px) { .pc_only { display: none; }
-  html { font-size: 36%; }
+  html { font-size: 37.5%; }
   html header .header_wrap { width: 90%; height: 55px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
   html header .header_wrap .header_logo a { width: 70px; }

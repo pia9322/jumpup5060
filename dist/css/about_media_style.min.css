@@ -356,7 +356,7 @@
   html .footer .footer_wrap .footer_partner { margin: 65px 0 45px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
   html .footer .footer_wrap .footer_partner figure { margin: 0; } }
 
-@media screen and (max-width: 479px) { html { font-size: 36%; }
+@media screen and (max-width: 479px) { html { font-size: 37.5%; }
   html header .header_wrap { height: 55px; }
   html header .header_wrap .header_logo a { width: 70px; }
   html header .header_wrap .header_logo a img { width: 100%; }
@@ -393,6 +393,7 @@
   html body .info_01_02 .wrap .section_01 .content_01 .content_logo figure { width: 100px; }
   html body .info_01_02 .wrap .section_01 .content_01 .content_logo figure img { width: 100%; }
   html body .info_01_02 .wrap .section_01 .content_01 .content_text { margin-left: 10px !important; }
+  html body .info_01_02 .wrap .section_01 .content_01 .content_text .text_title { line-height: 1.3 !important; }
   html body .info_01_02 .wrap .section_02 { margin-top: 50px !important; }
   html body .info_02_00 .company_info_02 { margin: 100px auto 0; }
   html body .info_02_00 .company_info_02 .wrap .content_title .bar { width: 50%; }
