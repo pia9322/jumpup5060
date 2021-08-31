@@ -120,7 +120,7 @@ a{ text-decoration: none; color: #000;}
 
 @media screen and (max-width: 1023px) {
 	.pc_only {
-        display: none;
+        display: block;
     }
 	.ta_only {
 		display: block;
