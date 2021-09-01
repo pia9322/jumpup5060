@@ -47,6 +47,7 @@ header .header_wrap .header_center {
 
 header .header_wrap .header_center a {
   display: block;
+  word-break: keep-all;
 }
 
 header .header_wrap .header_center .header_bg {

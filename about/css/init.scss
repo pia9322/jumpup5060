@@ -32,6 +32,7 @@ header {
             display: flex;
             a {
                 display:block;
+                word-break: keep-all;
             }
             .header_bg {
                 position: absolute;
