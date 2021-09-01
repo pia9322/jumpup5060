@@ -420,7 +420,7 @@
   html body .info_05_01_view .company_info_02 { margin: 50px auto 0; }
   html body .info_05_01_view .company_info_02 .wrap .content_title .bar { width: 50%; }
   html body .info_05_01_view .company_info_02 .wrap > .notice_section_01 { margin-top: 40px; }
-  html body .info_05_01_view .company_info_02 .wrap > .notice_section_01 .table_notice thead tr th { padding-bottom: 20px; padding-right: 10px; }
+  html body .info_05_01_view .company_info_02 .wrap > .notice_section_01 .table_notice thead tr th { padding-bottom: 20px; }
   html .footer { height: 260px; }
   html .footer .footer_wrap { width: 100%; }
   html .footer .footer_wrap .footer_partner { margin: 65px 0 45px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }

@@ -697,7 +697,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead { border-bottom: 2px solid #005baa; color: #005baa; font-size: 2.4rem; }
 
-.info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th { padding-bottom: 20px; }
+.info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th { padding-bottom: 10px; }
 
 .info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(1) { text-align: left; }
 

@@ -2273,7 +2273,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .info_05_01_view .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(1) {
