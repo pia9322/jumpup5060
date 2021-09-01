@@ -681,7 +681,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) { text-align: left; line-height: 1.78; letter-spacing: -0.45px; }
 
-.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active { display: contents; }
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active { display: table-footer-group; }
 
 .info_05_01_view .company_info_02 { width: 70%; margin: 180px auto 0; }
 
@@ -807,5 +807,5 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) { text-align: left; line-height: 1.78; letter-spacing: -0.45px; }
 
-.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active { display: contents; }
+.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active { display: table-footer-group; }
 /*# sourceMappingURL=about_style.min.css.map */

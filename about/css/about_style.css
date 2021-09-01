@@ -2230,7 +2230,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active {
-  display: contents;
+  display: table-footer-group;
 }
 
 .info_05_01_view .company_info_02 {
@@ -2625,6 +2625,6 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active {
-  display: contents;
+  display: table-footer-group;
 }
 /*# sourceMappingURL=about_style.css.map */
