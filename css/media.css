@@ -643,6 +643,9 @@
     width: 20px;
     border-bottom: 2px solid #000;
   }
+  html .header_background_menu ul {
+    height: 50%;
+  }
   html main .main_wrap {
     width: 100%;
   }

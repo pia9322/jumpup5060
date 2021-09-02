@@ -215,7 +215,7 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 
 .footer .footer_wrap { width: 50%; margin: 0 auto; text-align: center; }
 
-.footer .footer_wrap .footer_partner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 65px 0 45px 0; }
+.footer .footer_wrap .footer_partner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; margin: 65px 0 45px 0; }
 
 .footer .footer_wrap .footer_partner figure { margin: 0 50px; }
 
