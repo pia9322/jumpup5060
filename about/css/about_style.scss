@@ -764,6 +764,7 @@ main {
 
                 >.content_01 {
                     display: flex;
+                    align-items: center;
 
                     .content_logo {
                         figure {
@@ -923,6 +924,7 @@ main {
 
         .wrap {
             display: flex;
+            flex-direction: column;
 
             .content_title {
                 h2 {
@@ -949,7 +951,6 @@ main {
             .section_01 {
                 .content_01 {
                     .content_text {
-                        margin-left: 50px;
 
                         .text_detail {
                             letter-spacing: -0.5px;

@@ -101,7 +101,7 @@
   .footer .footer_wrap .footer_partner figure { margin: 0 50px; } }
 
 /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
-@media screen and (max-width: 767px) { html { font-size: 44%; }
+@media screen and (max-width: 767px) { html { font-size: 43.75%; }
   html header .header_wrap { width: 90%; height: 60px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
   html header .header_wrap .header_center { display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -155,8 +155,7 @@
   html .footer .footer_wrap .footer_partner { margin: 65px 0 45px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
   html .footer .footer_wrap .footer_partner figure { margin: 0; } }
 
-@media screen and (max-width: 479px) { html { font-size: 37.5%; }
-  html header .header_wrap { width: 90%; height: 55px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+@media screen and (max-width: 479px) { html header .header_wrap { width: 90%; height: 55px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   html header .header_wrap .header_logo { margin-left: 0; }
   html header .header_wrap .header_logo a { width: 70px; }
   html header .header_wrap .header_logo a img { width: 100%; }

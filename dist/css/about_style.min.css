@@ -235,7 +235,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_01_02 .company_info_02 .wrap .section_01 { margin-top: 80px; }
 
-.info_01_02 .company_info_02 .wrap .section_01 > .content_01 { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.info_01_02 .company_info_02 .wrap .section_01 > .content_01 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .info_01_02 .company_info_02 .wrap .section_01 > .content_01 .content_text { margin-left: 50px; }
 
@@ -287,15 +287,13 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_02_00 .company_info_02 { width: 70%; margin: 180px auto 0; }
 
-.info_02_00 .company_info_02 .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.info_02_00 .company_info_02 .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .info_02_00 .company_info_02 .wrap .content_title h2 { font-size: 4rem; }
 
 .info_02_00 .company_info_02 .wrap .content_title .bar { width: 335px; display: block; margin-top: 15px; background: #e5e5e5; position: relative; }
 
 .info_02_00 .company_info_02 .wrap .content_title .bar::after { content: ''; display: block; background: #005baa; width: 100px; height: 5px; }
-
-.info_02_00 .company_info_02 .wrap .section_01 .content_01 .content_text { margin-left: 50px; }
 
 .info_02_00 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail { letter-spacing: -0.5px; font-size: 2rem; margin-top: 20px; line-height: 1.6; letter-spacing: -0.5px; }
 

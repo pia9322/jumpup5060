@@ -545,7 +545,7 @@
 /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
 @media screen and (max-width: 767px) {
     html{
-        font-size: 44%;
+        font-size: 43.75%;
         header {
             .header_wrap {
                 width: 90%; height: 60px;
@@ -835,7 +835,7 @@
 
 @media screen and (max-width: 479px) {
     html {
-        font-size: 37.5%;
+        // font-size: 37.5%;
         header {
             .header_wrap {
                 width: 90%; height: 55px;
