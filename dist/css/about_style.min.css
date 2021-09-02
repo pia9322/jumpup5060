@@ -535,7 +535,7 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_title small { font-size: 3rem; letter-spacing: -0.75px; }
 
-.info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail { font-size: 2rem; margin: 20px 0 40px; line-height: 1.8; letter-spacing: -0.5px; }
+.info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail { font-size: 2rem; margin-top: 20px; line-height: 1.8; letter-spacing: -0.5px; }
 
 .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail li { list-style: square; margin-left: 25px; }
 
@@ -667,19 +667,23 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 { margin-top: 80px; }
 
-.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice { width: 100%; line-height: 1.78; letter-spacing: -0.45px; }
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice { width: 100%; line-height: 1.78; letter-spacing: -0.45px; table-layout: fixed; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead { letter-spacing: -0.6px; border-bottom: 2px solid #005baa; color: #005baa; font-size: 2.4rem; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th { padding-bottom: 20px; }
 
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(1) { width: 10%; }
+
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(3) { width: 20%; }
+
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody { display: none; font-size: 1.8rem; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr { border-bottom: 1px solid #e5e5e5; }
 
-.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td { padding: 15px 0; text-align: center; }
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td { padding: 15px 0; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) { text-align: left; line-height: 1.78; letter-spacing: -0.45px; }
+.info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) { line-height: 1.78; letter-spacing: -0.45px; text-align: left; }
 
 .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice .notice_page.active { display: table-footer-group; }
 
@@ -793,17 +797,21 @@ main > article:nth-of-type(n+2) { max-width: 1320px; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 { margin-top: 80px; }
 
-.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice { width: 100%; line-height: 1.78; letter-spacing: -0.45px; }
+.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice { width: 100%; line-height: 1.78; letter-spacing: -0.45px; table-layout: fixed; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead { letter-spacing: -0.6px; border-bottom: 2px solid #005baa; color: #005baa; font-size: 2.4rem; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th { padding-bottom: 20px; }
 
+.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(1) { width: 10%; }
+
+.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice thead tr th:nth-of-type(3) { width: 20%; }
+
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody { display: none; font-size: 1.8rem; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr { border-bottom: 1px solid #e5e5e5; }
 
-.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td { padding: 15px 0; text-align: center; }
+.info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td { padding: 15px 0; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td:nth-of-type(2) { text-align: left; line-height: 1.78; letter-spacing: -0.45px; }
 

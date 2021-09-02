@@ -91,7 +91,7 @@ a{ text-decoration: none; color: #000;}
 
 
 .pc_only {
-	display: block;
+	display: block !important;
 }
 .mo_only, .ta_only {
 	display: none;

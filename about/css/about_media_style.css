@@ -261,9 +261,6 @@
   html body .info_03_01 .company_info_02 .wrap .content_title .bar::after {
     width: 10%;
   }
-  html body .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail {
-    margin: 20px 0 40px;
-  }
   html body .info_03_01 .company_info_03 {
     margin: 180px auto 0;
   }
@@ -663,9 +660,6 @@
   }
   html body .info_03_01 .company_info_02 .wrap .content_title .bar::after {
     width: 10%;
-  }
-  html body .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail {
-    margin: 20px 0 40px;
   }
   html body .info_03_01 .company_info_03 {
     margin: 180px auto 0;
@@ -1087,9 +1081,6 @@
   }
   html body .info_03_01 .company_info_02 .wrap .content_title .bar::after {
     width: 10%;
-  }
-  html body .info_03_01 .company_info_02 .wrap .section_01 .content_01 .content_text .text_detail {
-    margin: 20px 0 40px;
   }
   html body .info_03_01 .company_info_03 {
     margin: 180px auto 0;
@@ -1548,7 +1539,7 @@
   }
   html body .info_05_01 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td,
   html body .info_05_03 .company_info_02 .wrap > .notice_section_01 .wrap .table_notice tbody tr td {
-    padding: 15px 10px;
+    padding: 5px 5px;
   }
   html body .info_05_02 .company_info_02 .wrap .section_01 .item_wrap {
     -ms-flex-pack: distribute;

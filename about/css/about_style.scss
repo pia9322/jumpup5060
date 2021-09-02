@@ -1750,7 +1750,7 @@ main {
 
                         .text_detail {
                             font-size: 2rem;
-                            margin: 20px 0 40px;
+                            margin-top: 20px;
                             line-height: 1.8;
                             letter-spacing: -0.5px;
 
@@ -2198,6 +2198,7 @@ main {
                         width: 100%;
                         line-height: 1.78;
                         letter-spacing: -0.45px;
+                        table-layout: fixed;
 
                         thead {
                             letter-spacing: -0.6px;
@@ -2208,7 +2209,14 @@ main {
                             tr {
                                 th {
                                     padding-bottom: 20px;
+                                    &:nth-of-type(1) {
+                                        width: 10%;
+                                    }
+                                    &:nth-of-type(3){
+                                        width: 20%;
+                                    }
                                 }
+
                             }
                         }
 
@@ -2222,13 +2230,13 @@ main {
                                 td {
                                     padding: 15px 0;
                                     text-align: center;
-
+                                    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
                                     a {}
 
                                     &:nth-of-type(2) {
-                                        text-align: left;
                                         line-height: 1.78;
                                         letter-spacing: -0.45px;
+                                        text-align: left;
                                     }
                                 }
                             }
@@ -2627,6 +2635,7 @@ main {
                         width: 100%;
                         line-height: 1.78;
                         letter-spacing: -0.45px;
+                        table-layout: fixed;
 
                         thead {
                             letter-spacing: -0.6px;
@@ -2637,6 +2646,12 @@ main {
                             tr {
                                 th {
                                     padding-bottom: 20px;
+                                    &:nth-of-type(1) {
+                                        width: 10%;
+                                    }
+                                    &:nth-of-type(3) {
+                                        width: 20%;
+                                    } 
                                 }
                             }
                         }
@@ -2651,7 +2666,7 @@ main {
                                 td {
                                     padding: 15px 0;
                                     text-align: center;
-
+                                    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
                                     a {}
 
                                     &:nth-of-type(2) {
