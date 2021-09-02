@@ -332,6 +332,8 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide {
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox {
+  width: 95%;
+  margin-left: 4%;
   color: #fff;
   position: absolute;
   left: 15%;
@@ -346,27 +348,22 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .s
   line-height: 68px;
   letter-spacing: -1.5px;
   position: relative;
+  display: block;
+  width: 90%;
 }
 
-main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::after {
-  content: '';
+main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title i {
+  font-style: normal;
+  position: relative;
+}
+
+main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title i img {
+  width: 7rem;
+  height: 7rem;
+  width: auto;
   position: absolute;
-  left: -29px;
+  right: 0;
   top: 0;
-  width: 60px;
-  height: 60px;
-  background: #005baa;
-  z-index: -1;
-}
-
-main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_title::before {
-  content: '';
-  position: absolute;
-  left: -45px;
-  bottom: 10px;
-  width: 35px;
-  height: 35px;
-  background: #80c342;
   z-index: -1;
 }
 
@@ -686,6 +683,10 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
 }
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img .home_detail {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
   font-size: 2rem;
   line-height: 1.6;
   letter-spacing: -0.5px;
