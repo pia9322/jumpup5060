@@ -855,6 +855,13 @@
                     .info_03_content {
                         >div {
                             .text_content {
+                                margin: 0;
+                                figure {
+                                    display: none;
+                                }
+                                p {
+                                    justify-content: flex-start;
+                                }
                             }
                         }
                     }
@@ -1560,6 +1567,7 @@
                     .info_03_content {
                         >div {
                             .text_content {
+                             
                                 p {
                                 }
                             }

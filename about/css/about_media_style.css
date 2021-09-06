@@ -485,6 +485,17 @@
     margin-left: 0;
     margin-top: 40px;
   }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content {
+    margin: 0;
+  }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content figure {
+    display: none;
+  }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content p {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   html body .info_01_01 .company_info_04 .wrap {
     display: -webkit-box;
     display: -ms-flexbox;

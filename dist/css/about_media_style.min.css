@@ -127,6 +127,9 @@
   html body .info_01_01 .company_info_03 .wrap .content_title .bar { width: 335px; }
   html body .info_01_01 .company_info_03 .wrap .content_title .bar::after { width: 100px; height: 5px; }
   html body .info_01_01 .company_info_03 .wrap .section_01 .content_01 .content_text { margin-left: 0; margin-top: 40px; }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content { margin: 0; }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content figure { display: none; }
+  html body .info_01_01 .company_info_03 .info_03_content > div .text_content p { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
   html body .info_01_01 .company_info_04 .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   html body .info_01_01 .company_info_04 .wrap .content_title .bar { width: 335px; }
   html body .info_01_01 .company_info_04 .wrap .content_title .bar::after { width: 100px; }
