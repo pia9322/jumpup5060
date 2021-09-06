@@ -1448,7 +1448,7 @@
             justify-content: center;
   }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item {
-    width: 70%;
+    width: 100%;
     height: 300px;
   }
   html body .info_02_01 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a > figure {
@@ -1543,7 +1543,7 @@
         justify-content: space-around;
   }
   html body .info_05_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item {
-    width: 70%;
+    width: 100%;
     height: 300px;
   }
   html body .info_05_02 .company_info_02 .wrap .section_01 .item_wrap > .section_01_item a {
