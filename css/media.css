@@ -54,7 +54,6 @@
     z-index: 9999;
   }
   html main .main_wrap .main_wrap_02 {
-    margin-top: 180px;
     width: 70%;
   }
   html main .main_wrap .main_wrap_02 .bar {
@@ -64,7 +63,7 @@
     width: 100px;
     height: 5px;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 {
+  html main .main_wrap .main_wrap_02 .content_02 {
     margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -73,7 +72,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
+  html main .main_wrap .main_wrap_02 .content_02 div:nth-of-type(2), html main .main_wrap .main_wrap_02 .content_02 div:nth-of-type(3) {
     margin-left: 0;
   }
   html main .main_wrap .main_wrap_03 {
@@ -258,7 +257,7 @@
     width: 100px;
     height: 5px;
   }
-  main .main_wrap .main_wrap_02 .cotent_02 {
+  main .main_wrap .main_wrap_02 .content_02 {
     margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -267,8 +266,11 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
+  main .main_wrap .main_wrap_02 .content_02 div:nth-of-type(n+2) {
     margin-left: 0;
+  }
+  main .main_wrap .main_wrap_02 .content_02 > div figure {
+    display: none;
   }
   main .main_wrap .main_wrap_03 {
     margin-top: 180px;
@@ -463,18 +465,17 @@
     width: 100px;
     height: 5px;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 {
+  html main .main_wrap .main_wrap_02 .content_02 {
     margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
-    margin-left: 0;
+  html main .main_wrap .main_wrap_02 .content_02 div:nth-of-type(n+2) {
+    margin: 0;
   }
   html main .main_wrap .main_wrap_03 {
     margin-top: 180px;
@@ -690,18 +691,21 @@
   html main .main_wrap .main_wrap_02 .bar::after {
     height: 3px;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 {
+  html main .main_wrap .main_wrap_02 .content_02 {
     margin-top: 30px;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 div:nth-of-type(n+2) {
+  html main .main_wrap .main_wrap_02 .content_02 div:nth-of-type(n+2) {
     margin-left: 0;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 > div {
+  html main .main_wrap .main_wrap_02 .content_02 > div {
     text-align: center;
     width: 30%;
   }
-  html main .main_wrap .main_wrap_02 .cotent_02 > div span strong {
-    font-size: 6rem;
+  html main .main_wrap .main_wrap_02 .content_02 > div span strong {
+    font-size: 5rem;
+  }
+  html main .main_wrap .main_wrap_02 .content_02 > div .count_text {
+    font-size: 2rem;
   }
   html main .main_wrap .main_wrap_03 {
     margin-top: 180px;

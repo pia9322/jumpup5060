@@ -519,20 +519,37 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_01_01 .company_info_03 .info_03_content > div {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;
+  position: relative;
 }
 
 .info_01_01 .company_info_03 .info_03_content > div .text_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 385px;
+  margin-left: 30%;
   font-size: 2rem;
   letter-spacing: -0.5px;
 }
 
+.info_01_01 .company_info_03 .info_03_content > div .text_content figure {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .info_01_01 .company_info_03 .info_03_content > div .text_content p {
   width: 33%;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .info_01_01 .company_info_03 .info_03_content > div .text_content p strong {
@@ -715,7 +732,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_01_02 .company_info_02 .wrap .content_title .title_info_01 .more_page {
-  border: 1px solid #005baa;
+  background: #005baa;
   border-radius: 80px;
   -webkit-transition: .3s;
   transition: .3s;
@@ -723,10 +740,11 @@ main > article:nth-of-type(n+2) {
 
 .info_01_02 .company_info_02 .wrap .content_title .title_info_01 .more_page a {
   display: block;
-  font-size: 1.8rem;
-  padding: 15px 20px;
-  color: #005baa;
+  font-size: 3rem;
+  padding: 8px 36px;
   font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.75px;
 }
 
 .info_01_02 .company_info_02 .wrap .content_title .title_info_01 .more_page:hover {
@@ -818,7 +836,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_01_02 .company_info_03 .wrap .content_title .title_info_01 .more_page {
-  border: 1px solid #005baa;
+  background: #005baa;
   border-radius: 80px;
   -webkit-transition: .3s;
   transition: .3s;
@@ -826,10 +844,11 @@ main > article:nth-of-type(n+2) {
 
 .info_01_02 .company_info_03 .wrap .content_title .title_info_01 .more_page a {
   display: block;
-  font-size: 1.8rem;
-  padding: 15px 20px;
-  color: #005baa;
+  font-size: 3rem;
+  padding: 8px 36px;
   font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.75px;
 }
 
 .info_01_02 .company_info_03 .wrap .content_title .title_info_01 .more_page:hover {
@@ -1013,6 +1032,9 @@ main > article:nth-of-type(n+2) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .info_02_01 .company_info_02 .wrap .content_title .title_info_01 h2 {
@@ -1027,21 +1049,23 @@ main > article:nth-of-type(n+2) {
 .info_02_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a {
   font-size: 3rem;
   font-weight: bold;
-  opacity: .5;
+  opacity: .2;
   -webkit-transition: .3s;
   transition: .3s;
-}
-
-.info_02_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a:not(:first-child) {
-  margin-left: 50px;
+  padding: 2rem;
+  border-bottom: 5px solid #005baa;
 }
 
 .info_02_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a.active {
   opacity: 1;
 }
 
+.info_02_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a:nth-of-type(n+2) {
+  margin-left: 20px;
+}
+
 .info_02_01 .company_info_02 .wrap .content_title .bar {
-  width: 100%;
+  width: 335px;
   display: block;
   margin-top: 15px;
   background: #e5e5e5;
@@ -1725,7 +1749,7 @@ main > article:nth-of-type(n+2) {
 }
 
 .info_03_01 .company_info_02 .wrap .content_title .title_info_01 .more_page {
-  border: 1px solid #005baa;
+  background: #005baa;
   border-radius: 80px;
   -webkit-transition: .3s;
   transition: .3s;
@@ -1733,10 +1757,11 @@ main > article:nth-of-type(n+2) {
 
 .info_03_01 .company_info_02 .wrap .content_title .title_info_01 .more_page a {
   display: block;
-  font-size: 1.8rem;
-  padding: 15px 20px;
-  color: #005baa;
+  font-size: 3rem;
+  padding: 8px 36px;
   font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.75px;
 }
 
 .info_03_01 .company_info_02 .wrap .content_title .title_info_01 .more_page:hover {

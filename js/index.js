@@ -68,7 +68,7 @@ $(function(){
     var startCount = {var: 0};
 
     gsap.to(startCount, {
-        var: 67, duration: 1.5, ease: "none",
+        var: 154, duration: 1.5, ease: "none",
         onUpdate: changeNumber01,
         scrollTrigger: {
             trigger: "#counting_01",
@@ -84,7 +84,7 @@ $(function(){
     });
 
     gsap.to(startCount, {
-        var: 97, duration: 1.5, ease: "none",
+        var: 80, duration: 1.5, ease: "none",
         onUpdate: changeNumber03,
         scrollTrigger: {
             trigger: "#counting_03",
