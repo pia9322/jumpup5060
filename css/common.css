@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 @font-face {
 	font-family: 'S-CoreDream-4Regular';
@@ -20,7 +21,7 @@
 
 *{
 	box-sizing: border-box;
-	font-family: 'Noto Sans KR', 'S-CoreDream-6Bold', 'S-CoreDream-4Regular' , sans-serif;
+	font-family: 'Noto Sans KR', 'S-CoreDream-6Bold', 'S-CoreDream-4Regular' , 'Nanum Gothic', sans-serif;
 }
 
 html{

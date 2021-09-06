@@ -342,9 +342,6 @@
                                     margin-left: 5%;
 
                                     a {
-                                        &:not(:first-child) {
-                                            margin-left: 50px;
-                                        }
                                     }
                                 }
                             }
@@ -860,7 +857,7 @@
                                     display: none;
                                 }
                                 p {
-                                    justify-content: flex-start;
+                                    
                                 }
                             }
                         }
@@ -1033,11 +1030,7 @@
                             .title_info_01 {
                                 .more_page {
                                     margin-left: 5%;
-
                                     a {
-                                        &:not(:first-child) {
-                                            margin-left: 50px;
-                                        }
                                     }
                                 }
 
@@ -1455,6 +1448,11 @@
 
 
         }
+        .header_background_menu {
+            ul {
+                height: 50%;
+            }
+        }
 
         // 767_body
         body {
@@ -1464,7 +1462,7 @@
 
             .more_page {
                 a {
-                    padding: 10px 10px !important;
+                    padding: 1rem 2rem !important;
                 }
             }
 
@@ -1569,6 +1567,8 @@
                             .text_content {
                              
                                 p {
+                                    flex-direction: column-reverse;
+                                    align-items: flex-end;
                                 }
                             }
                         }
@@ -1649,6 +1649,7 @@
                     .section_01 {
                         .content_01 {
                             .content_logo {
+                                display: none;
                                 figure {
                                     width: 100px;
 
@@ -1755,9 +1756,6 @@
                                     margin-left: 5%;
 
                                     a {
-                                        &:not(:first-child) {
-                                            margin-left: 20px;
-                                        }
                                     }
                                 }
 
@@ -2180,7 +2178,7 @@
                     margin: 75px auto 0 !important;
                 }
             }
-
+          
             .bar::after {
                 width: 30% !important;
             }
@@ -2280,7 +2278,12 @@
 
                         >div {
                             .text_content {
+                                justify-content: space-between;
                                 p {
+                                    width: auto;
+                                    .number_font{
+                                        font-size: 5rem;
+                                    }
                                 }
                             }
 
@@ -2365,6 +2368,17 @@
             .info_01_02 {
 
                 .wrap {
+                    .content_title{
+                        .title_info_01{
+                            flex-direction: column;
+                            // align-items: flex-start !important;
+                            .more_page {
+                                a{
+                                    font-size: 2rem !important;
+                                }
+                            }
+                        }
+                    }
                     .section_01 {
                         margin-top: 40px !important;
 
@@ -2477,10 +2491,13 @@
 
                                     a {
                                         &:not(:first-child) {
-                                            margin-left: 10px;
+                                            margin-left: 0;
                                         }
                                     }
                                 }
+                            }
+                            .bar {
+                                width: 100%;
                             }
                         }
 
@@ -2564,6 +2581,14 @@
 
                     .wrap {
                         .content_title {
+                            .title_info_01{
+                                flex-direction: column;
+                                .more_page {
+                                    a{
+                                        font-size: 2rem !important;
+                                    }
+                                }
+                            }
                             .bar {
                                 width: 100%;
 

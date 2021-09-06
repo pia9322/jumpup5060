@@ -368,7 +368,8 @@ main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .s
 }
 
 main .main_wrap .main_wrap_01 .swiper-container .swiper-wrapper .swiper-slide .slide_textbox .textbox_sub {
-  font-family: "NotoSansCJKkr-Regular";
+  font-family: "Nanum Gothic";
+  font-weight: bold;
   display: block;
   margin-top: 20px;
   font-size: 2rem;
@@ -715,6 +716,10 @@ main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .hom
   line-height: 1.6;
   letter-spacing: -0.5px;
   margin-top: 20px;
+}
+
+main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img .home_detail .sub_text_color {
+  font-size: 1.6rem;
 }
 
 main .main_wrap .main_wrap_04 .wrap .swiper-container .home_slide .home_box .home_img .cover_img {

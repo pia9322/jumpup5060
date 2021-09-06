@@ -301,7 +301,8 @@ main{
                                 
                             }
                             .textbox_sub{
-                                font-family:"NotoSansCJKkr-Regular";
+                                font-family:"Nanum Gothic";
+                                font-weight: bold;
                                 display: block;
                                 margin-top: 20px;
                                 font-size: 2rem;
@@ -585,6 +586,9 @@ main{
                                         line-height: 1.6;
                                         letter-spacing: -0.5px;
                                         margin-top: 20px;
+                                        .sub_text_color{
+                                            font-size: 1.6rem;
+                                        }
                                     }
                                     .cover_img {
                                         position: absolute;
