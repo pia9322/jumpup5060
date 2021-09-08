@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../css/about_media_style.scss"
+    ],
+    "names": [],
+    "file": "about_media_style.min.css"
+}

@@ -1,0 +1,189 @@
+<?
+    include_once "../include/header.html";
+    include_once "../../include/dbconn.html";
+    include_once "../../admin/ht_board/config.html";
+?>
+
+<!-- main -->
+<main class="info_05_01" id="info_05">
+    <!-- 현재위치 -->
+    <div id="now_location" style="display: none;">
+        <h1 id="main_page_name">소식</h1>
+        <p id="sub_page_name">공지사항</p>
+    </div>
+
+    <article class="company_info_01">
+        <div class="wrap">
+            <div class="mv_01">
+                <figure>
+                    <figcaption>
+                        <p>소식</p>
+                        <p>공지사항</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="company_info_02">
+        <div class="wrap">
+            <div class="content_title">
+                <div class="title_info_01">
+                    <h2>공지사항</h2>
+                </div>
+                <span class="bar"></span>
+            </div>
+
+            <section class="notice_section_01">
+                <div class="wrap">
+                    <table class="table_notice">
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>TITLE</th>
+                                <th>DATE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="notice_page active">
+
+
+
+
+<?
+######################## [변수 재정의] ########################\
+$f_div = htmlspecialchars(trim($_GET[f_div]), ENT_QUOTES);
+if (!$f_div) {
+	$f_div = "notice";
+}
+$f_class = htmlspecialchars(trim($_GET[f_class]), ENT_QUOTES);
+$from = htmlspecialchars(trim($_GET[from]), ENT_QUOTES);
+$keyfield = htmlspecialchars(trim($_GET[keyfield]), ENT_QUOTES);
+$keyword = htmlspecialchars(trim($_GET[keyword]), ENT_QUOTES);
+$page = htmlspecialchars(trim($_GET[page]), ENT_QUOTES);
+
+################## [게시판 위쪽 삽입 내용] ###################
+//echo $cfg[f_top_content];
+
+
+
+######################## [레코드 개수] ########################\
+if (trim($keyword) and trim($keyfield)) {
+	$query_cnt = "select count(*) as cnt from ht_bbs where f_show_yn='Y' and $keyfield LIKE '%$keyword%' and f_div='$f_div'";
+} else {
+	$query_cnt = "select count(*) as cnt from ht_bbs where f_show_yn='Y' and f_div='$f_div'";
+}
+
+$result_cnt = mysqli_query($dbconn, $query_cnt);
+$row_cnt = mysqli_fetch_assoc($result_cnt);
+
+
+
+################## [페이징 관련 변수 정의] ###################
+$total_article = $row_cnt[cnt]; // 전체 게시물
+$total_page = ceil($total_article/$cfg[f_show_per_page]); // 전체 페이지수
+if (!$total_page) {
+	$total_page = 1;
+}
+
+if($page>$total_page) {
+	$page = $total_page;
+} else if(!$page || $page<1) {
+   $page = 1;
+} else {
+   $page = $page;
+}
+
+$article_no = $total_article - $cfg[f_show_per_page]*($page-1); // 상대 글번호
+$start = ($page*$cfg[f_show_per_page])-$cfg[f_show_per_page];
+
+
+
+################## [레코드 추출] ###################
+if (trim($keyword) and trim($keyfield)) {
+	$query = "select * from ht_bbs where f_show_yn='Y' and f_div='$f_div' and $keyfield like '%$keyword%' order by f_uid desc LIMIT $start, $cfg[f_show_per_page]";
+} else {
+	$query = "select * from ht_bbs where f_show_yn='Y' and f_div='$f_div' order by f_uid desc LIMIT $start, $cfg[f_show_per_page]";
+}
+
+
+if ($result = mysqli_query($dbconn, $query)) {
+	if ($result->num_rows) {
+		while ($row = mysqli_fetch_assoc($result)) {
+			if ($keyfield=="f_title") { // 검색된 글씨 색상 변경
+				$f_title = str_replace("$keyword", "<span style='background-color:#fcfccc'>$keyword</span>", $row[f_title]);
+			} else {
+				$f_title = $row[f_title];
+			}
+?>
+
+
+							<tr>
+                                <td><?=$article_no?></td>
+                                <td><a href="./info_05_01_view.html?f_uid=<?=$row[f_uid]?>&f_div=<?=$f_div?>&page=<?=$page?>&keyfield=<?echo $keyfield?>&keyword=<?echo $keyword?>&from=<?echo $from?>" class="board_body"><?echo $f_title?></a></td>
+                                <td><?=substr($row[f_date],0,10)?></td>
+                            </tr>
+
+
+<?
+			$article_no--;
+			unset($is_file);
+		} // while
+	} // if ($result->num_rows)
+	mysqli_free_result($result);
+} // if ($result = mysqli_query($dbconn, $query))
+?>
+
+
+                    </table>
+
+
+                </div>
+
+            </section>
+
+
+
+            <div class="btn_number">
+                <p>
+                    <a href="">
+                        <span class="btn_prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#005baa"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                        </span>
+                    </a>
+                    <a href="#none" class="more_notice_btn active">
+                        <span>1</span>
+                    </a>
+                    <a href="#none" class="more_notice_btn">
+                        <span>2</span>
+                    </a>
+                    <a href="">
+                        <span class="btn_next">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#005baa"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                        </span>
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+    </article>
+</main>
+
+<?
+    include_once "../include/footer.html";
+?>
+
+<script>
+    $(function(){
+        $(".more_notice_btn").click(function () {
+            var idx = $(this).index();
+            console.log(idx);
+            $(".more_notice_btn").removeClass("active");
+            $(".more_notice_btn").eq(idx - 1).addClass("active");
+            $(".notice_page").removeClass("active");
+            $(".notice_page").eq(idx -1 ).addClass("active");
+        })
+    });
+</script>

@@ -1456,8 +1456,8 @@
 
         // 767_body
         body {
-            .modal .modal_content .wrap .modal_item .item_wrap .video_text {
-                max-height: 150px !important;
+            .modal .modal_content .wrap .modal_item .item_wrap div figure {
+                max-height: 400px !important;
             }
 
             .more_page {
