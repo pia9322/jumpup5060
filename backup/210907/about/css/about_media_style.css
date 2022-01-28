@@ -849,6 +849,9 @@
   html body .modal_btn {
     padding: 5px 10px !important;
   }
+  html body .company_info_01 {
+    margin-top: 60px;
+  }
   html body .company_info_01 .wrap .mv_01 {
     height: 400px;
   }
@@ -1264,6 +1267,9 @@
   }
   html body .bar::after {
     width: 30% !important;
+  }
+  html body .company_info_01 {
+    margin-top: 55px;
   }
   html body .company_info_01 .wrap .mv_01 {
     height: 350px;
